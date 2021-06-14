@@ -8,6 +8,10 @@ module.exports = {
       },
       backgroundImage: (theme) => ({
         "lumpy-belly": "url('../public/images/Lumpy_Belly.jpg')",
+        "lumpy-belly-rotate": "url('../public/images/lumpy_belly_rotate.png')",
+        "lumpy-belly-cropped":
+          "url('../public/images/lumpy_belly_cropped.png')",
+        "big-stretch-lumpy": "url('../public/images/big-stretch-lumpy.png')",
       }),
     },
   },

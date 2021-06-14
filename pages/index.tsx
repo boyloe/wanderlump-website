@@ -1,9 +1,6 @@
 import React, { ReactElement } from "react";
+import Hero from "../components/hero";
 
-export default function index(): ReactElement {
-  return (
-    <div>
-      <h1>This will be the home page for WanderLump</h1>
-    </div>
-  );
+export default function Index(): ReactElement {
+  return <Hero />;
 }

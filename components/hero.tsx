@@ -1,6 +1,10 @@
 import React, { ReactElement } from "react";
 
-export default function Hero(): ReactElement {
+interface Props {
+  image: string;
+}
+
+export default function Hero({ image }: Props): ReactElement {
   return (
     <div>
       <nav
@@ -8,7 +12,7 @@ export default function Hero(): ReactElement {
         className="fixed inset-x-0 top-0 flex flex-row justify-between z-10 text-white bg-transparent"
       >
         <div className="p-4">
-          <div className="font-medium tracking-widest text-xl font-josefin">
+          <div className="font-medium tracking-widest text-xl font-josefin-sans">
             <a
               href="#"
               className="transition duration-500 hover:text-indigo-500"
@@ -62,7 +66,7 @@ export default function Hero(): ReactElement {
         </div>
       </nav>
 
-      {/* <!-- Opened Nav in Mobile, you can use javascript/jQuery --> */}
+      {/* <!-- Opened Nav in Mobile --> */}
       <div
         id="nav-opened"
         className="fixed left-0 right-0 hidden bg-white mx-2 mt-16 rounded-br rounded-bl shadow z-10"
@@ -88,7 +92,7 @@ export default function Hero(): ReactElement {
         className="bg-center bg-fixed bg-no-repeat bg-center bg-cover h-screen relative"
       >
         {/* <!-- Overlay Background + Center Control --> */}
-        <div className="h-screen bg-opacity-50 bg-black flex items-center justify-center">
+        <div className="h-screen bg-opacity-50 flex items-center justify-center">
           <div className="mx-2 text-center">
             <h1 className="text-gray-100 font-extrabold text-4xl xs:text-5xl md:text-6xl">
               <span className="text-white">All who wander</span>

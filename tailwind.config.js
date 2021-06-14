@@ -4,8 +4,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: "Josefin Sans",
+        "josefin-sans": "Josefin Sans",
       },
+      backgroundImage: (theme) => ({
+        "lumpy-belly": "url('../public/images/Lumpy_Belly.jpg')",
+      }),
     },
   },
   variants: {

@@ -5,7 +5,7 @@ export default function Hero(): ReactElement {
     <div>
       <nav
         id="nav"
-        className="fixed inset-x-0 top-0 flex flex-row justify-between z-10 text-black bg-transparent"
+        className="fixed inset-x-0 top-0 flex flex-row justify-between z-10 text-black bg-white"
       >
         <div className="p-4">
           <div className="font-medium tracking-widest text-xl font-josefin-sans">
@@ -19,7 +19,7 @@ export default function Hero(): ReactElement {
         </div>
 
         {/* <!-- Nav Items Working on Tablet & Bigger Sceen --> */}
-        <div className="p-4 hidden md:flex flex-row justify-between font-bold font-josefin-sans">
+        <div className="p-4 hidden md:flex flex-row justify-between font-medium font-josefin-sans">
           <a
             id="hide-after-click"
             href="#about"
@@ -88,13 +88,13 @@ export default function Hero(): ReactElement {
         className="bg-center bg-fixed bg-no-repeat bg-center bg-cover h-screen relative"
       >
         {/* <!-- Overlay Background + Center Control --> */}
-        <div className="h-full bg-opacity-50 bg-lumpy-belly-cropped bg-cover bg-no-repeat flex items-center justify-center">
+        <div className="h-screen bg-opacity-50 bg-lumpy-belly-cropped bg-cover bg-no-repeat flex items-center justify-center">
           <div className="mx-2 text-center font-josefin-sans">
-            <h1 className="text-gray-100 font-extrabold text-4xl xs:text-5xl md:text-6xl mb-6">
+            <h1 className="text-gray-100 font-light text-4xl xs:text-5xl md:text-6xl mb-6">
               <span>wan·der·lump</span>
             </h1>
-            <h6 className="text-gray-100 font-extrabold text-4xl xs:text-5xl md:text-lg font-josefin-sans">
-              Lumpy's strong desire to wander or explore
+            <h6 className="text-gray-100 font-medium text-md font-josefin-sans text-center">
+              - Lumpy's strong desire to wander and explore -
             </h6>
           </div>
         </div>

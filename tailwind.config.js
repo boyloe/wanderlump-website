@@ -12,6 +12,7 @@ module.exports = {
         "lumpy-belly-cropped":
           "url('../public/images/lumpy_belly_cropped.png')",
         "big-stretch-lumpy": "url('../public/images/big-stretch-lumpy.png')",
+        "sunset-background": "url('../public/images/sunset.png')",
       }),
     },
   },

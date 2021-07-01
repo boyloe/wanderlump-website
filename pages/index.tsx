@@ -1,6 +1,7 @@
 import React, { ReactElement } from "react";
 import { Fragment } from "react";
-import Hero from "../components/hero";
+import Hero from "../components/Hero";
+import Nav from "../components/Nav";
 import BryanShelly from "../public/images/DH-Bryan-Shelly.jpg";
 import Catalina from "../public/images/catalina-cat-tower-legs.png";
 import Lumpy from "../public/images/lumpy-kitten-screaming.png";
@@ -8,8 +9,9 @@ import Lumpy from "../public/images/lumpy-kitten-screaming.png";
 export default function Index(): ReactElement {
   return (
     <Fragment>
+      <Nav />
       <Hero />
-      <div className="bg-sunset-background">
+      <div className="bg-gradient-to-br from-gray-100 via-gray-300 to-gray-500">
         <div className="flex flex-row py-24">
           <div className="flex flex-row justify-center">
             <img

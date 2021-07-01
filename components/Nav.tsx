@@ -1,6 +1,6 @@
 import React, { ReactElement } from "react";
 
-export default function Nav(): ReactElement {
+export default function nav(): ReactElement {
   return (
     <div>
       <nav

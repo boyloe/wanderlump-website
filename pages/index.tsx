@@ -1,7 +1,7 @@
 import React, { ReactElement } from "react";
 import { Fragment } from "react";
-import Hero from "../components/Hero";
-import Nav from "../components/Nav";
+import Hero from "../components/hero";
+import Nav from "../components/nav";
 import BryanShelly from "../public/images/DH-Bryan-Shelly.jpg";
 import Catalina from "../public/images/catalina-cat-tower-legs.png";
 import Lumpy from "../public/images/lumpy-kitten-screaming.png";

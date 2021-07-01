@@ -1,6 +1,6 @@
 import React, { ReactElement } from "react";
 
-export default function Hero(): ReactElement {
+export default function hero(): ReactElement {
   return (
     <div>
       <header

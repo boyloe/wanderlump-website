@@ -6,8 +6,8 @@ interface Props {}
 export default function posts({}: Props): ReactElement {
   return (
     <div>
-      <CardContainer className="w-full" />
-      <CardContainer className="w-full" />
+      <CardContainer />
+      <CardContainer />
     </div>
   );
 }

@@ -1,9 +1,7 @@
 import React, { ReactElement } from "react";
-import CardContainer from "../components/cardContainer";
+import CardContainer from "../components/CardContainer";
 
-interface Props {}
-
-export default function posts({}: Props): ReactElement {
+export default function posts(): ReactElement {
   return (
     <div>
       <CardContainer />

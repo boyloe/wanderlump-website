@@ -13,10 +13,10 @@ export default function Index(): ReactElement {
       <Hero />
       <div className="bg-gradient-to-br from-gray-100 via-gray-300 to-gray-500">
         <div className="flex flex-row py-24">
-          <div className="flex flex-row justify-center">
+          <div className="flex flex-col md:flex-row justify-center">
             <img
               src={BryanShelly}
-              className="w-1/3 rounded-full flex items-center justify-center mr-12"
+              className="w-auto md:w-1/3 rounded-lg md:rounded-full"
             />
             <p className="w-1/3 text-2xl px-6 pt-12 font-josefin-sans">
               Welcome to wanderlump! We are Bryan and Shelly and in April of

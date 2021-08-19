@@ -10,7 +10,7 @@ export default function NavBar(): ReactElement {
         <div className="p-4">
           <div className="font-medium tracking-widest text-xl font-josefin-sans">
             <a
-              href="#"
+              href="/"
               className="transition duration-500 hover:text-indigo-500"
             >
               wanderlump

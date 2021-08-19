@@ -2,10 +2,10 @@ import React, { ReactElement } from "react";
 
 export default function NavBar(): ReactElement {
   return (
-    <div>
+    <div className="mb-4">
       <nav
         id="nav"
-        className="fixed inset-x-0 top-0 flex flex-row justify-between z-10 text-black bg-white"
+        className="fixed inset-x-0 top-0 flex flex-row justify-between z-10 text-black bg-white "
       >
         <div className="p-4">
           <div className="font-medium tracking-widest text-xl font-josefin-sans">
@@ -22,7 +22,7 @@ export default function NavBar(): ReactElement {
         <div className="p-4 hidden md:flex flex-row justify-between font-medium font-josefin-sans">
           <a
             id="hide-after-click"
-            href=""
+            href="/posts"
             className="mx-4 text-lg  border-b-2 border-transparent hover:border-b-2 hover:border-indigo-300 transition duration-500"
           >
             our travels

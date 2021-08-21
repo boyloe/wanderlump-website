@@ -1,9 +1,9 @@
 import React, { ReactElement } from "react";
 
 interface CardProps {
-  cardImageUrl: string;
-  // postTitle: string;
-  // postSnippet: string;
+  cardImageUrl?: string;
+  cardTitle?: string;
+  cardSnippet?: string;
 }
 
 export default function card({ cardImageUrl }: CardProps): ReactElement {

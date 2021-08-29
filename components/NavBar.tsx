@@ -1,11 +1,15 @@
-import React, { ReactElement } from "react";
+import React, { ReactElement, useState } from "react";
 
 export default function NavBar(): ReactElement {
+  const [isHamburgerClicked, setHamburgerClicked] = useState(false);
+
+  const changeHamburgerMenuStatus = () =>
+    setHamburgerClicked(!isHamburgerClicked);
   return (
-    <div className="mb-4">
+    <div className="mb-16">
       <nav
         id="nav"
-        className="fixed inset-x-0 top-0 flex flex-row justify-between z-10 text-black bg-white "
+        className="fixed inset-x-0 top-0 flex flex-row justify-between z-10 text-black bg-white"
       >
         <div className="p-4">
           <div className="font-medium tracking-widest text-xl font-josefin-sans">
@@ -68,16 +72,13 @@ export default function NavBar(): ReactElement {
         className="fixed left-0 right-0 hidden bg-white mx-2 mt-16 rounded-br rounded-bl shadow z-10"
       >
         <div className="p-2 divide-y divide-gray-600 flex flex-col">
-          <a href="#about" className="p-2 font-semibold hover:text-indigo-700">
+          <a href="/posts" className="p-2 font-semibold hover:text-indigo-700">
             our travels
           </a>
-          <a href="#whyus" className="p-2 font-semibold hover:text-indigo-700">
+          <a href="/about" className="p-2 font-semibold hover:text-indigo-700">
             about
           </a>
-          <a
-            href="#showcase"
-            className="p-2 font-semibold hover:text-indigo-700"
-          >
+          <a href="/gear" className="p-2 font-semibold hover:text-indigo-700">
             wanderlump gear
           </a>
         </div>

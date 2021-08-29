@@ -1,5 +1,5 @@
 import React, { ReactElement } from "react";
-import CardContainer from "../components/cardContainer";
+import CardContainer from "../components/something";
 
 export default function posts(): ReactElement {
   return (

@@ -1,6 +1,6 @@
 import React, { ReactElement } from "react";
 import NewTrailer from "../public/images/sold_front.jpeg";
-import Card from "../components/Card";
+import Card from "./Card";
 
 export default function CardContainer(): ReactElement {
   return (

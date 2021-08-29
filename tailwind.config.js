@@ -5,6 +5,10 @@ module.exports = {
     extend: {
       fontFamily: {
         "josefin-sans": "Josefin Sans",
+        "barlow-condensed": "Barlow Condensed",
+      },
+      textColor: {
+        "dark-brown": "#18100a",
       },
       backgroundImage: (theme) => ({
         "lumpy-belly": "url('../public/images/Lumpy_Belly.jpg')",

@@ -5,7 +5,6 @@ export default function posts(): ReactElement {
   return (
     <div>
       <CardContainer />
-      <CardContainer />
     </div>
   );
 }

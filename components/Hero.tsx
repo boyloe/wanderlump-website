@@ -3,15 +3,15 @@ import LandscapeLumpy from "../public/images/lumpy_thoughtful_landscape.jpg";
 
 export default function Hero(): ReactElement {
   return (
-    <div className="flex flex-col mb-4 md:mb-0 md:flex-row justify-center items-center font-josefin-sans bg-blue-100">
+    <div className="flex flex-col md:my-4 md:flex-row justify-around md:justify-center md:items-center font-josefin-sans md:h-screen md:relative">
       <img
         src={LandscapeLumpy}
         alt="Lumpy looking out a window"
-        className="md:max-w-xl p-4"
+        className="my-4"
       />
-      <div className="w-auto md:w-1/2 flex flex-col items-center justify-center p-4">
-        <h1 className="text-black text-5xl md:text-8xl">wan·der·lump</h1>
-        <h2 className="text-gray-900 font-medium text-2xl  font-josefin-sans">
+      <div className="md:w-auto flex flex-col items-center justify-center md:p-4 md:absolute left-6 top-4">
+        <h1 className="text-dark-brown text-5xl md:text-8xl">wan·der·lump</h1>
+        <h2 className="text-dark-brown font-medium text-justify md:text-2xl  font-josefin-sans">
           - Lumpys strong desire to wander and explore -
         </h2>
       </div>

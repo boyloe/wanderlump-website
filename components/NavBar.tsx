@@ -3,8 +3,8 @@ import React, { ReactElement, useState } from "react";
 export default function NavBar(): ReactElement {
   const [isHamburgerClicked, setHamburgerClicked] = useState(false);
 
-  const changeHamburgerMenuStatus = () =>
-    setHamburgerClicked(!isHamburgerClicked);
+  // const changeHamburgerMenuStatus = () =>
+  //   setHamburgerClicked(!isHamburgerClicked);
   return (
     <div className="mb-16">
       <nav

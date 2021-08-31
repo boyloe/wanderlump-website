@@ -1,12 +1,12 @@
 import React, { ReactElement } from "react";
-import ShellyCrying from "../../public/images/posts/our-new-home/shelly-crying.jpg";
-import NewTruck from "../../public/images/posts/our-new-home/new-truck.jpg";
-import TrailerSold from "../../public/images/posts/our-new-home/trailer-sold.jpg";
-import MessyLivingRoom from "../../public/images/posts/our-new-home/messy-living-room.jpg";
-import MovingDay from "../../public/images/posts/our-new-home/snow-moving.jpg";
-import LumpySleeping from "../../public/images/posts/our-new-home/lumpy-sleeping.jpg";
-import CatalinaComforter from "../../public/images/posts/our-new-home/catalina-comforter.jpg";
-import ShellyLumpy from "../../public/images/posts/our-new-home/shelly-lumpy.jpg";
+import ShellyCrying from "../public/images/shelly-crying.jpg";
+import NewTruck from "../public/images/new-truck.jpg";
+import TrailerSold from "../public/images/trailer-sold.jpg";
+import MessyLivingRoom from "../public/images/messy-living-room.jpg";
+import MovingDay from "../public/images/snow-moving.jpg";
+import LumpySleeping from "../public/images/lumpy-sleeping.jpg";
+import CatalinaComforter from "../public/images/catalina-comforter.jpg";
+import ShellyLumpy from "../public/images/shelly-lumpy.jpg";
 
 export default function ourNewHome(): ReactElement {
   return (

@@ -1,6 +1,6 @@
 import React, { ReactElement } from "react";
 import ShellyCrying from "../../public/images/posts/our-new-home/shelly-crying.JPG";
-import NewTruck from "../../public/images/posts/our-new-home/new-truck.JPG";
+// import NewTruck from "../../public/images/posts/our-new-home/new-truck.JPG";
 import TrailerSold from "../../public/images/posts/our-new-home/trailer-sold.JPG";
 import MessyLivingRoom from "../../public/images/posts/our-new-home/messy-living-room.JPG";
 import MovingDay from "../../public/images/posts/our-new-home/snow-moving.JPG";

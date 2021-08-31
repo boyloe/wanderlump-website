@@ -5,22 +5,21 @@ import Lumpy from "../public/images/lumpy-kitten-screaming.png";
 export default function about(): ReactElement {
   return (
     <Fragment>
-      <header>Who am I</header>
       <div className="">
         <div className="flex flex-row py-24">
-          <div className="flex flex-row justify-evenly items-center">
-            <p className="w-1/3 text-2xl px-6 pt-12">
+          <div className="flex flex-row justify-evenly items-center font-barlow-condensed">
+            <p className="w-1/3 px-6 pt-12 text-4xl">
               This is Catalina Wine Mixer, our Tortoiseshell cat. Catalina was
               born in a puddle of gasonline in the south side of Chicago. She is
               fierce and unstoppable... Just kidding, Shelly was working as an
-              intern for Blue Pearl Veterinary Partners in the north Chicago
-              suburbs when someone brought little kitten Catalina into the
-              hospital. The had found her sleeping outside on a car engine in
-              the middle of October (brr...). Shelly decided to bring Catalina
-              home and &quot;foster&quot; her until she could find a good home.
-              7 years later and we are still looking for a permanent home.
+              intern in the north Chicago suburbs when someone brought little
+              kitten Catalina into the hospital. The had found her sleeping
+              outside on a car engine in the middle of October (brr...). Shelly
+              decided to bring Catalina home and &quot;foster&quot; her until
+              she could find a good home. 7 years later and we are still looking
+              for a permanent home.
             </p>
-            <img src={Catalina} className="max-w-md rounded-full mr-12" />
+            <img src={Catalina} className="max-w-md rounded-3xl mr-12" />
           </div>
         </div>
         <div className="flex flex-row py-24">

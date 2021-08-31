@@ -24,38 +24,6 @@ export default function about(): ReactElement {
           </div>
         </div>
         <div className="flex flex-row py-24">
-          <div className="flex flex-row justify-evenly items-center">
-            <img src={Catalina} className="max-w-md rounded-full mr-12" />
-            <p className="w-1/3 text-2xl px-6 pt-12">
-              This is Catalina Wine Mixer, our Tortoiseshell cat. Catalina was
-              born in a puddle of gasonline in the south side of Chicago. She is
-              fierce and unstoppable... Just kidding, Shelly was working as an
-              intern for Blue Pearl Veterinary Partners in the north Chicago
-              suburbs when someone brought little kitten Catalina into the
-              hospital. The had found her sleeping outside on a car engine in
-              the middle of October (brr...). Shelly decided to bring Catalina
-              home and &quot;foster&quot; her until she could find a good home.
-              7 years later and we are still looking for a permanent home.
-            </p>
-          </div>
-        </div>
-        <div className="flex flex-row py-24">
-          <div className="flex flex-row justify-evenly items-center font-barlow-condensed">
-            <p className="w-1/3 px-6 pt-12 text-4xl">
-              This is Catalina Wine Mixer, our Tortoiseshell cat. Catalina was
-              born in a puddle of gasonline in the south side of Chicago. She is
-              fierce and unstoppable... Just kidding, Shelly was working as an
-              intern in the north Chicago suburbs when someone brought little
-              kitten Catalina into the hospital. The had found her sleeping
-              outside on a car engine in the middle of October (brr...). Shelly
-              decided to bring Catalina home and &quot;foster&quot; her until
-              she could find a good home. 7 years later and we are still looking
-              for a permanent home.
-            </p>
-            <img src={Catalina} className="max-w-md rounded-3xl mr-12" />
-          </div>
-        </div>
-        <div className="flex flex-row py-24">
           <div className="flex flex-row justify-evenly items-center font-barlow-condensed">
             <img src={Lumpy} className="w-1/3 rounded-full mr-12" />
             <p className="w-1/3 text-4xl px-6 pt-12">

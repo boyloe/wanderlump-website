@@ -1,5 +1,4 @@
 import React, { ReactElement } from "react";
-import ShellyCrying from "../public/images/shelly-crying.jpg";
 import NewTruck from "../public/images/new-truck.jpg";
 import TrailerSold from "../public/images/trailer-sold.jpg";
 import MessyLivingRoom from "../public/images/messy-living-room.jpg";
@@ -70,9 +69,8 @@ export default function ourNewHome(): ReactElement {
           cold, snowy day in March.{" "}
         </p>{" "}
         <img
-          src={ShellyCrying}
+          src="/images/shelly-crying.JPG"
           alt="Shelly saying her goodbyes to the Jetta"
-          className=""
         />
         <p className="my-4">
           {" "}
@@ -87,7 +85,7 @@ export default function ourNewHome(): ReactElement {
           capacity, so that gave us guidelines for trailer weight.
         </p>
         <img
-          src={NewTruck}
+          src="/images/new-truck.JPG"
           alt="Our new Ford F-150 EcoBoost"
           className="my-2"
         />
@@ -113,7 +111,7 @@ export default function ourNewHome(): ReactElement {
           communicating with us via email over the next two{" "}
         </p>
         <img
-          src={TrailerSold}
+          src="/images/trailer-sold.JPG"
           alt="Our new Forest River 22RBS travel trailer"
           className="my-2"
         />
@@ -129,7 +127,7 @@ export default function ourNewHome(): ReactElement {
           and what could we part with.{" "}
         </p>{" "}
         <img
-          src={MessyLivingRoom}
+          src="/images/messy-living-room.JPG"
           alt="Trying to declutter our messy living room"
           className="my-2"
         />
@@ -142,7 +140,7 @@ export default function ourNewHome(): ReactElement {
           nature also spiced things up a bit and made it snow on moving day!
         </p>
         <img
-          src={MovingDay}
+          src="/images/snow-moving.JPG"
           alt="Snow covered truck with furniture in the back"
           className="my-2"
         />
@@ -158,12 +156,12 @@ export default function ourNewHome(): ReactElement {
           with this adventure.
         </p>
         <img
-          src={LumpySleeping}
+          src="/images/lumpy-sleeping.JPG"
           alt="Lumpy Space Princess asleep on the new comforter"
           className="my-2"
         />
         <img
-          src={CatalinaComforter}
+          src="/images/catalina-comforter.JPG"
           alt="Catalina Wine Mixer licking her lips on the new comforter"
           className="my-2"
         />
@@ -187,7 +185,7 @@ export default function ourNewHome(): ReactElement {
           cats loved their new carriers and we made it safely to Iowa.{" "}
         </p>
         <img
-          src={ShellyLumpy}
+          src="/images/shelly-lumpy.JPG"
           alt="Shelly with Lumpy in the truck on our way to pick up the trailer"
           className="my-4"
         />

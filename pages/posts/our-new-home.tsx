@@ -1,11 +1,4 @@
 import React, { ReactElement } from "react";
-import NewTruck from "../public/images/new-truck.jpg";
-import TrailerSold from "../public/images/trailer-sold.jpg";
-import MessyLivingRoom from "../public/images/messy-living-room.jpg";
-import MovingDay from "../public/images/snow-moving.jpg";
-import LumpySleeping from "../public/images/lumpy-sleeping.jpg";
-import CatalinaComforter from "../public/images/catalina-comforter.jpg";
-import ShellyLumpy from "../public/images/shelly-lumpy.jpg";
 
 export default function ourNewHome(): ReactElement {
   return (
@@ -13,6 +6,10 @@ export default function ourNewHome(): ReactElement {
       <title>Our New Home</title>
       <article>
         <h1 className="text-5xl mb-4">Our New Home</h1>
+        <img
+          src="/images/posts/our-new-home/griffs-bryan-shelly.jpg"
+          alt="Bryan and Shelly in their new trailer"
+        />
         <p className="my-4">
           We are excited to share our next adventure! We both work remotely now,
           so we decided to take this opportunity to not be confined to a one
@@ -69,7 +66,7 @@ export default function ourNewHome(): ReactElement {
           cold, snowy day in March.{" "}
         </p>{" "}
         <img
-          src="/images/shelly-crying.JPG"
+          src="/images/posts/our-new-home/shelly-crying.JPG"
           alt="Shelly saying her goodbyes to the Jetta"
         />
         <p className="my-4">
@@ -85,7 +82,7 @@ export default function ourNewHome(): ReactElement {
           capacity, so that gave us guidelines for trailer weight.
         </p>
         <img
-          src="/images/new-truck.JPG"
+          src="/images/posts/our-new-home/new-truck.JPG"
           alt="Our new Ford F-150 EcoBoost"
           className="my-2"
         />
@@ -111,7 +108,7 @@ export default function ourNewHome(): ReactElement {
           communicating with us via email over the next two{" "}
         </p>
         <img
-          src="/images/trailer-sold.JPG"
+          src="/images/posts/our-new-home/trailer-sold.JPG"
           alt="Our new Forest River 22RBS travel trailer"
           className="my-2"
         />
@@ -127,7 +124,7 @@ export default function ourNewHome(): ReactElement {
           and what could we part with.{" "}
         </p>{" "}
         <img
-          src="/images/messy-living-room.JPG"
+          src="/images/posts/our-new-home/messy-living-room.JPG"
           alt="Trying to declutter our messy living room"
           className="my-2"
         />
@@ -140,7 +137,7 @@ export default function ourNewHome(): ReactElement {
           nature also spiced things up a bit and made it snow on moving day!
         </p>
         <img
-          src="/images/snow-moving.JPG"
+          src="/images/posts/our-new-home/snow-moving.JPG"
           alt="Snow covered truck with furniture in the back"
           className="my-2"
         />
@@ -156,12 +153,12 @@ export default function ourNewHome(): ReactElement {
           with this adventure.
         </p>
         <img
-          src="/images/lumpy-sleeping.JPG"
+          src="/images/posts/our-new-home/lumpy-sleeping.JPG"
           alt="Lumpy Space Princess asleep on the new comforter"
           className="my-2"
         />
         <img
-          src="/images/catalina-comforter.JPG"
+          src="/images/posts/our-new-home/catalina-comforter.JPG"
           alt="Catalina Wine Mixer licking her lips on the new comforter"
           className="my-2"
         />
@@ -185,7 +182,7 @@ export default function ourNewHome(): ReactElement {
           cats loved their new carriers and we made it safely to Iowa.{" "}
         </p>
         <img
-          src="/images/shelly-lumpy.JPG"
+          src="/images/posts/our-new-home/shelly-lumpy.JPG"
           alt="Shelly with Lumpy in the truck on our way to pick up the trailer"
           className="my-4"
         />

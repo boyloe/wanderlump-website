@@ -9,7 +9,7 @@ interface CardProps {
 export default function card({ cardImageUrl }: CardProps): ReactElement {
   return (
     <div className=" bg-white mx-2 shadow-lg rounded-lg hover:shadow-xl transition duration-200 max-w-sm my-4">
-      <a href="/our-new-home">
+      <a href="/posts/our-new-home">
         <img className="rounded-t-lg" src={cardImageUrl} alt="Pretty Sunset" />
       </a>
       <div className="py-4 px-8">

@@ -45,12 +45,12 @@ export default function ourNewHome(): ReactElement {
           experiences. Bryan’s dad, Steve, had many RVs and there always seemed
           to be something wrong with the engine. We didn’t want to risk having
           the engine die and be in the shop for months. An RV in the shop isn’t
-          that bad when you don’t live it in full time, but when it is your
+          that bad when you don’t live in it full time, but when it is your
           home, that would really put a damper on things. Given the popularity
           of traveling since COVID, it has become increasingly difficult to get
           parts and service. So maybe we were jaded, because of Steve, but we
-          like to think that he was proud of us for learning from his life
-          lessons.
+          like to think that he was proud of us for learning from his
+          experiences.
         </p>
         <h2 className="mb-4 text-2xl font-semibold">
           Step 2: What vehicle is the best for towing a travel trailer?

@@ -1,11 +1,10 @@
 import React, { ReactElement } from "react";
-import LandscapeLumpy from "../public/images/lumpy_thoughtful_landscape.jpg";
 
 export default function Hero(): ReactElement {
   return (
     <div className="flex flex-col md:my-4 md:flex-row justify-around md:justify-center md:items-center font-josefin-sans md:h-screen md:relative">
       <img
-        src={LandscapeLumpy}
+        src="images/lumpy_thoughtful_landscape.jpg"
         alt="Lumpy looking out a window"
         className="my-4"
       />

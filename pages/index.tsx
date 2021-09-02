@@ -9,7 +9,7 @@ export default function Index(): ReactElement {
       <div className="flex flex-row py-24 md:mt-64 ">
         <div className="flex flex-col md:flex-row justify-evenly items-center">
           <img
-            src="/images/DH-bryan-shelly.jpg"
+            src="/images/DH-Bryan-Shelly.jpg"
             className="w-auto md:w-1/3 md:rounded-2xl"
           />
           <p className="w-screen md:w-1/3 md:text-2xl px-6 pt-12 font-josefin-sans">

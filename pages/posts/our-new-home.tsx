@@ -7,7 +7,7 @@ export default function ourNewHome(): ReactElement {
       <article>
         <h1 className="text-5xl mb-4">Our New Home</h1>
         <img
-          src="/images/posts/our-new-home/griffs-bryan-shelly.jpg"
+          src="/images/posts/our-new-home/griffs-bryan-shelly.jpeg"
           alt="Bryan and Shelly in their new trailer"
         />
         <p className="my-4">

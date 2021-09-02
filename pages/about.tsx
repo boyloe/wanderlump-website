@@ -8,6 +8,28 @@ export default function about(): ReactElement {
       <div className="">
         <div className="flex flex-row py-24">
           <div className="flex flex-row justify-evenly items-center font-barlow-condensed">
+            <p className="w-1/3 px-6 pt-12 text-4xl"></p>
+            <img src="" className="max-w-md rounded-3xl mr-12" />
+          </div>
+        </div>
+        <div className="flex flex-row py-24">
+          <div className="flex flex-row justify-evenly items-center font-barlow-condensed">
+            <p className="w-1/3 px-6 pt-12 text-4xl">
+              Hi, my name is Bryan. I worked in oil and gas an engineer on
+              drilling rigs since 2011. In Feb 2020 like so many others, I lost
+              my job due to Covid. Jobs in the oilfield dried up so I made the
+              decision to transition into software developement. Fast forward to
+              January 2021 and I landed a job working remotely for a development
+              agency based in Toledo, OH called Whitelabel Collaborative.
+            </p>
+            <img
+              src="/images/catalina-kitten-cat-tower.jpg"
+              className="max-w-md rounded-3xl mr-12"
+            />
+          </div>
+        </div>
+        <div className="flex flex-row py-24">
+          <div className="flex flex-row justify-evenly items-center font-barlow-condensed">
             <p className="w-1/3 px-6 pt-12 text-4xl">
               This is Catalina Wine Mixer, our Tortoiseshell cat. Catalina was
               born in a puddle of gasonline in the south side of Chicago. She is

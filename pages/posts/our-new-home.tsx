@@ -105,7 +105,7 @@ export default function ourNewHome(): ReactElement {
           months to do a proper inspection on it before it would be ready for
           pick up. We were out in Denver, so we took a chance that everything
           would be good to go by April and they were incredible about
-          communicating with us via email over the next two{" "}
+          communicating with us via email over the next two months{" "}
         </p>
         <img
           src="/images/posts/our-new-home/trailer-sold.JPG"

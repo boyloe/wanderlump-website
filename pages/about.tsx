@@ -1,6 +1,4 @@
 import React, { Fragment, ReactElement } from "react";
-import Catalina from "../public/images/catalina-cat-tower-legs.png";
-import Lumpy from "../public/images/lumpy-kitten-screaming.png";
 
 export default function about(): ReactElement {
   return (

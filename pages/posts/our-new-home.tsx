@@ -5,12 +5,12 @@ export default function ourNewHome(): ReactElement {
     <div className="mx-auto max-w-2xl p-4 md:p-0">
       <title>Our New Home</title>
       <article>
-        <h1 className="text-5xl mb-4">Our New Home</h1>
+        <h1 className="text-5xl mb-4 font-barlow-condensed">Our New Home</h1>
         <img
           src="/images/posts/our-new-home/griffs-bryan-shelly.jpeg"
           alt="Bryan and Shelly in their new trailer"
         />
-        <p className="my-4">
+        <p className="my-4 font-barlow-condensed text-2xl">
           We are excited to share our next adventure! We both work remotely now,
           so we decided to take this opportunity to not be confined to a one
           bedroom, one bathroom insanely expensive apartment anymore. This was
@@ -18,8 +18,10 @@ export default function ourNewHome(): ReactElement {
           first into researching how to make this happen before our lease was up
           in mid-April.
         </p>
-        <h2 className="text-2xl font-semibold">Step 1: The Essentials</h2>
-        <p className="my-4">
+        <h2 className="text-3xl font-barlow-condensed font-black">
+          Step 1: The Essentials
+        </h2>
+        <p className="my-4 font-barlow-condensed text-2xl">
           We quickly realized that we needed to decide what was essential to us
           in a home on wheels. We also had to decide what was better for us –
           something we could tow or something we could drive. These things were
@@ -52,10 +54,10 @@ export default function ourNewHome(): ReactElement {
           like to think that he was proud of us for learning from his
           experiences.
         </p>
-        <h2 className="mb-4 text-2xl font-semibold">
+        <h2 className="mb-4 text-3xl font-barlow-condensed font-black">
           Step 2: What vehicle is the best for towing a travel trailer?
         </h2>
-        <p className="my-4">
+        <p className="my-4 font-barlow-condensed text-2xl">
           While I kept searching through thousands of travel trailers, I let
           Bryan take the lead on this step. We ended up upgrading from my 2008
           Volkswagen Jetta to a 2018 Ford F150 XLT 3.5 L EcoBoost. My Jetta was
@@ -69,7 +71,7 @@ export default function ourNewHome(): ReactElement {
           src="/images/posts/our-new-home/shelly-crying.JPG"
           alt="Shelly saying her goodbyes to the Jetta"
         />
-        <p className="my-4">
+        <p className="my-4 font-barlow-condensed text-2xl">
           {" "}
           For previously not being a truck person, our new truck is a beauty.
           The EcoBoost is also incredibly dangerous. You can get up to 85 mph
@@ -86,10 +88,10 @@ export default function ourNewHome(): ReactElement {
           alt="Our new Ford F-150 EcoBoost"
           className="my-2"
         />
-        <h2 className="my-4 text-2xl font-semibold">
+        <h2 className="my-4 text-3xl font-barlow-condensed font-black">
           Step 3: Buy a travel trailer
         </h2>
-        <p className="my-4">
+        <p className="my-4 font-barlow-condensed text-2xl">
           My Excel spreadsheet of potential travel trailers started out
           incredibly long and it soon become a bit overwhelming. There are just
           so many makes and models and most companies do a slight upgrade each
@@ -112,10 +114,10 @@ export default function ourNewHome(): ReactElement {
           alt="Our new Forest River 22RBS travel trailer"
           className="my-2"
         />
-        <h2 className="my-4 text-2xl font-semibold">
+        <h2 className="my-4 text-3xl font-barlow-condensed font-black">
           Step 4: Where are we going to put everything???
         </h2>
-        <p className="my-4">
+        <p className="my-4 font-barlow-condensed text-2xl">
           Combined, we have moved 10 times in the past 11 years. And we aren’t
           talking just across town. Most of our moves have been across the
           country. This has prevented us from accumulating too much stuff, but
@@ -128,7 +130,7 @@ export default function ourNewHome(): ReactElement {
           alt="Trying to declutter our messy living room"
           className="my-2"
         />
-        <p className="my-4">
+        <p className="my-4 font-barlow-condensed text-2xl">
           {" "}
           Let’s just say I’m a huge fan of Marie Kondo, so we had no trouble
           thanking our things for the joy they brought us and then selling them
@@ -141,11 +143,11 @@ export default function ourNewHome(): ReactElement {
           alt="Snow covered truck with furniture in the back"
           className="my-2"
         />
-        <h2 className="my-4 text-2xl font-semibold">
+        <h2 className="my-4 text-3xl font-barlow-condensed font-black">
           Step 5: Sit our two cats down to ask them if they were ok with all of
           this
         </h2>
-        <p className="my-4">
+        <p className="my-4 font-barlow-condensed text-2xl">
           By this point, they both realized something was up. Our normally tidy
           apartment was in disarray, new boxes of unfamiliar things were
           arriving daily, and there was stress in the air. After our new
@@ -162,8 +164,10 @@ export default function ourNewHome(): ReactElement {
           alt="Catalina Wine Mixer licking her lips on the new comforter"
           className="my-2"
         />
-        <h2 className="my-4 text-2xl font-semibold">Step 6: Get inspired!</h2>
-        <p className="my-4">
+        <h2 className="my-4 text-3xl font-barlow-condensed font-black">
+          Step 6: Get inspired!
+        </h2>
+        <p className="my-4 font-barlow-condensed text-2xl">
           All of this research and preparation were exhausting, but we still
           made time to get inspired by other full time travelers. Our favorite
           family to follow is Keep Your Daydream. If they can do it with three
@@ -172,10 +176,10 @@ export default function ourNewHome(): ReactElement {
           ideas were invaluable and had us counting down the hours until move
           out day.
         </p>
-        <h2 className="my-4 text-2xl font-semibold">
+        <h2 className="my-4 text-3xl font-barlow-condensed font-black">
           Step 7: Drive to Indianola to get our new home
         </h2>
-        <p className="my-4">
+        <p className="my-4 font-barlow-condensed text-2xl">
           Getting everything moved out and stored in the truck during a giant
           snow storm was less than ideal, but the day had arrived and it was
           time to travel to Iowa. It was a tight squeeze in the cab, but the

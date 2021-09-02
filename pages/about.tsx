@@ -41,12 +41,18 @@ export default function about(): ReactElement {
               she could find a good home. 7 years later and we are still looking
               for a permanent home.
             </p>
-            <img src={Catalina} className="max-w-md rounded-3xl mr-12" />
+            <img
+              src="/images/catalina-kitten-cat-tower.jpg"
+              className="max-w-md rounded-3xl mr-12"
+            />
           </div>
         </div>
         <div className="flex flex-row py-24">
           <div className="flex flex-row justify-evenly items-center font-barlow-condensed">
-            <img src={Lumpy} className="w-1/3 rounded-full mr-12" />
+            <img
+              src="/images/lumpy-kitten-screaming.png"
+              className="w-1/3 rounded-full mr-12"
+            />
             <p className="w-1/3 text-4xl px-6 pt-12">
               Last but certainly not least, here is Lumpy Space Princess and the
               inspiration for the name of our voyage. Lumpy is a Siamese

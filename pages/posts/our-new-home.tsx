@@ -62,7 +62,7 @@ export default function ourNewHome(): ReactElement {
           with me through vet school, got me from Florida to Chicago for my
           internship, back to Florida, out to Colorado, and many road trips in
           between. I’m quite certain she could have towed our TT with no trouble
-          at all, but Bryan strongly disagreed, so I sadly traded her in one a
+          at all, but Bryan strongly disagreed, so I sadly traded her in on a
           cold, snowy day in March.{" "}
         </p>{" "}
         <img

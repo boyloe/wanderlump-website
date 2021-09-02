@@ -1,10 +1,14 @@
 import React, { ReactElement } from "react";
+import Head from "next/head";
 import { Fragment } from "react";
 import Hero from "../components/Hero";
 
 export default function Index(): ReactElement {
   return (
     <Fragment>
+      <Head>
+        <title>wanderlump</title>
+      </Head>
       <Hero />
       <div className="flex flex-row py-24 md:mt-64 ">
         <div className="flex flex-col md:flex-row justify-evenly items-center">

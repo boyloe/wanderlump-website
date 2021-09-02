@@ -119,9 +119,9 @@ export default function ourNewHome(): ReactElement {
           Combined, we have moved 10 times in the past 11 years. And we aren’t
           talking just across town. Most of our moves have been across the
           country. This has prevented us from accumulating too much stuff, but
-          things still have a way of accumulating. Now we had a new task in
-          front of us – what was coming with us, what was going into storage,
-          and what could we part with.{" "}
+          things still have a way of piling up. Now we had a new task in front
+          of us – what was coming with us, what was going into storage, and what
+          could we part with.{" "}
         </p>{" "}
         <img
           src="/images/posts/our-new-home/messy-living-room.JPG"

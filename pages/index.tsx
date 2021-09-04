@@ -2,6 +2,7 @@ import React, { ReactElement } from "react";
 import Head from "next/head";
 import { Fragment } from "react";
 import Hero from "../components/Hero";
+import Subscribe from "../components/Subscribe";
 
 export default function Index(): ReactElement {
   return (
@@ -24,6 +25,7 @@ export default function Index(): ReactElement {
           </p>
         </div>
       </div>
+      <Subscribe />
     </Fragment>
     // eslint-disable-next-line prettier/prettier
   )

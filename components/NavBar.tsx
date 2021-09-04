@@ -41,7 +41,7 @@ export default function NavBar(): ReactElement {
             about
           </a>
           <a
-            href="#showcase"
+            href="/gear"
             className="mx-4 text-lg border-b-2 border-transparent hover:border-b-2 hover:border-indigo-300 transition duration-500"
           >
             wanderlump gear

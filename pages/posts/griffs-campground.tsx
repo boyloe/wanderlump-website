@@ -2,14 +2,18 @@ import React, { ReactElement } from "react";
 
 export default function griffsCampground(): ReactElement {
   return (
-    <div className="mx-auto max-w-2xl p-4 md:p-0">
+    <div className="mx-auto max-w-3xl p-4 md:p-0">
       <title>Griff&apos;s RV Park and Campground</title>
       <article>
-        <h1 className="text-5xl mb-4 font-barlow-condensed">
-          Griff&apos;s RV Park and Campground
+        <h1 className="text-5xl mb-4 font-lato font-semibold tracking-wide">
+          Griff&apos;s Valley View RV Park and Campground
         </h1>
-        <img src="/images/posts/griffs-campground/griffs-sign.JPG" alt="" />
-        <p className="my-4 font-barlow-condensed text-2xl">
+        <img
+          src="/images/posts/griffs-campground/griffs-cropped.JPG"
+          alt=""
+          className=""
+        />
+        <p className="my-4 font-lato text-xl tracking-wide text-justify">
           After picking up the trailer and getting an incredibly thorough walk
           through from Brady at Herold Trailer Sales, we needed a place nearby
           to unload everything from the truck into the trailer. We were also
@@ -20,10 +24,10 @@ export default function griffsCampground(): ReactElement {
           all concrete, perfectly level pads with lush green grass all around.
           We were lucky to even get a spot, because most of the park was full.
         </p>
-        <h2 className="my-4 text-3xl font-barlow-condensed font-black">
+        <h2 className="my-4 text-3xl font-lato font-black">
           You’re welcome to our neighbors who got a pretty good show
         </h2>
-        <p className="my-4 font-barlow-condensed text-2xl">
+        <p className="my-4 font-lato text-xl tracking-wide text-justify">
           For it being Bryan’s first time backing up our new trailer, he was a
           rock star. Perfect back up job on the first attempt. This was not
           luck, though. He grew up towing boats and his previous career in the
@@ -31,7 +35,7 @@ export default function griffsCampground(): ReactElement {
           pretty impressed. Catalina was too busy sleeping in her carrier to be
           bothered.{" "}
         </p>
-        <p className="my-4 font-barlow-condensed text-2xl">
+        <p className="my-4 font-lato text-xl tracking-wide text-justify">
           What came next was entertaining for anyone peeking out their window.
           It was probably the world’s longest set up. In our defense, all of our
           stuff was brand new and either still in the box or in the storage
@@ -44,10 +48,8 @@ export default function griffsCampground(): ReactElement {
           src="/images/posts/griffs-campground/truck-trailer.JPG"
           alt="Bryan getting the trailer disconnected"
         />
-        <h2 className="mt-4 text-3xl font-barlow-condensed font-black">
-          Introductions
-        </h2>
-        <p className="my-4 font-barlow-condensed text-2xl">
+        <h2 className="mt-4 text-3xl font-lato font-black">Introductions</h2>
+        <p className="my-4 font-lato text-xl tracking-wide text-justify">
           Now that we were fully set up, it was time for the most crucial step –
           introducing the cats to their new home. What if they hated it? What if
           they were so stressed that they never came out of hiding? What if all
@@ -59,10 +61,10 @@ export default function griffsCampground(): ReactElement {
           src="/images/posts/griffs-campground/lumpy-catalina.JPG"
           alt="Lumpy and Catalina asleep on the bed"
         />
-        <h2 className="mt-4 text-3xl font-barlow-condensed font-black">
+        <h2 className="mt-4 text-3xl font-lato font-black">
           All work and no play?
         </h2>
-        <p className="my-4 font-barlow-condensed text-2xl">
+        <p className="my-4 font-lato text-xl tracking-wide text-justify">
           There was so much work to do – unpacking, organizing, making endless
           shopping lists of additional supplies, and working our full time jobs.
           However, there was a huge weight off our shoulders. We were actually

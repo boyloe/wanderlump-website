@@ -14,7 +14,10 @@ export default function gear(): ReactElement {
               Lumpy is working her peepaws to the bone to bring you wanderlump
               merchandise.
             </p>
-            <a href="/posts" className="text-3xl underline text-blue-700">
+            <a
+              href="/posts"
+              className="text-3xl underline text-blue-700 hover:text-blue-800"
+            >
               Check out her travels while you wait.
             </a>
           </div>

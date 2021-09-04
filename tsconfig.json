@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "strictNullChecks": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "next.config.js", "src/**/*", "components/**/*", "public/**/*"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "next.config.js", "src/**/*", "components/**/*", "public/**/*", "pages/api/**/*"],
   "exclude": ["node_modules"]
 }

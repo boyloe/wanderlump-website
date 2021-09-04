@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         "josefin-sans": "Josefin Sans",
         "barlow-condensed": "Barlow Condensed",
+        lato: "Lato",
       },
       textColor: {
         "dark-brown": "#18100a",

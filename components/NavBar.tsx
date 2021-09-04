@@ -1,10 +1,13 @@
 import React, { ReactElement, useState } from "react";
 
 export default function NavBar(): ReactElement {
-  const [isHamburgerClicked, setHamburgerClicked] = useState(false);
+  const [isMenuOpen, setMenuOpen] = useState(false);
 
-  // const changeHamburgerMenuStatus = () =>
-  //   setHamburgerClicked(!isHamburgerClicked);
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
+    console.log("clicked");
+    console.log(isMenuOpen);
+  };
   return (
     <div className="mb-16">
       <nav
@@ -46,7 +49,7 @@ export default function NavBar(): ReactElement {
         </div>
 
         {/* <!-- Burger Nav Button on Mobile --> */}
-        <div id="nav-open" className="p-4 md:hidden">
+        <div id="nav-open" className="p-4 md:hidden" onClick={toggleMenu}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -69,7 +72,9 @@ export default function NavBar(): ReactElement {
       {/* <!-- Opened Nav in Mobile --> */}
       <div
         id="nav-opened"
-        className="fixed left-0 right-0 hidden bg-white mx-2 mt-16 rounded-br rounded-bl shadow z-10"
+        className={`fixed left-0 right-0 ${
+          isMenuOpen ? " " : "hidden"
+        } md:hidden bg-white mx-2 mt-16 rounded-br rounded-bl shadow z-10`}
       >
         <div className="p-2 divide-y divide-gray-600 flex flex-col">
           <a href="/posts" className="p-2 font-semibold hover:text-indigo-700">

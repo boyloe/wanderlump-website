@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <Fragment>
       <NavBar />
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </Fragment>
   );
 }

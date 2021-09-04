@@ -29,6 +29,13 @@ export default function NavBar(): ReactElement {
         <div className="p-4 hidden md:flex flex-row justify-between font-medium font-josefin-sans">
           <a
             id="hide-after-click"
+            href="/"
+            className="mx-4 text-lg  border-b-2 border-transparent hover:border-b-2 hover:border-indigo-300 transition duration-500"
+          >
+            home
+          </a>
+          <a
+            id="hide-after-click"
             href="/posts"
             className="mx-4 text-lg  border-b-2 border-transparent hover:border-b-2 hover:border-indigo-300 transition duration-500"
           >
@@ -41,7 +48,7 @@ export default function NavBar(): ReactElement {
             about
           </a>
           <a
-            href="#showcase"
+            href="/gear"
             className="mx-4 text-lg border-b-2 border-transparent hover:border-b-2 hover:border-indigo-300 transition duration-500"
           >
             wanderlump gear
@@ -77,6 +84,9 @@ export default function NavBar(): ReactElement {
         } md:hidden bg-white mx-2 mt-16 rounded-br rounded-bl shadow z-10`}
       >
         <div className="p-2 divide-y divide-gray-600 flex flex-col">
+          <a href="/" className="p-2 font-semibold hover:text-indigo-700">
+            home
+          </a>
           <a href="/posts" className="p-2 font-semibold hover:text-indigo-700">
             our travels
           </a>

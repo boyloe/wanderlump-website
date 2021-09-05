@@ -2,7 +2,7 @@ import React, { ReactElement } from "react";
 
 export default function gear(): ReactElement {
   return (
-    <div className="flex items-center justify-center h-screen bg-gray-200">
+    <div className="flex items-center justify-center h-screen bg-gray-200 font-josefin-sans">
       <div className="container">
         <div className="bg-white rounded-lg shadow-lg p-5 md:p-20 mx-2">
           <div className="text-center">
@@ -10,13 +10,13 @@ export default function gear(): ReactElement {
               wanderlump gear
             </h2>
             <h3 className="text-xl md:text-4xl mt-10">Coming Soon...</h3>
-            <p className="text-md md:text-3xl mt-10 mb-4">
+            <p className="text-xl md:text-xl mt-10 mb-4">
               Lumpy is working her peepaws to the bone to bring you wanderlump
               merchandise.
             </p>
             <a
               href="/posts"
-              className="text-3xl underline text-blue-700 hover:text-blue-800"
+              className="text-xl underline text-blue-700 hover:text-blue-800"
             >
               Check out her travels while you wait.
             </a>

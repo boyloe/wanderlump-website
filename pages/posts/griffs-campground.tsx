@@ -11,7 +11,7 @@ export default function griffsCampground(): ReactElement {
         <img
           src="/images/posts/griffs-campground/griffs-cropped.JPG"
           alt=""
-          className=""
+          className="border-4 border-gray-900 shadow-2xl"
         />
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
           After picking up the trailer and getting an incredibly thorough walk
@@ -47,8 +47,9 @@ export default function griffsCampground(): ReactElement {
         <img
           src="/images/posts/griffs-campground/truck-trailer.JPG"
           alt="Bryan getting the trailer disconnected"
+          className="border-4 border-gray-900 shadow-2xl"
         />
-        <h2 className="mt-10 mb-4 md:mt-0 md:mb-0 text-2xl font-lato font-black text-center">
+        <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center">
           Introductions
         </h2>
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
@@ -62,8 +63,9 @@ export default function griffsCampground(): ReactElement {
         <img
           src="/images/posts/griffs-campground/lumpy-catalina.JPG"
           alt="Lumpy and Catalina asleep on the bed"
+          className="border-4 border-gray-900 shadow-2xl"
         />
-        <h2 className="mt-10 mb-4 md:mt-0 md:mb-0 text-2xl font-lato font-black text-center">
+        <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center">
           All work and no play?
         </h2>
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
@@ -80,6 +82,7 @@ export default function griffsCampground(): ReactElement {
         <img
           src="/images/posts/griffs-campground/shelly-cowboy.JPG"
           alt="Shelly pretending to be a cowgirl"
+          className="border-4 border-gray-900 shadow-2xl mb-8"
         />
       </article>
     </div>

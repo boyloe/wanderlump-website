@@ -5,8 +5,8 @@ export default function griffsCampground(): ReactElement {
     <div className="mx-auto max-w-3xl p-4 md:p-0">
       <title>Griff&apos;s RV Park and Campground</title>
       <article>
-        <h1 className="text-5xl mb-4 font-lato font-semibold tracking-wide">
-          Griff&apos;s Valley View RV Park and Campground
+        <h1 className="text-3xl mb-4 font-lato font-semibold tracking-wide text-center">
+          Griff&apos;s Valley View RV Park &amp; Campground
         </h1>
         <img
           src="/images/posts/griffs-campground/griffs-cropped.JPG"

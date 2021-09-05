@@ -6,14 +6,16 @@ export default function CardContainer(): ReactElement {
   return (
     <div className="pt-20 flex flex-col sm:flex-row items-center md:justify-evenly w-full">
       <Card
-        cardImageUrl="/images/sold_front.jpeg"
-        cardTitle="Our New Home"
+        imageUrl="/images/sold_front.jpeg"
+        title="Our New Home"
+        location="Westminster, CO"
         href="/posts/our-new-home"
         date="April 20, 2021"
       />
       <Card
-        cardImageUrl="/images/posts/griffs-campground/griffs-sign.JPG"
-        cardTitle="Griff's RV Park"
+        imageUrl="/images/posts/griffs-campground/griffs-sign.JPG"
+        title="Griff's RV Park"
+        location="Altoona, IA"
         href="/posts/griffs-campground"
         date="April 24, 2021"
       />

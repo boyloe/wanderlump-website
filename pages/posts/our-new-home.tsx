@@ -5,10 +5,13 @@ export default function ourNewHome(): ReactElement {
     <div className="mx-auto max-w-2xl p-4 md:p-0">
       <title>Our New Home</title>
       <article>
-        <h1 className="text-5xl mb-4 font-lato font-extrabold">Our New Home</h1>
+        <h1 className="text-5xl mb-4 font-lato font-black tracking-wide text-center">
+          Our New Home
+        </h1>
         <img
           src="/images/posts/our-new-home/griffs-bryan-shelly.jpeg"
           alt="Bryan and Shelly in their new trailer"
+          className="border-4 border-gray-900 shadow-2xl"
         />
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
           We are excited to share our next adventure! We both work remotely now,
@@ -18,7 +21,7 @@ export default function ourNewHome(): ReactElement {
           first into researching how to make this happen before our lease was up
           in mid-April.
         </p>
-        <h2 className="text-3xl font-lato font-extrabold ">
+        <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
           Step 1: The Essentials
         </h2>
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
@@ -54,7 +57,7 @@ export default function ourNewHome(): ReactElement {
           like to think that he was proud of us for learning from his
           experiences.
         </p>
-        <h2 className="mb-4 text-3xl font-lato font-extrabold ">
+        <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
           Step 2: What vehicle is the best for towing a travel trailer?
         </h2>
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
@@ -70,6 +73,7 @@ export default function ourNewHome(): ReactElement {
         <img
           src="/images/posts/our-new-home/shelly-crying.JPG"
           alt="Shelly saying her goodbyes to the Jetta"
+          className="border-4 border-gray-900 shadow-2xl"
         />
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
           {" "}
@@ -86,9 +90,9 @@ export default function ourNewHome(): ReactElement {
         <img
           src="/images/posts/our-new-home/new-truck.JPG"
           alt="Our new Ford F-150 EcoBoost"
-          className="my-2"
+          className="border-4 border-gray-900 shadow-2xl"
         />
-        <h2 className="my-4 text-3xl font-lato font-extrabold ">
+        <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
           Step 3: Buy a travel trailer
         </h2>
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
@@ -107,14 +111,14 @@ export default function ourNewHome(): ReactElement {
           months to do a proper inspection on it before it would be ready for
           pick up. We were out in Denver, so we took a chance that everything
           would be good to go by April and they were incredible about
-          communicating with us via email over the next two months{" "}
+          communicating with us via email over the next two months.{" "}
         </p>
         <img
           src="/images/posts/our-new-home/trailer-sold.JPG"
           alt="Our new Forest River 22RBS travel trailer"
-          className="my-2"
+          className="my-2 border-4 border-gray-900 shadow-2xl"
         />
-        <h2 className="my-4 text-3xl font-lato font-extrabold ">
+        <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
           Step 4: Where are we going to put everything???
         </h2>
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
@@ -128,9 +132,9 @@ export default function ourNewHome(): ReactElement {
         <img
           src="/images/posts/our-new-home/messy-living-room.JPG"
           alt="Trying to declutter our messy living room"
-          className="my-2"
+          className="my-2 border-4 border-gray-900 shadow-2xl"
         />
-        <p className="my-4 font-lato text-xl tracking-wide text-justify">
+        <p className="my-8 font-lato text-xl tracking-wide text-justify">
           {" "}
           Let’s just say I’m a huge fan of Marie Kondo, so we had no trouble
           thanking our things for the joy they brought us and then selling them
@@ -141,9 +145,9 @@ export default function ourNewHome(): ReactElement {
         <img
           src="/images/posts/our-new-home/snow-moving.JPG"
           alt="Snow covered truck with furniture in the back"
-          className="my-2"
+          className="my-2 border-4 border-gray-900 shadow-2xl"
         />
-        <h2 className="my-4 text-3xl font-lato font-extrabold ">
+        <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
           Step 5: Sit our two cats down to ask them if they were ok with all of
           this
         </h2>
@@ -157,14 +161,14 @@ export default function ourNewHome(): ReactElement {
         <img
           src="/images/posts/our-new-home/lumpy-sleeping.JPG"
           alt="Lumpy Space Princess asleep on the new comforter"
-          className="my-2"
+          className="my-8 border-4 border-gray-900 shadow-2xl"
         />
         <img
           src="/images/posts/our-new-home/catalina-comforter.JPG"
           alt="Catalina Wine Mixer licking her lips on the new comforter"
-          className="my-2"
+          className="my-4 border-4 border-gray-900 shadow-2xl"
         />
-        <h2 className="my-4 text-3xl font-lato font-extrabold ">
+        <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
           Step 6: Get inspired!
         </h2>
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
@@ -176,7 +180,7 @@ export default function ourNewHome(): ReactElement {
           ideas were invaluable and had us counting down the hours until move
           out day.
         </p>
-        <h2 className="my-4 text-3xl font-lato font-extrabold ">
+        <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
           Step 7: Drive to Indianola to get our new home
         </h2>
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
@@ -188,7 +192,7 @@ export default function ourNewHome(): ReactElement {
         <img
           src="/images/posts/our-new-home/shelly-lumpy.JPG"
           alt="Shelly with Lumpy in the truck on our way to pick up the trailer"
-          className="my-4"
+          className="my-4 border-4 border-gray-900 shadow-2xl"
         />
       </article>
     </div>

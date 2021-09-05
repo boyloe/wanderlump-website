@@ -10,6 +10,7 @@ export default function CardContainer(): ReactElement {
         title="Our New Home"
         location="Westminster, CO"
         href="/posts/our-new-home"
+        alt="travel trailer"
         date="April 20, 2021"
       />
       <Card
@@ -17,6 +18,7 @@ export default function CardContainer(): ReactElement {
         title="Griff's RV Park"
         location="Altoona, IA"
         href="/posts/griffs-campground"
+        alt="Bryan at the Griff's Campground entrance"
         date="April 24, 2021"
       />
     </div>

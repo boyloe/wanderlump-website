@@ -21,6 +21,14 @@ export default function CardContainer(): ReactElement {
         alt="Bryan at the Griff's Campground entrance"
         date="April 24, 2021"
       />
+      <Card
+        imageUrl="/images/posts/round-lake/something"
+        title="Round Lake Vineyards and Winery"
+        location="Round Lake, MN"
+        href="/posts/round-lake"
+        alt=""
+        date="April 25, 2021"
+      />
     </div>
   );
 }

@@ -3,7 +3,7 @@ import React, { ReactElement } from "react";
 interface CardProps {
   imageUrl?: string;
   title?: string;
-  location: string;
+  location?: string;
   date?: string;
   href: string;
   alt: string;

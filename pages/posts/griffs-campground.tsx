@@ -10,7 +10,7 @@ export default function griffsCampground(): ReactElement {
         </h1>
         <img
           src="/images/posts/griffs-campground/griffs-cropped.JPG"
-          alt=""
+          alt="Bryan standing in front of the Griff's sign"
           className="border-4 border-gray-900 shadow-2xl"
         />
         <p className="my-4 font-lato text-xl tracking-wide text-justify">

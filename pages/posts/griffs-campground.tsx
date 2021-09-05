@@ -5,7 +5,7 @@ export default function griffsCampground(): ReactElement {
     <div className="mx-auto max-w-3xl p-4 md:p-0">
       <title>Griff&apos;s RV Park and Campground</title>
       <article>
-        <h1 className="text-3xl mb-4 font-lato font-semibold tracking-wide text-center">
+        <h1 className="text-3xl mb-4 font-lato font-black tracking-wide text-center">
           Griff&apos;s Valley View RV Park &amp; Campground
         </h1>
         <img
@@ -24,8 +24,8 @@ export default function griffsCampground(): ReactElement {
           all concrete, perfectly level pads with lush green grass all around.
           We were lucky to even get a spot, because most of the park was full.
         </p>
-        <h2 className="my-4 text-3xl font-lato font-black">
-          You’re welcome to our neighbors who got a pretty good show
+        <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
+          Not bad for our first time...
         </h2>
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
           For it being Bryan’s first time backing up our new trailer, he was a
@@ -48,7 +48,9 @@ export default function griffsCampground(): ReactElement {
           src="/images/posts/griffs-campground/truck-trailer.JPG"
           alt="Bryan getting the trailer disconnected"
         />
-        <h2 className="mt-4 text-3xl font-lato font-black">Introductions</h2>
+        <h2 className="mt-10 mb-4 md:mt-0 md:mb-0 text-2xl font-lato font-black text-center">
+          Introductions
+        </h2>
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
           Now that we were fully set up, it was time for the most crucial step –
           introducing the cats to their new home. What if they hated it? What if
@@ -61,7 +63,7 @@ export default function griffsCampground(): ReactElement {
           src="/images/posts/griffs-campground/lumpy-catalina.JPG"
           alt="Lumpy and Catalina asleep on the bed"
         />
-        <h2 className="mt-4 text-3xl font-lato font-black">
+        <h2 className="mt-10 mb-4 md:mt-0 md:mb-0 text-2xl font-lato font-black text-center">
           All work and no play?
         </h2>
         <p className="my-4 font-lato text-xl tracking-wide text-justify">

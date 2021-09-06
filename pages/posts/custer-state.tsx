@@ -2,8 +2,8 @@ import React, { ReactElement } from "react";
 
 export default function custerState(): ReactElement {
   return (
-    <div>
-      <title>Griff&apos;s RV Park and Campground</title>
+    <div className="mx-auto max-w-3xl p-4 md:p-0">
+      <title>Black Hills, South Dakota</title>
       <article>
         <h1 className="text-3xl mb-4 font-lato font-black tracking-wide text-center">
           Custer State Park - Black Hills, SD

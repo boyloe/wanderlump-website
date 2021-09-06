@@ -36,10 +36,10 @@ export default function Subscribe(): ReactElement {
               message
             ) : (
               <div className="text-center text-black my-auto mx-4">
-                <h1 className="font-lato font-bold text-3xl">
+                <h1 className="font-bold font-lato text-3xl tracking-wider">
                   WANT MORE WANDERLUMP?
                 </h1>
-                <h2 className="font-lato text-xl">
+                <h2 className="font-lato text-xl tracking-wide">
                   Join our mailing list to stay up to date with Lumpy&apos;s
                   adventures.
                 </h2>
@@ -50,7 +50,7 @@ export default function Subscribe(): ReactElement {
                 <input
                   type="email"
                   placeholder="Enter your email to join our mailing list"
-                  className="w-full rounded-tl-full rounded-bl-full py-2 px-4"
+                  className="w-full rounded-tl-full rounded-bl-full py-2 px-4 border-2"
                   ref={inputElement}
                 />
                 <button className="bg-yellow-400 rounded-tr-full rounded-br-full hover:bg-red-300 py-2 px-4">

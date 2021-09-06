@@ -18,10 +18,9 @@ export default function Index(): ReactElement {
             className="w-auto md:w-1/3 md:rounded-2xl"
           />
           <p className="w-screen md:w-1/3 md:text-2xl px-6 pt-12 font-josefin-sans">
-            Welcome to wanderlump! We are Bryan and Dr. Shelly Oyloe. In April
-            of 2021 we decided to take our lives, our jobs, and our two cats on
-            the road and become full-time travelers. Thanks for joining us on
-            our adventure.
+            Welcome to wanderlump! We are Bryan and Shelly and we are excited to
+            share our adventure with you. We decided to take our lives, our
+            jobs, and our two cats on the road and become full-time travelers.
           </p>
         </div>
       </div>

@@ -9,8 +9,8 @@ export default function custerState(): ReactElement {
           Custer State Park - Black Hills, SD
         </h1>
         <img
-          src="/images/posts/custer-state"
-          alt=""
+          src="/images/posts/custer-state/sylvan-lake-wide.JPG"
+          alt="Sylvan Lake"
           className="border-4 border-gray-900 shadow-2xl"
         />
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
@@ -22,15 +22,17 @@ export default function custerState(): ReactElement {
           Blue Bell Campground in Custer State Park
         </h2>
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
-          week early, so we lucked out. This campground has electric hook ups
-          and there was potable water in the campground and a very well
-          maintained restroom. Each site has a fire ring, which we used every
-          night. S&apos;mores taste incredible after a full day of working and
-          hiking. The campground store opened the day before we left and you
-          could purchase firewood, groceries, and souvenirs.
+          Normally Custer State Park doesn&apos;t open until May, but they
+          opened Blue Bell Campground a week early, so we lucked out. This
+          campground has electric hook ups and there was potable water in the
+          campground and a very well maintained restroom. Each site has a fire
+          ring, which we used every night. S&apos;mores taste incredible after a
+          full day of working and hiking. The campground store opened the day
+          before we left and you could purchase firewood, groceries, and
+          souvenirs.
         </p>
         <img
-          src="/images/posts/custer-state"
+          src="/images/posts/custer-state/smores.JPG"
           alt=""
           className="border-4 border-gray-900 shadow-2xl"
         />
@@ -49,7 +51,7 @@ export default function custerState(): ReactElement {
           deer, white-tailed deer, and pronghorns.
         </p>
         <img
-          src="/images/posts/custer-state"
+          src="/images/posts/custer-state/mom-baby.JPG"
           alt=""
           className="border-4 border-gray-900 shadow-2xl"
         />
@@ -63,10 +65,10 @@ export default function custerState(): ReactElement {
           traveled through multiple different worlds on this short loop. We were
           treated to a dam, huge rocks you could climb, a partially frozen lake,
           and the remains of a snowman. You might recognize it from the movie
-          National Treasure: Book of Secrets.
+          <span className="italic"> National Treasure: Book of Secrets.</span>
         </p>
         <img
-          src="/images/posts/custer-state"
+          src="/images/posts/custer-state/sylvan-lake-rock.JPG"
           alt=""
           className="border-4 border-gray-900 shadow-2xl"
         />
@@ -87,35 +89,55 @@ export default function custerState(): ReactElement {
           ourselves for reaching the trail summit, which has an old stone fire
           lookout tower and offers 360 degree views.
         </p>
-        <img
-          src="/images/posts/custer-state"
-          alt=""
-          className="border-4 border-gray-900 shadow-2xl"
-        />
+        <div className="grid grid-cols-2">
+          <img
+            src="/images/posts/custer-state/bryan-shelly-black-elk.JPG"
+            alt="Bryan and Shelly on top of Black Elk Peak"
+            className="border-l-4 border-t-4 border-r-4 border-b-2 border-gray-900 shadow-2xl col-span-2"
+          />
+          <img
+            src="/images/posts/custer-state/black-elk-snow-rock.JPG"
+            alt="Snowy rock on Black Elk Peak"
+            className="border-l-4 border-t-2 border-r-2 border-b-4 border-gray-900 shadow-2xl"
+          />
+          <img
+            src="/images/posts/custer-state/black-elk-wide.JPG"
+            alt="Black Elk Peak panoramic"
+            className="border-l-2 border-t-2 border-r-4 border-b-4 border-gray-900 shadow-2xl"
+          />
+        </div>
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
-          have been removed to stop the beetle life cycle and many trees have
-          died. We later learned that Custer State Park is very strict about not
-          bringing firewood into the park from other states in an effort to
-          prevent any other invasive species entering the park.
+          At the bottom of the trail we learned about the mountain pine beetle
+          infestation. Many trees have been removed to stop the beetle life
+          cycle and many trees have died. We later learned that Custer State
+          Park is very strict about not bringing firewood into the park from
+          other states in an effort to prevent any other invasive species
+          entering the park.
         </p>
         <img
-          src="/images/posts/custer-state"
+          src="/images/posts/custer-state/pine-beetle.JPG"
           alt=""
           className="border-4 border-gray-900 shadow-2xl"
         />
         <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
           Mount Rushmore National Memorial
         </h2>
+        <img
+          src="/images/posts/custer-state/rushmore-walkway.JPG"
+          alt=""
+          className="my-4 border-4 border-gray-900 shadow-2xl"
+        />
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
-          have been removed to stop the beetle life cycle and many trees have
-          died. We later learned that Custer State Park is very strict about not
-          bringing firewood into the park from other states in an effort to
-          prevent any other invasive species entering the park.
+          We visited Mount Rushmore right as the sun was setting, so we could
+          see it in the sunlight and in the dark. It is an incredible sight to
+          see in the day and at night. The cell service is great, so we
+          FaceTimed with my parents to share this experience with them. Maybe
+          one day they will figure out the camera.
         </p>
         <img
-          src="/images/posts/custer-state"
+          src="/images/posts/custer-state/rushmore-facetime.PNG"
           alt=""
-          className="border-4 border-gray-900 shadow-2xl"
+          className="border-4 border-gray-900 shadow-2xl mt-8 mb-12"
         />
       </article>
     </div>

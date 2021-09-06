@@ -30,6 +30,14 @@ export default function CardContainer(): ReactElement {
         date="April 25, 2021"
       />
       <Card
+        imageUrl="/images/posts/sioux-falls/lower-falls.JPG"
+        title="Sioux Falls"
+        location="Sioux Falls, SD"
+        href="/posts/sioux-falls"
+        alt="Lower Sioux Falls"
+        date="April 26, 2021"
+      />
+      <Card
         imageUrl="/images/posts/custer-state/rushmore-walkway.JPG"
         title="Custer State Park"
         location="Black Hills, SD"

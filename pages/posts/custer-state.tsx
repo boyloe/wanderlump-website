@@ -73,7 +73,7 @@ export default function custerState(): ReactElement {
           className="border-4 border-gray-900 shadow-2xl"
         />
         <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
-          Black Elk Peak
+          Black Elk Peak in Custer State Park
         </h2>
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
           This hike was as breathtaking as Sylvan Lake, but much longer and much
@@ -116,7 +116,7 @@ export default function custerState(): ReactElement {
         </p>
         <img
           src="/images/posts/custer-state/pine-beetle.JPG"
-          alt=""
+          alt="Warning about the dangers of Pine Beetles"
           className="border-4 border-gray-900 shadow-2xl"
         />
         <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
@@ -124,7 +124,7 @@ export default function custerState(): ReactElement {
         </h2>
         <img
           src="/images/posts/custer-state/rushmore-walkway.JPG"
-          alt=""
+          alt="Approach to Mt. Rushmore"
           className="my-4 border-4 border-gray-900 shadow-2xl"
         />
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
@@ -136,9 +136,37 @@ export default function custerState(): ReactElement {
         </p>
         <img
           src="/images/posts/custer-state/rushmore-facetime.PNG"
-          alt=""
+          alt="Papa Joe and Mama Waz figure out FaceTime"
           className="border-4 border-gray-900 shadow-2xl mt-8 mb-12"
         />
+        <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
+          That&apos;s all fun and games, but are we actually working?
+        </h2>
+        <p className="my-4 font-lato text-xl tracking-wide text-justify">
+          Yes! We&apos;ve got to work to pay those bills and student debt! We
+          use <a href="https://www.campendium.com">Campendium</a> to help us
+          find sites with good cell signal, since we use our phones as a hot
+          spot. Blue Bell Campground had a good signal, but there were some
+          sites in the park with an even better signal and an incredible view.
+          Custer State Park also has sheep with cell bossters on their necks to
+          help increase the signal all over the park...
+        </p>
+        <div className="grid grid-cols-2">
+          <img
+            src="/images/posts/custer-state/bryan-working.jpg"
+            alt="Papa Joe and Mama Waz figure out FaceTime"
+            className="border-l-4 border-t-4 border-r-2 border-b-4 border-gray-900 shadow-2xl mt-8 mb-12"
+          />
+          <img
+            src="/images/posts/custer-state/bryan-working.jpg"
+            alt="Papa Joe and Mama Waz figure out FaceTime"
+            className="border-l-2 border-t-4 border-r-4 border-b-4 border-gray-900 shadow-2xl mt-8 mb-12"
+          />
+        </div>
+        <p className="my-4 font-lato text-xl tracking-wide text-justify">
+          JK! That is a tracking device, but you probably thought about that for
+          a second.{" "}
+        </p>
       </article>
     </div>
   );

@@ -82,7 +82,7 @@ export default function roundLake(): ReactElement {
         <img
           src="/images/posts/round-lake/bryan-shelly.JPG"
           alt="Bryan and Shelly standing by Round Lake"
-          className="border-4 border-gray-900 shadow-2xl mb-14"
+          className="border-4 border-gray-900 shadow-2xl mb-32 md:mb-14"
         />
       </article>
     </div>

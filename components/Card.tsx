@@ -18,7 +18,7 @@ export default function card({
   date,
 }: CardProps): ReactElement {
   return (
-    <div className=" bg-white mx-2 shadow-lg rounded-lg hover:shadow-xl transition duration-200 border-2 border-black max-w-md my-4 font-lato">
+    <div className=" bg-white mx-2 shadow-lg rounded-lg hover:shadow-xl transition duration-200 border-2 border-black max-w-xs my-4 font-lato">
       <a href={href}>
         <img className="rounded-t-lg " src={imageUrl} alt={alt} />
       </a>

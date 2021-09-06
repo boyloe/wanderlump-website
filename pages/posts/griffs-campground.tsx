@@ -5,13 +5,13 @@ export default function griffsCampground(): ReactElement {
     <div className="mx-auto max-w-3xl p-4 md:p-0">
       <title>Griff&apos;s RV Park and Campground</title>
       <article>
-        <h1 className="text-5xl mb-4 font-lato font-semibold tracking-wide">
-          Griff&apos;s Valley View RV Park and Campground
+        <h1 className="text-3xl mb-4 font-lato font-black tracking-wide text-center">
+          Griff&apos;s Valley View RV Park &amp; Campground
         </h1>
         <img
           src="/images/posts/griffs-campground/griffs-cropped.JPG"
-          alt=""
-          className=""
+          alt="Bryan standing in front of the Griff's sign"
+          className="border-4 border-gray-900 shadow-2xl"
         />
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
           After picking up the trailer and getting an incredibly thorough walk
@@ -24,8 +24,8 @@ export default function griffsCampground(): ReactElement {
           all concrete, perfectly level pads with lush green grass all around.
           We were lucky to even get a spot, because most of the park was full.
         </p>
-        <h2 className="my-4 text-3xl font-lato font-black">
-          You’re welcome to our neighbors who got a pretty good show
+        <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
+          Not bad for our first time...
         </h2>
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
           For it being Bryan’s first time backing up our new trailer, he was a
@@ -47,8 +47,11 @@ export default function griffsCampground(): ReactElement {
         <img
           src="/images/posts/griffs-campground/truck-trailer.JPG"
           alt="Bryan getting the trailer disconnected"
+          className="border-4 border-gray-900 shadow-2xl"
         />
-        <h2 className="mt-4 text-3xl font-lato font-black">Introductions</h2>
+        <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center">
+          Introductions
+        </h2>
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
           Now that we were fully set up, it was time for the most crucial step –
           introducing the cats to their new home. What if they hated it? What if
@@ -60,8 +63,9 @@ export default function griffsCampground(): ReactElement {
         <img
           src="/images/posts/griffs-campground/lumpy-catalina.JPG"
           alt="Lumpy and Catalina asleep on the bed"
+          className="border-4 border-gray-900 shadow-2xl"
         />
-        <h2 className="mt-4 text-3xl font-lato font-black">
+        <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center">
           All work and no play?
         </h2>
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
@@ -78,6 +82,7 @@ export default function griffsCampground(): ReactElement {
         <img
           src="/images/posts/griffs-campground/shelly-cowboy.JPG"
           alt="Shelly pretending to be a cowgirl"
+          className="border-4 border-gray-900 shadow-2xl mb-8"
         />
       </article>
     </div>

@@ -43,7 +43,7 @@ export default function posts(): ReactElement {
           location="Black Hills, SD"
           href="/posts/custer-state"
           backgroundSrc="/images/posts/custer-state/black-elk-snow-rock.JPG"
-          preview="Baby bison and wifi goats, who could ask for more..."
+          preview="Baby bison and wifi sheep, who could ask for more..."
         />
       </div>
     </section>

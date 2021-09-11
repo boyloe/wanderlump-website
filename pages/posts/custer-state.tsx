@@ -1,4 +1,5 @@
 import React, { ReactElement } from "react";
+import Image from "next/image";
 
 export default function custerState(): ReactElement {
   return (
@@ -148,20 +149,28 @@ export default function custerState(): ReactElement {
           find sites with good cell signal, since we use our phones as a hot
           spot. Blue Bell Campground had a good signal, but there were some
           sites in the park with an even better signal and an incredible view.
-          Custer State Park also has sheep with cell bossters on their necks to
+          Custer State Park also has sheep with cell boosters on their necks to
           help increase the signal all over the park...
         </p>
         <div className="grid grid-cols-2">
-          <img
-            src="/images/posts/custer-state/bryan-working.jpg"
-            alt="Papa Joe and Mama Waz figure out FaceTime"
-            className="border-l-4 border-t-4 border-r-2 border-b-4 border-gray-900 shadow-2xl mt-8 mb-12"
-          />
-          <img
-            src="/images/posts/custer-state/bryan-working.jpg"
-            alt="Papa Joe and Mama Waz figure out FaceTime"
-            className="border-l-2 border-t-4 border-r-4 border-b-4 border-gray-900 shadow-2xl mt-8 mb-12"
-          />
+          <div className="border-l-4 border-t-4 border-r-2 border-b-4 border-gray-900 shadow-2xl mt-8 mb-12">
+            <Image
+              src="/images/posts/custer-state/bryan-working.jpg"
+              alt="Bryan hard at work in the woods"
+              layout="responsive"
+              height={420}
+              width={400}
+            />
+          </div>
+          <div className="border-l-2 border-t-4 border-r-4 border-b-4 border-gray-900 shadow-2xl mt-8 mb-12">
+            <Image
+              src="/images/posts/custer-state/satellite-goat.png"
+              alt="Big horn sheep with a tracking device around its' neck"
+              layout="responsive"
+              height={420}
+              width={400}
+            />
+          </div>
         </div>
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
           JK! That is a tracking device, but you probably thought about that for

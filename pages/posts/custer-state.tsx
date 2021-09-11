@@ -68,11 +68,23 @@ export default function custerState(): ReactElement {
           and the remains of a snowman. You might recognize it from the movie
           <span className="italic"> National Treasure: Book of Secrets.</span>
         </p>
-        <img
-          src="/images/posts/custer-state/sylvan-lake-rock.JPG"
-          alt=""
-          className="border-4 border-gray-900 shadow-2xl"
-        />
+        <div className="grid grid-cols-2">
+          <img
+            src="/images/posts/custer-state/sylvan-lake-rock.JPG"
+            alt="Giant gray rock in Sylvan Lake"
+            className="border-l-4 border-t-4 border-r-4 border-b-2 border-gray-900 shadow-2xl col-span-2"
+          />
+          <img
+            src="/images/posts/custer-state/snowman.JPG"
+            alt="Melting snowman at Sylvan Lake"
+            className="border-l-4 border-t-2 border-r-2 border-b-4 border-gray-900 shadow-2xl"
+          />
+          <img
+            src="/images/posts/custer-state/dock.JPG"
+            alt="Wooden dock frozen in the ice at Sylvan Lake"
+            className="border-l-2 border-t-2 border-r-4 border-b-4 border-gray-900 shadow-2xl"
+          />
+        </div>
         <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
           Black Elk Peak in Custer State Park
         </h2>
@@ -130,10 +142,9 @@ export default function custerState(): ReactElement {
         />
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
           We visited Mount Rushmore right as the sun was setting, so we could
-          see it in the sunlight and in the dark. It is an incredible sight to
-          see in the day and at night. The cell service is great, so we
-          FaceTimed with my parents to share this experience with them. Maybe
-          one day they will figure out the camera.
+          see it in the sunlight and lit up at night. The cell service is great,
+          so we FaceTimed with my parents to share this experience with them.
+          Maybe one day they will figure out the camera.
         </p>
         <img
           src="/images/posts/custer-state/rushmore-facetime.PNG"

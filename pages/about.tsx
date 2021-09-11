@@ -69,7 +69,7 @@ export default function about(): ReactElement {
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row md:py-24 mt-8">
+        <div className="flex flex-col md:flex-row py-12 md:py-0">
           <div className="flex flex-col justify-evenly items-center md:flex-row ">
             <div className="p-4 m-4 bg-gray-900 inset-10 shadow-2xl">
               <Image
@@ -79,7 +79,7 @@ export default function about(): ReactElement {
                 width={400}
               />
             </div>
-            <p className="px-4 py-12 md:px-6 md:w-1/2 text-lg md:text-2xl text-justify font-lato">
+            <p className="px-4 py-12 md:py-0 md:px-6 md:w-1/2 text-lg md:text-2xl text-justify font-lato">
               <span className="font-semibold">Lumpy Space Princess</span> is a
               six year old Siamese Munchkin and she is named after the lovable,
               overly dramatic purple blob on{" "}

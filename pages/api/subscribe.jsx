@@ -7,6 +7,7 @@ mailchimp.setConfig({
 
 export default async (req, res) => {
   const { email } = req.body;
+  console.log(req);
   console.log(process.env.MAILCHIMP_AUDIENCE_ID);
   console.log(email);
   console.log(process.env);

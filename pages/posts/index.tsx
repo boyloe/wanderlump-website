@@ -1,5 +1,4 @@
 import React, { ReactElement } from "react";
-import CardContainer from "../../components/CardContainer";
 import HorizontalCard from "../../components/HorizontalCard";
 
 export default function posts(): ReactElement {
@@ -9,7 +8,7 @@ export default function posts(): ReactElement {
         <HorizontalCard
           title="Our New Home"
           date="April 21, 2021"
-          location="Indianoloa, IA"
+          location="Indianola, IA"
           href="/posts/our-new-home"
           backgroundSrc="/images/posts/our-new-home/sold_front_thumb.JPG"
           preview="We are excited to share our next adventure!"

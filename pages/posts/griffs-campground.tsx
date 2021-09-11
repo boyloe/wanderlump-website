@@ -1,4 +1,5 @@
 import React, { ReactElement } from "react";
+import PrevNext from "../../components/PrevNext";
 
 export default function griffsCampground(): ReactElement {
   return (
@@ -85,6 +86,10 @@ export default function griffsCampground(): ReactElement {
           className="border-4 border-gray-900 shadow-2xl mb-8"
         />
       </article>
+      <PrevNext
+        previousPostHref="/posts/our-new-home"
+        nextPostHref="/posts/round-lake"
+      />
     </div>
   );
 }

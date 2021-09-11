@@ -1,5 +1,6 @@
 import React, { ReactElement } from "react";
 import Image from "next/image";
+import PrevNext from "../../components/PrevNext";
 
 export default function custerState(): ReactElement {
   return (
@@ -29,8 +30,7 @@ export default function custerState(): ReactElement {
           campground and a very well maintained restroom. Each site has a fire
           ring, which we used every night. S&apos;mores taste incredible after a
           full day of working and hiking. The campground store opened the day
-          before we left and you could purchase firewood, groceries, and
-          souvenirs.
+          before we left, just in time so we could purchase souvenirs.
         </p>
         <img
           src="/images/posts/custer-state/smores.JPG"
@@ -177,6 +177,7 @@ export default function custerState(): ReactElement {
           a second.{" "}
         </p>
       </article>
+      <PrevNext previousPostHref="/posts/sioux-falls" nextPostHref="" />
     </div>
   );
 }

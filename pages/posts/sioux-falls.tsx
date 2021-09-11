@@ -1,4 +1,5 @@
 import React, { ReactElement } from "react";
+import PrevNext from "../../components/PrevNext";
 
 export default function siouxFalls(): ReactElement {
   return (
@@ -18,7 +19,7 @@ export default function siouxFalls(): ReactElement {
           to Falls Park in Sioux Falls, SD. It was raining and freezing, but we
           braved the weather long enough to take in all the beauty of these
           falls. The pink and red hues of the Sioux Quartzite with the falls
-          cascading over them are a breathtaking site.
+          cascading over them is a breathtaking sight.
         </p>
         <img
           src="/images/posts/sioux-falls/upper-falls.JPG"
@@ -40,6 +41,10 @@ export default function siouxFalls(): ReactElement {
           className="border-4 border-gray-900 shadow-2xl mb-24 md:mb-12"
         />
       </article>
+      <PrevNext
+        previousPostHref="/posts/round-lake"
+        nextPostHref="/posts/custer-state"
+      />
     </div>
   );
 }

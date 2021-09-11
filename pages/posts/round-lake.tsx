@@ -1,4 +1,5 @@
 import React, { ReactElement } from "react";
+import PrevNext from "../../components/PrevNext";
 
 export default function roundLake(): ReactElement {
   return (
@@ -11,10 +12,22 @@ export default function roundLake(): ReactElement {
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
           We were making our way to South Dakota, so we needed a place to stay
           between Iowa and Sioux Falls, SD. Why not stay at a winery on a lake?{" "}
-          <a href="">Round Lake Vineyards and Winery</a> was in a perfect
-          location and is a <a href="">Harvest Hosts</a> affialiate. Harvest
-          Hosts are all over the country and allow you to park your RV for free
-          for the night and support local at the same time!
+          <a
+            className="underline hover:text-gray-500"
+            href="https://www.roundlakevineyards.com/"
+          >
+            Round Lake Vineyards and Winery
+          </a>{" "}
+          was in a perfect location and is a{" "}
+          <a
+            className="underline hover:text-gray-500"
+            href="https://harvesthosts.com/"
+          >
+            Harvest Hosts
+          </a>{" "}
+          affiliate. Harvest Hosts are all over the country and allow you to
+          park your RV for free for the night and support local at the same
+          time!
         </p>
         <img
           src="/images/posts/round-lake/truck-trailer.JPG"
@@ -85,6 +98,10 @@ export default function roundLake(): ReactElement {
           className="border-4 border-gray-900 shadow-2xl mb-32 md:mb-14"
         />
       </article>
+      <PrevNext
+        previousPostHref="/posts/griffs-campground"
+        nextPostHref="/posts/sioux-falls"
+      />
     </div>
   );
 }

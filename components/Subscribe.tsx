@@ -6,13 +6,15 @@ export default function Subscribe(): ReactElement {
 
   const subscribe = async (e: FormEvent) => {
     e.preventDefault();
-
+    console.log("inputEl", inputElement.current);
     const res = await fetch("/api/subscribe", {
       body: JSON.stringify({
         email: inputElement?.current?.value,
       }),
       headers: {
         "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Credentials": true,
       },
       method: "POST",
     });

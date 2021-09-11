@@ -11,7 +11,7 @@ export default function about(): ReactElement {
             <span className="text-4xl font-josefin-sans">wanderlump</span>
           </h1>
         </div>
-        <div className="flex flex-col md:flex-row justify-evenly items-center">
+        <div className="flex flex-col md:flex-row justify-evenly">
           <div className="p-4 m-4 bg-gray-900 inset-10 shadow-2xl">
             <Image
               src="/images/DH-Bryan-Shelly.jpg"
@@ -42,7 +42,7 @@ export default function about(): ReactElement {
             </p>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row md:py-24">
+        <div className="flex flex-col md:flex-row py-12">
           <div className="flex flex-col-reverse justify-evenly items-center md:flex-row">
             <p className="px-4 py- md:px-6 md:w-1/2  text-lg md:text-2xl text-justify font-lato">
               <span className="font-semibold">Catalina Wine Mixer</span> is
@@ -69,7 +69,7 @@ export default function about(): ReactElement {
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row md:py-24 mt-8">
+        <div className="flex flex-col md:flex-row py-12 md:py-0">
           <div className="flex flex-col justify-evenly items-center md:flex-row ">
             <div className="p-4 m-4 bg-gray-900 inset-10 shadow-2xl">
               <Image
@@ -79,14 +79,14 @@ export default function about(): ReactElement {
                 width={400}
               />
             </div>
-            <p className="px-4 py-12 md:px-6 md:w-1/2 text-lg md:text-2xl text-justify font-lato">
+            <p className="px-4 md:px-6 md:w-1/2 text-lg md:text-2xl text-justify font-lato">
               <span className="font-semibold">Lumpy Space Princess</span> is a
               six year old Siamese Munchkin and she is named after the lovable,
               overly dramatic purple blob on{" "}
               <span className="italic">Adventure Time</span>. Her first few
               months of life were pretty rough. She had a prolapsed rectum that
               was repaired twice and both surgeries failed. Somehow, Shelly
-              volunteered to &quot;foster&quot; this little fluffy cotton ball
+              volunteered to &quot;foster&quot; this fluffy little cotton ball
               that was poo stamping all over the place. She did surgery to
               repair it and apparently, third time&apos;s a charm. Lumpy now has
               the cutest b&#246;rthole this side of the Mississippi and loves

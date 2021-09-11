@@ -32,7 +32,7 @@ export default function Subscribe(): ReactElement {
       <section className="w-full ">
         <div className="container px-4 mx-auto">
           {message ? (
-            <div className="text-3xl  text-center">{message}</div>
+            <div className="text-3xl  text-center my-8">{message}</div>
           ) : (
             <div className="grid grid-cols-1 my-10 lg:grid-cols-2">
               <div className="text-center text-black my-auto mx-4">

@@ -21,30 +21,28 @@ export default function Subscribe(): ReactElement {
 
     if (error) {
       setMessage(error);
+      alert(message);
 
       return;
     }
 
     setMessage("Success! You are now subscribed to wanderlump.");
+    alert(message);
   };
   return (
     <form onSubmit={subscribe} className="">
       <section className="w-full ">
         <div className="container px-4 mx-auto">
           <div className="grid grid-cols-1 my-10 lg:grid-cols-2">
-            {message ? (
-              message
-            ) : (
-              <div className="text-center text-black my-auto mx-4">
-                <h1 className="font-bold font-lato text-3xl tracking-wider">
-                  WANT MORE WANDERLUMP?
-                </h1>
-                <h2 className="font-lato text-xl tracking-wide">
-                  Join our mailing list to stay up to date with Lumpy&apos;s
-                  adventures.
-                </h2>
-              </div>
-            )}
+            <div className="text-center text-black my-auto mx-4">
+              <h1 className="font-bold font-lato text-3xl tracking-wider">
+                WANT MORE WANDERLUMP?
+              </h1>
+              <h2 className="font-lato text-xl tracking-wide">
+                Join our mailing list to stay up to date with Lumpy&apos;s
+                adventures.
+              </h2>
+            </div>
             <div className="py-2 mx-4 lg:py-10">
               <div className="rounded-full bg-white shadow flex w-full">
                 <input

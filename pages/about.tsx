@@ -90,12 +90,12 @@ export default function about(): ReactElement {
               that was poo stamping all over the place. She did surgery to
               repair it and apparently, third time&apos;s a charm. Lumpy now has
               the cutest b&#246;rthole this side of the Mississippi and loves
-              putting it in your face. Lumpy would kill someone for a piece of
-              cheddar, she absolutely loves burying and chasing crinkle balls
-              all over the house, and she protects us from any bug who dares to
-              make their way into our travel trailer. This absolutely
-              ridiculous, genetically challenged cat is the cutest cat in the
-              world and inspired us to build wanderlump!
+              putting it in your face. Lumpy would kill for a piece of cheddar,
+              she absolutely loves burying and chasing crinkle balls all over
+              the house, and she protects us from any bug who dares to make
+              their way into our travel trailer. This absolutely ridiculous,
+              genetically challenged cat is the cutest cat in the world and
+              inspired us to build wanderlump!
             </p>
           </div>
         </div>

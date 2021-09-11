@@ -11,7 +11,7 @@ export default function posts(): ReactElement {
           location="Indianola, IA"
           href="/posts/our-new-home"
           backgroundSrc="/images/posts/our-new-home/sold_front_thumb.jpg"
-          preview="We are excited to share our next adventure!"
+          preview="We are excited to share our next adventure..."
         />
         <HorizontalCard
           title="Griff's Valley View RV Park"
@@ -35,7 +35,7 @@ export default function posts(): ReactElement {
           location="Sioux Falls, SD"
           href="/posts/sioux-falls"
           backgroundSrc="/images/posts/sioux-falls/lower-falls.JPG"
-          preview="All play and no work, time to make this legal..."
+          preview="We discovered why they named the city Sioux Falls..."
         />
         <HorizontalCard
           title="Custer State Park and the Black Hills"
@@ -43,7 +43,7 @@ export default function posts(): ReactElement {
           location="Black Hills, SD"
           href="/posts/custer-state"
           backgroundSrc="/images/posts/custer-state/black-elk-snow-rock.JPG"
-          preview="Baby bison and wifi goats, who could ask for more"
+          preview="Baby bison and wifi goats, who could ask for more..."
         />
       </div>
     </section>

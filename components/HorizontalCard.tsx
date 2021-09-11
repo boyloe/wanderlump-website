@@ -21,8 +21,8 @@ export default function HorizontalCard({
 }: IHorizontalCardProps): ReactElement {
   return (
     <Link href={href}>
-      <div className="flex items-center p-4 bg-white border-2 border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 font-lato">
-        <div className="hidden sm:flex">
+      <div className="flex items-center p-4 bg-white border-2 border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 font-lato cursor-pointer hover:bg-gray-100">
+        <div className="hidden sm:flex border-gray-300 border-2 rounded-lg">
           <Image
             alt={backgroundSrc}
             src={backgroundSrc}

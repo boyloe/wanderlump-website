@@ -39,7 +39,7 @@ export default function HorizontalCard({
           </p>
           <div className="flex flex-col mt-5">
             <p className="text-sm ">{date}</p>
-            <p className="text-sm italic">{location}</p>
+            <p className="text-sm ">{location}</p>
           </div>
         </div>
       </div>

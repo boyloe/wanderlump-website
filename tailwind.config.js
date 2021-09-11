@@ -15,9 +15,16 @@ module.exports = {
         "lumpy-belly": "url('../public/images/Lumpy_Belly.jpg')",
         "lumpy-belly-rotate": "url('../public/images/lumpy_belly_rotate.png')",
         "big-stretch-lumpy": "url('../public/images/big-stretch-lumpy.png')",
-        "sunset-background": "url('../public/images/sunset.png')",
-        "textured-background":
-          "url('../public/images/textured-background.jpg')",
+        "trailer-sold":
+          "url('../public/images/posts/our-new-home/sold-front-cropped.JPG')",
+        "griffs-cropped":
+          "url('../public/images/posts/griffs-campground/griffs-cropped.JPG')",
+        "wine-glass":
+          "url('../public/images/posts/round-lake/wine-glass-cropped.JPG')",
+        "sioux-falls":
+          "url('../public/images/posts/sioux-falls/lower-falls.JPG')",
+        "sylvan-lake":
+          "url('../public/images/posts/custer-state/sylvan-lake-rock.JPG')",
       }),
     },
   },

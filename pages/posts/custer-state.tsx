@@ -80,7 +80,7 @@ export default function custerState(): ReactElement {
             className="border-l-4 border-t-2 border-r-2 border-b-4 border-gray-900 shadow-2xl"
           />
           <img
-            src="/images/posts/custer-state/dock.JPG"
+            src="/images/posts/custer-state/dock.jpg"
             alt="Wooden dock frozen in the ice at Sylvan Lake"
             className="border-l-2 border-t-2 border-r-4 border-b-4 border-gray-900 shadow-2xl"
           />

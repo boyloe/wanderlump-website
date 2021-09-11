@@ -1,4 +1,5 @@
 import React, { ReactElement } from "react";
+import PrevNext from "../../components/PrevNext";
 
 export default function ourNewHome(): ReactElement {
   return (
@@ -195,6 +196,7 @@ export default function ourNewHome(): ReactElement {
           className="my-4 border-4 border-gray-900 shadow-2xl"
         />
       </article>
+      <PrevNext previousPostHref="" nextPostHref="/posts/griffs-campground" />
     </div>
   );
 }

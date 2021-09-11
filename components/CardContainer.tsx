@@ -14,7 +14,7 @@ export default function CardContainer(): ReactElement {
         date="April 20, 2021"
       />
       <Card
-        imageUrl="/images/posts/griffs-campground/griffs-sign.JPG"
+        imageUrl="/images/posts/griffs-campground/griffs-cropped.JPG"
         title="Griff's RV Park"
         location="Altoona, IA"
         href="/posts/griffs-campground"

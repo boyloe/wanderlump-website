@@ -86,7 +86,7 @@ export default function about(): ReactElement {
               <span className="italic">Adventure Time</span>. Her first few
               months of life were pretty rough. She had a prolapsed rectum that
               was repaired twice and both surgeries failed. Somehow, Shelly
-              volunteered to &quot;foster&quot; this little fluffy cotton ball
+              volunteered to &quot;foster&quot; this fluffy little cotton ball
               that was poo stamping all over the place. She did surgery to
               repair it and apparently, third time&apos;s a charm. Lumpy now has
               the cutest b&#246;rthole this side of the Mississippi and loves

@@ -9,7 +9,7 @@ export default function griffsCampground(): ReactElement {
           Griff&apos;s Valley View RV Park &amp; Campground
         </h1>
         <img
-          src="/images/posts/griffs-campground/griffs-cropped.JPG"
+          src="/images/posts/griffs-campground/griffs-cropped.jpg"
           alt="Bryan standing in front of the Griff's sign"
           className="border-4 border-gray-900 shadow-2xl"
         />

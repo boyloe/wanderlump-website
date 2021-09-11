@@ -10,7 +10,7 @@ export default function posts(): ReactElement {
           date="April 21, 2021"
           location="Indianola, IA"
           href="/posts/our-new-home"
-          backgroundSrc="/images/posts/our-new-home/sold_front_thumb.JPG"
+          backgroundSrc="/images/posts/our-new-home/sold_front_thumb.jpg"
           preview="We are excited to share our next adventure!"
         />
         <HorizontalCard

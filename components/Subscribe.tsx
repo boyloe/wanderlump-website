@@ -1,10 +1,10 @@
-import React, { ReactElement, useRef, useState } from "react";
+import React, { FormEvent, ReactElement, useRef, useState } from "react";
 
 export default function Subscribe(): ReactElement {
-  const inputElement: null | any = useRef(null);
+  const inputElement = useRef<HTMLInputElement>(null);
   const [message, setMessage] = useState("");
 
-  const subscribe = async (e: { preventDefault: () => void }) => {
+  const subscribe = async (e: FormEvent) => {
     e.preventDefault();
 
     const res = await fetch("/api/subscribe", {

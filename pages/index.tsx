@@ -17,7 +17,17 @@ export default function Index(): ReactElement {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://wanderlump.com/" />
-        <meta property="og:image" content="/images/deep-thought-lumpy.jpeg" />
+        <meta
+          property="og:image"
+          content="https://wanderlump.com/public/images/deep-thought-lumpy.jpeg"
+        />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="300" />
+        <meta
+          property="og:image:alt"
+          content="Lumpy staring off into the sunset"
+        />
       </Head>
       <Hero />
       <div className="flex flex-col items-center py-12 xl:py-24 lg:mt-48">

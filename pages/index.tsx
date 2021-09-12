@@ -10,6 +10,14 @@ export default function Index(): ReactElement {
     <Fragment>
       <Head>
         <title>wanderlump</title>
+        <meta property="og:title" content="Home" />
+        <meta
+          property="og:description"
+          content="wanderlump - Lumpys irresistable desire to wander the world"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://wanderlump.com/" />
+        <meta property="og:image" content="/images/deep-thought-lumpy.jpeg" />
       </Head>
       <Hero />
       <div className="flex flex-col items-center py-12 xl:py-24 lg:mt-48">

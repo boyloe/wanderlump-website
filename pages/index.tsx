@@ -19,7 +19,7 @@ export default function Index(): ReactElement {
         <meta property="og:url" content="https://wanderlump.com/" />
         <meta
           property="og:image"
-          content="https://wanderlump.com/public/images/deep-thought-lumpy.jpeg"
+          content="https://www.wanderlump.com/images/lumpy_thoughtful_landscape.jpg"
         />
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:width" content="400" />

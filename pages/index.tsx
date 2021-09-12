@@ -13,7 +13,7 @@ export default function Index(): ReactElement {
         <meta property="og:title" content="Home" />
         <meta
           property="og:description"
-          content="wanderlump - Lumpy's irresistable desire to wander the world"
+          content="wanderlump - Lumpy's irresistible desire to wander the world"
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://wanderlump.com/" />

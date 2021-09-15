@@ -45,6 +45,14 @@ export default function posts(): ReactElement {
           backgroundSrc="/images/posts/custer-state/black-elk-snow-rock.JPG"
           preview="Baby bison and wifi sheep, who could ask for more..."
         />
+        <HorizontalCard
+          title="Wall Drug"
+          date="May 3, 2021"
+          location="Wall, SD"
+          href="/posts/wall-sd"
+          backgroundSrc="/images/posts/wall-sd/shelly-rabbit.JPG"
+          preview="Ride a jackalope and see a T-Rex in South Dakota..."
+        />
       </div>
     </section>
   );

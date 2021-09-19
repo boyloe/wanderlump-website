@@ -61,6 +61,22 @@ export default function posts(): ReactElement {
           thumbImage="/images/posts/carhenge/carhenge-wide.JPG"
           preview="Not your typical family reunion..."
         />
+        <HorizontalCard
+          title="Papa Moon Vineyards, Winery, &amp; Cider House"
+          date="May 3, 2021"
+          location="Scottsbluff, NE"
+          href="/posts/papamoon"
+          thumbImage="/images/posts/papa-moon/wine-bottles.png"
+          preview="Try the grapefruit juniper cider..."
+        />
+        <HorizontalCard
+          title="Scotts Bluff National Monument"
+          date="May 7, 2021"
+          location="Scottsbluff, NE"
+          href="/posts/scottsbluff"
+          thumbImage="/images/posts/scotts-bluff/white-wagon.JPG"
+          preview="Nebraska, you old dog you..."
+        />
       </div>
     </section>
   );

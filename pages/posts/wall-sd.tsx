@@ -1,5 +1,6 @@
 import React, { ReactElement } from "react";
 import Image from "next/image";
+import PrevNext from "../../components/PrevNext";
 
 export default function wallSD(): ReactElement {
   return (
@@ -80,6 +81,10 @@ export default function wallSD(): ReactElement {
           />
         </div>
       </article>
+      <PrevNext
+        previousPostHref="/posts/custer-state"
+        nextPostHref="/posts/carhenge"
+      />
     </div>
   );
 }

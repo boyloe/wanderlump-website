@@ -188,7 +188,10 @@ export default function custerState(): ReactElement {
           a second.{" "}
         </p>
       </article>
-      <PrevNext previousPostHref="/posts/sioux-falls" nextPostHref="" />
+      <PrevNext
+        previousPostHref="/posts/sioux-falls"
+        nextPostHref="/posts/wall-sd"
+      />
     </div>
   );
 }

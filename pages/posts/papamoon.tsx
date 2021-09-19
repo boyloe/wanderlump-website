@@ -1,5 +1,6 @@
 import React, { ReactElement } from "react";
 import Image from "next/image";
+import PrevNext from "../../components/PrevNext";
 
 export default function papamoon(): ReactElement {
   return (
@@ -67,6 +68,10 @@ export default function papamoon(): ReactElement {
           />
         </div>
       </article>
+      <PrevNext
+        previousPostHref="/posts/carhenge"
+        nextPostHref="/posts/scottsbluff"
+      />
     </div>
   );
 }

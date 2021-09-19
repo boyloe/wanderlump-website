@@ -75,7 +75,7 @@ export default function posts(): ReactElement {
           location="Scottsbluff, NE"
           href="/posts/scottsbluff"
           thumbImage="/images/posts/scotts-bluff/white-wagon.JPG"
-          preview="Nebraska, you old dog you..."
+          preview="Nebraska, Nebraska I love ya.."
         />
       </div>
     </section>

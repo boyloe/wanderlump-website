@@ -32,15 +32,31 @@ export default function Index(): ReactElement {
       <Hero />
       <div className="flex flex-col items-center py-12 xl:py-24 lg:mt-48">
         <div className="mx-4 md:mx-0 lg:w-1/2">
-          <h3 className="text-xl md:text-3xl mb-4">Latest Post:</h3>
-          <div className="shadow-xl">
+          <h3 className="text-xl md:text-3xl mb-4">Recent Posts:</h3>
+          <div className="grid gap-2">
             <HorizontalCard
-              title="Wall Drug"
+              title="Carhenge"
               date="May 3, 2021"
-              location="Wall, SD"
-              href="/posts/wall-sd"
-              thumbImage="/images/posts/wall-sd/shelly-rabbit.JPG"
-              preview="Ride a jackalope and see a T-Rex in South Dakota..."
+              location="Alliance, NE"
+              href="/posts/carhenge"
+              thumbImage="/images/posts/carhenge/carhenge-wide.JPG"
+              preview="Not your typical family reunion..."
+            />
+            <HorizontalCard
+              title="Papa Moon Vineyards, Winery, &amp; Cider House"
+              date="May 3, 2021"
+              location="Scottsbluff, NE"
+              href="/posts/papamoon"
+              thumbImage="/images/posts/papa-moon/wine-bottles.png"
+              preview="Try the grapefruit juniper cider..."
+            />
+            <HorizontalCard
+              title="Scotts Bluff National Monument"
+              date="May 7, 2021"
+              location="Scottsbluff, NE"
+              href="/posts/scottsbluff"
+              thumbImage="/images/posts/scotts-bluff/white-wagon.JPG"
+              preview="Nebraska, Nebraska I love ya..."
             />
           </div>
         </div>

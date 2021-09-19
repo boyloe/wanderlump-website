@@ -1,5 +1,6 @@
 import React, { ReactElement } from "react";
 import Image from "next/image";
+import PrevNext from "../../components/PrevNext";
 
 export default function carhenge(): ReactElement {
   return (
@@ -102,6 +103,10 @@ export default function carhenge(): ReactElement {
           Alliance, NE to see it again? Why not?
         </p>
       </article>
+      <PrevNext
+        previousPostHref="/posts/wall-sd"
+        nextPostHref="/posts/papamoon"
+      />
     </div>
   );
 }

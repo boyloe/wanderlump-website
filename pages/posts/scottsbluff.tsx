@@ -1,5 +1,6 @@
 import React, { ReactElement } from "react";
 import Image from "next/image";
+import PrevNext from "../../components/PrevNext";
 
 export default function scottsbluff(): ReactElement {
   return (
@@ -191,6 +192,7 @@ export default function scottsbluff(): ReactElement {
           </div>
         </article>
       </div>
+      <PrevNext previousPostHref="/posts/papamoon" nextPostHref="" />
     </div>
   );
 }

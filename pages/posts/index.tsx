@@ -10,7 +10,7 @@ export default function posts(): ReactElement {
           date="April 21, 2021"
           location="Indianola, IA"
           href="/posts/our-new-home"
-          backgroundSrc="/images/posts/our-new-home/sold_front_thumb.jpg"
+          thumbImage="/images/posts/our-new-home/sold_front_thumb.jpg"
           preview="We are excited to share our next adventure..."
         />
         <HorizontalCard
@@ -18,7 +18,7 @@ export default function posts(): ReactElement {
           date="April 24, 2021"
           location="Altoona, IA"
           href="/posts/griffs-campground"
-          backgroundSrc="/images/posts/griffs-campground/shelly-cowboy.JPG"
+          thumbImage="/images/posts/griffs-campground/shelly-cowboy.JPG"
           preview="Our first stop after picking up our new house on wheels..."
         />
         <HorizontalCard
@@ -26,7 +26,7 @@ export default function posts(): ReactElement {
           date="April 25, 2021"
           location="Round Lake, MN"
           href="/posts/round-lake"
-          backgroundSrc="/images/posts/round-lake/wine-glass.JPG"
+          thumbImage="/images/posts/round-lake/wine-glass.JPG"
           preview="Enjoying our first experience with Harvest Hosts..."
         />
         <HorizontalCard
@@ -34,7 +34,7 @@ export default function posts(): ReactElement {
           date="April 26, 2021"
           location="Sioux Falls, SD"
           href="/posts/sioux-falls"
-          backgroundSrc="/images/posts/sioux-falls/lower-falls.JPG"
+          thumbImage="/images/posts/sioux-falls/lower-falls.JPG"
           preview="We discovered why they named the city Sioux Falls..."
         />
         <HorizontalCard
@@ -42,16 +42,24 @@ export default function posts(): ReactElement {
           date="May 1, 2021"
           location="Black Hills, SD"
           href="/posts/custer-state"
-          backgroundSrc="/images/posts/custer-state/black-elk-snow-rock.JPG"
+          thumbImage="/images/posts/custer-state/black-elk-snow-rock.JPG"
           preview="Baby bison and wifi sheep, who could ask for more..."
         />
         <HorizontalCard
           title="Wall Drug"
-          date="May 3, 2021"
+          date="May 2, 2021"
           location="Wall, SD"
           href="/posts/wall-sd"
-          backgroundSrc="/images/posts/wall-sd/shelly-rabbit.JPG"
+          thumbImage="/images/posts/wall-sd/shelly-rabbit.JPG"
           preview="Ride a jackalope and see a T-Rex in South Dakota..."
+        />
+        <HorizontalCard
+          title="Carhenge"
+          date="May 3, 2021"
+          location="Alliance, NE"
+          href="/posts/carhenge"
+          thumbImage="/images/posts/carhenge/carhenge-wide.JPG"
+          preview="Not your typical family reunion..."
         />
       </div>
     </section>

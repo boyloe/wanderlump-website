@@ -39,7 +39,7 @@ export default function Index(): ReactElement {
               date="May 3, 2021"
               location="Wall, SD"
               href="/posts/wall-sd"
-              backgroundSrc="/images/posts/wall-sd/shelly-rabbit.JPG"
+              thumbImage="/images/posts/wall-sd/shelly-rabbit.JPG"
               preview="Ride a jackalope and see a T-Rex in South Dakota..."
             />
           </div>

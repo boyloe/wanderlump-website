@@ -95,7 +95,7 @@ export default function carhenge(): ReactElement {
             />
           </div>
         </div>
-        <p className="my-4 font-lato text-xl tracking-wide text-justify">
+        <p className="mt-4 mb-24 font-lato text-xl tracking-wide text-justify">
           We went on a particularly windy day, so a leisurely walk around the
           property wasn’t really an option. However, the weather didn’t make
           this any less impressive of a sight to see. Would we drive back to

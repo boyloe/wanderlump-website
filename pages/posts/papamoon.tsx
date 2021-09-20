@@ -10,7 +10,6 @@ export default function papamoon(): ReactElement {
         <h1 className="text-3xl mb-2 font-lato font-black tracking-wide text-center">
           Papa Moon Vineyards, Winery, &amp; Cider House
         </h1>
-        <div className="border-2 border-gray-900 mb-4"></div>
         <div className="border-4 border-gray-900 shadow-2xl">
           <Image
             src="/images/posts/papa-moon/papamoon-winery.jpeg"

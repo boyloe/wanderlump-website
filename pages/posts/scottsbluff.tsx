@@ -10,7 +10,6 @@ export default function scottsbluff(): ReactElement {
           <h1 className="text-3xl my-4 font-lato font-black tracking-wide text-center">
             Scotts Bluff National Monument
           </h1>
-          <div className="border-2 border-gray-900 shadow-2xl mb-4 md:mb-8"></div>
         </div>
         <div className="border-4 border-gray-900">
           <Image

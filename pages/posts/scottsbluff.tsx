@@ -14,7 +14,7 @@ export default function scottsbluff(): ReactElement {
         </div>
         <div className="border-4 border-gray-900">
           <Image
-            src="/images/posts/scotts-bluff/scottsbluff-pano.JPG"
+            src="/images/posts/scotts-bluff/scottsbluff-pano.jpg"
             alt="Panoramic view of Scotts Bluff National Monument"
             height={600}
             width={1200}
@@ -182,7 +182,7 @@ export default function scottsbluff(): ReactElement {
             </div>
             <div className="border-t-2 border-l-4 border-r-4 border-b-4 border-gray-900 col-span-4 mb-12">
               <Image
-                src="/images/posts/scotts-bluff/screen-time.JPG"
+                src="/images/posts/scotts-bluff/screen-time.jpg"
                 alt="rusted station wagon"
                 height={600}
                 width={500}

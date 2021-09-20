@@ -5,7 +5,7 @@ import PrevNext from "../../components/PrevNext";
 export default function scottsbluff(): ReactElement {
   return (
     <div>
-      <div className="w-screen mb-8 px-4 md:px-8">
+      <div className="w-screen mb-4 px-4 md:px-8">
         <div className="mx-auto max-w-3xl">
           <h1 className="text-3xl my-4 font-lato font-black tracking-wide text-center">
             Scotts Bluff National Monument

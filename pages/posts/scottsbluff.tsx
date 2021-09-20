@@ -24,7 +24,7 @@ export default function scottsbluff(): ReactElement {
       <div className="mx-auto max-w-3xl p-4 md:p-0">
         <title>Scotts Bluff National Monument</title>
         <article>
-          <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
+          <h2 className="mt-6 mb-4 text-2xl font-lato font-black text-center tracking-wide">
             You Have Died of Dysentery
           </h2>
           <p className="my-4 font-lato text-xl tracking-wide text-justify">

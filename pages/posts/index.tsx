@@ -77,6 +77,14 @@ export default function posts(): ReactElement {
           thumbImage="/images/posts/scotts-bluff/white-wagon.JPG"
           preview="Nebraska, Nebraska I love ya.."
         />
+        <HorizontalCard
+          title="Great Sand Dunes National Park"
+          date="May 12, 2021"
+          location="Mosca, CO"
+          href="/posts/sanddunes"
+          thumbImage="/images/posts/sand-dunes/0257-far-dunes.JPG"
+          preview="I made it extra waxy for you..."
+        />
       </div>
     </section>
   );

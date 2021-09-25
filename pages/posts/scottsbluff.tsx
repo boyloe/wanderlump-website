@@ -191,7 +191,10 @@ export default function scottsbluff(): ReactElement {
           </div>
         </article>
       </div>
-      <PrevNext previousPostHref="/posts/papamoon" nextPostHref="" />
+      <PrevNext
+        previousPostHref="/posts/papamoon"
+        nextPostHref="/posts/sand-dunes"
+      />
     </div>
   );
 }

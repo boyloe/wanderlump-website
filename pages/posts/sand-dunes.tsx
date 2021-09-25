@@ -286,6 +286,7 @@ export default function sanddunes(): ReactElement {
             layout="responsive"
           />
         </div>
+        <PrevNext previousPostHref="/posts/scottsbluff" nextPostHref="" />
       </article>
     </div>
   );

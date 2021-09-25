@@ -100,7 +100,7 @@ export default function sanddunes(): ReactElement {
           from above.
         </p>
         <div className="border-4 border-gray-900 shadow-2xl mb-8 grid grid-cols-2">
-          <div className="border-r-2 border-gray-900">
+          <div className="border-r-2 border-2 border-gray-900">
             <Image
               src="/images/posts/sand-dunes/0163-waterfall.JPG"
               alt="Frozen Zapata Falls"
@@ -109,7 +109,7 @@ export default function sanddunes(): ReactElement {
               layout="responsive"
             />
           </div>
-          <div className="border-l-2 border-gray-900">
+          <div className="border-l-2 border-b-2 border-gray-900">
             <Image
               src="/images/posts/sand-dunes/0165-waterfall.JPG"
               alt="Frozen Zapata Falls"
@@ -118,7 +118,7 @@ export default function sanddunes(): ReactElement {
               layout="responsive"
             />
           </div>
-          <div className="border-r-2 border-gray-900">
+          <div className="border-r-2 border-t-2 border-gray-900">
             <Image
               src="/images/posts/sand-dunes/0167-waterfall.JPG"
               alt="Frozen Zapata Falls"
@@ -127,7 +127,7 @@ export default function sanddunes(): ReactElement {
               layout="responsive"
             />
           </div>
-          <div className="border-l-2 border-gray-900">
+          <div className="border-l-2 border-t-2 border-gray-900">
             <Image
               src="/images/posts/sand-dunes/0170-bryan-shelly.JPG"
               alt="Bryan standing in a river"
@@ -210,9 +210,9 @@ export default function sanddunes(): ReactElement {
         </h2>
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
           The weather was cloudy when we got to the dunes, which kept the sand
-          nice and cool. In summer months the sand can get up to 150*F. We made
-          our way through the creek, sled and board over our shoulders like we
-          knew what we were doing. There are many dunes to choose from, so we
+          nice and cool. In summer months the sand can get up to 150&#176;F. We
+          made our way through the creek, sled and board over our shoulders like
+          we knew what we were doing. There are many dunes to choose from, so we
           picked the closest, steepest one and hiked up. We definitely got our
           steps in that day. Climbing up soft sand dunes for hours is quite a
           work out. At the top we waxed up while watching others’ techniques,
@@ -277,7 +277,7 @@ export default function sanddunes(): ReactElement {
             layout="responsive"
           />
         </div>
-        <div className="border-t-2 border-b-2 border-l-2 border-r-2 border-gray-900">
+        <div className="border-t-2 border-b-2 border-l-2 border-r-2 border-gray-900 mb-8">
           <Image
             src="/images/posts/sand-dunes/9493-special-catalina.JPG"
             alt="Catalina sleeping in her carrier"

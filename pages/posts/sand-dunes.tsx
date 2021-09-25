@@ -1,6 +1,5 @@
 import React, { ReactElement } from "react";
 import Image from "next/image";
-import PrevNext from "../../components/PrevNext";
 
 export default function sanddunes(): ReactElement {
   return (
@@ -277,11 +276,11 @@ export default function sanddunes(): ReactElement {
             layout="responsive"
           />
         </div>
-        <div className="border-t-2 border-b-2 border-l-2 border-r-2 border-gray-900">
+        <div className="border-t-2 border-b-2 border-l-2 border-r-2 border-gray-900 mb-24">
           <Image
             src="/images/posts/sand-dunes/9493-special-catalina.JPG"
             alt="Catalina sleeping in her carrier"
-            height={500}
+            height={400}
             width={400}
             layout="responsive"
           />

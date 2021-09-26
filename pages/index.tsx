@@ -40,6 +40,7 @@ export default function Index(): ReactElement {
               location="Scottsbluff, NE"
               href="/posts/scottsbluff"
               thumbImage="/images/posts/scotts-bluff/white-wagon.JPG"
+              altText="Covered wagon"
               preview="Nebraska, Nebraska I love ya..."
             />
             <HorizontalCard
@@ -48,6 +49,7 @@ export default function Index(): ReactElement {
               location="Mosca, CO"
               href="/posts/sand-dunes"
               thumbImage="/images/posts/sand-dunes/0257-far-dunes.JPG"
+              altText="Wide view of Great Sand Dunes Park"
               preview="I made it extra waxy for you..."
             />
             <HorizontalCard
@@ -55,7 +57,8 @@ export default function Index(): ReactElement {
               date="May 13, 2021"
               location="Pagosa Springs, CO"
               href="/posts/alpacalypse"
-              thumbImage="/images/posts/sand-dunes/0257-far-dunes.JPG"
+              thumbImage="/images/posts/alpacalypse/0386-derpy-alpaca.jpg"
+              altText="Alpace looking towards camera"
               preview="Q-Tips, cat toys, and the best mug ever..."
             />
           </div>

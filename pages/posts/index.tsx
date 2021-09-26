@@ -11,6 +11,7 @@ export default function posts(): ReactElement {
           location="Indianola, IA"
           href="/posts/our-new-home"
           thumbImage="/images/posts/our-new-home/sold_front_thumb.jpg"
+          altText="Forest River Salem travel trailer with sold sticker"
           preview="We are excited to share our next adventure..."
         />
         <HorizontalCard
@@ -19,6 +20,7 @@ export default function posts(): ReactElement {
           location="Altoona, IA"
           href="/posts/griffs-campground"
           thumbImage="/images/posts/griffs-campground/shelly-cowboy.JPG"
+          altText="Shelly posing with a silhouette cowboy"
           preview="Our first stop after picking up our new house on wheels..."
         />
         <HorizontalCard
@@ -27,6 +29,7 @@ export default function posts(): ReactElement {
           location="Round Lake, MN"
           href="/posts/round-lake"
           thumbImage="/images/posts/round-lake/wine-glass.JPG"
+          altText="Wine glass from Round Lake Vineyard"
           preview="Enjoying our first experience with Harvest Hosts..."
         />
         <HorizontalCard
@@ -35,6 +38,7 @@ export default function posts(): ReactElement {
           location="Sioux Falls, SD"
           href="/posts/sioux-falls"
           thumbImage="/images/posts/sioux-falls/lower-falls.JPG"
+          altText="Waterfall at Sioux Falls"
           preview="We discovered why they named the city Sioux Falls..."
         />
         <HorizontalCard
@@ -43,6 +47,7 @@ export default function posts(): ReactElement {
           location="Black Hills, SD"
           href="/posts/custer-state"
           thumbImage="/images/posts/custer-state/black-elk-snow-rock.JPG"
+          altText="Black Elk peak covered in snow"
           preview="Baby bison and wifi sheep, who could ask for more..."
         />
         <HorizontalCard
@@ -51,6 +56,7 @@ export default function posts(): ReactElement {
           location="Wall, SD"
           href="/posts/wall-sd"
           thumbImage="/images/posts/wall-sd/shelly-rabbit.JPG"
+          altText="Shelly holding hands with a six foot rabbit statue"
           preview="Ride a jackalope and see a T-Rex in South Dakota..."
         />
         <HorizontalCard
@@ -59,6 +65,7 @@ export default function posts(): ReactElement {
           location="Alliance, NE"
           href="/posts/carhenge"
           thumbImage="/images/posts/carhenge/carhenge-wide.JPG"
+          altText="Carhenge"
           preview="Not your typical family reunion..."
         />
         <HorizontalCard
@@ -67,6 +74,7 @@ export default function posts(): ReactElement {
           location="Scottsbluff, NE"
           href="/posts/papamoon"
           thumbImage="/images/posts/papa-moon/wine-bottles.png"
+          altText="Wine bottles"
           preview="Try the grapefruit juniper cider..."
         />
         <HorizontalCard
@@ -75,6 +83,7 @@ export default function posts(): ReactElement {
           location="Scottsbluff, NE"
           href="/posts/scottsbluff"
           thumbImage="/images/posts/scotts-bluff/white-wagon.JPG"
+          altText="Covered wagon"
           preview="Nebraska, Nebraska I love ya.."
         />
         <HorizontalCard
@@ -83,6 +92,7 @@ export default function posts(): ReactElement {
           location="Mosca, CO"
           href="/posts/sand-dunes"
           thumbImage="/images/posts/sand-dunes/0257-far-dunes.JPG"
+          altText="Wide view of Great Sand Dunes Park"
           preview="I made it extra waxy for you..."
         />
         <HorizontalCard
@@ -90,7 +100,8 @@ export default function posts(): ReactElement {
           date="May 13, 2021"
           location="Pagosa Springs, CO"
           href="/posts/alpacalypse"
-          thumbImage="/images/posts/sand-dunes/0257-far-dunes.JPG"
+          thumbImage="/images/posts/alpacalypse/0386-derpy-alpaca.jpg"
+          altText="Alpace looking towards camera"
           preview="Q-Tips, cat toys, and the best mug ever..."
         />
       </div>

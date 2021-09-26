@@ -32,7 +32,7 @@ export default function alpacalypse(): ReactElement {
       <article>
         <div className="mx-auto max-w-3xl p-4 md:p-0">
           <h1 className="text-3xl mb-4 font-lato font-black tracking-wide text-center">
-            Alpacalypse Ranch <br /> Pagosa Springs, CO
+            Alpacalypse Ranch
           </h1>
           <div className="border-4 border-gray-900 shadow-2xl">
             <Image

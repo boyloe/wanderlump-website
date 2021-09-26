@@ -81,9 +81,9 @@ export default function NavBar(): ReactElement {
         id="nav-opened"
         className={`fixed left-0 right-0 ${
           isMenuOpen ? " " : "hidden"
-        } md:hidden bg-white mx-2 mt-16 rounded-br rounded-bl shadow z-10`}
+        } md:hidden bg-gray-100 mx-2 mt-2 rounded shadow-2xl z-10`}
       >
-        <div className="p-2 divide-y divide-gray-600 flex flex-col">
+        <div className="p-2 divide-y divide-gray-400 flex flex-col">
           <a href="/" className="p-2 font-semibold hover:text-indigo-700">
             home
           </a>

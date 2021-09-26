@@ -85,6 +85,14 @@ export default function posts(): ReactElement {
           thumbImage="/images/posts/sand-dunes/0257-far-dunes.JPG"
           preview="I made it extra waxy for you..."
         />
+        <HorizontalCard
+          title="Alpacalypse Ranch"
+          date="May 13, 2021"
+          location="Pagosa Springs, CO"
+          href="/posts/alpacalypse"
+          thumbImage="/images/posts/sand-dunes/0257-far-dunes.JPG"
+          preview="Q-Tips, cat toys, and the best mug ever..."
+        />
       </div>
     </section>
   );

@@ -11,7 +11,7 @@ export default function sanddunes(): ReactElement {
       <div className="border-4 border-gray-900 shadow-2xl">
         <Image
           src="/images/posts/sand-dunes/0228-bryan-shelly-dunes.JPG"
-          alt="Exterior of the Papa Moon Winery"
+          alt="Bryan and Shelly at Great Sand Dunes National Park"
           height={600}
           width={800}
           layout="responsive"
@@ -286,7 +286,10 @@ export default function sanddunes(): ReactElement {
             layout="responsive"
           />
         </div>
-        <PrevNext previousPostHref="/posts/scottsbluff" nextPostHref="" />
+        <PrevNext
+          previousPostHref="/posts/scottsbluff"
+          nextPostHref="/posts/alpacalypse"
+        />
       </article>
     </div>
   );

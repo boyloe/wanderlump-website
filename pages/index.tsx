@@ -35,19 +35,12 @@ export default function Index(): ReactElement {
           <h3 className="text-xl md:text-3xl mb-4">Recent Posts:</h3>
           <div className="grid gap-2">
             <HorizontalCard
-              title="Papa Moon Vineyards, Winery, &amp; Cider House"
-              date="May 3, 2021"
-              location="Scottsbluff, NE"
-              href="/posts/papamoon"
-              thumbImage="/images/posts/papa-moon/wine-bottles.png"
-              preview="Try the grapefruit juniper cider..."
-            />
-            <HorizontalCard
               title="Scotts Bluff National Monument"
               date="May 7, 2021"
               location="Scottsbluff, NE"
               href="/posts/scottsbluff"
               thumbImage="/images/posts/scotts-bluff/white-wagon.JPG"
+              altText="Covered wagon"
               preview="Nebraska, Nebraska I love ya..."
             />
             <HorizontalCard
@@ -56,7 +49,17 @@ export default function Index(): ReactElement {
               location="Mosca, CO"
               href="/posts/sand-dunes"
               thumbImage="/images/posts/sand-dunes/0257-far-dunes.JPG"
+              altText="Wide view of Great Sand Dunes Park"
               preview="I made it extra waxy for you..."
+            />
+            <HorizontalCard
+              title="Alpacalypse Ranch"
+              date="May 13, 2021"
+              location="Pagosa Springs, CO"
+              href="/posts/alpacalypse"
+              thumbImage="/images/posts/alpacalypse/0386-derpy-alpaca.jpg"
+              altText="Alpace looking towards camera"
+              preview="Q-Tips, cat toys, and the best mug ever..."
             />
           </div>
         </div>

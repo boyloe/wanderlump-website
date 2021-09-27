@@ -204,8 +204,8 @@ export default function alpacalypse(): ReactElement {
             grass stuck in their top knot, making them look even more
             ridiculous.
           </p>
-          <div className="grid grid-cols-2 md:shadow-2xl my-4 border-4 border-gray-900">
-            <div className=" border-r-2 border-gray-900">
+          <div className="grid grid-cols-1 gap-2 md:gap-0 md:grid-cols-2 md:shadow-2xl my-4 md:border-4 border-gray-900">
+            <div className="border-4 md:border-r-2 md:border-t-0 md:border-l-0 md:border-b-0 border-gray-900">
               <Image
                 src="/images/posts/alpacalypse/0384-white-with-black-eyes.JPG"
                 alt="White alpaca with black eyes"
@@ -214,7 +214,7 @@ export default function alpacalypse(): ReactElement {
                 layout="responsive"
               />
             </div>
-            <div className=" border-l-2 border-gray-900">
+            <div className="border-4 md:border-l-2 md:border-r-0 md:border-b-0 md:border-t-0 border-gray-900">
               <Image
                 src="/images/posts/alpacalypse/0344-shaggy-underbite.JPG"
                 alt="Shaggy Alpaca with an underbite"
@@ -223,7 +223,7 @@ export default function alpacalypse(): ReactElement {
                 layout="responsive"
               />
             </div>
-            <div className=" border-t-4 border-gray-900 col-span-3">
+            <div className="border-4 md:border-t-4 md:border-r-0 md:border-l-0 md:border-b-0 border-gray-900 md:col-span-3">
               <Image
                 src="/images/posts/alpacalypse/0367-grass-face.JPG"
                 alt="Bryan taking a selfie with alpacas"

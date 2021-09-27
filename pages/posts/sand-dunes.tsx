@@ -180,10 +180,10 @@ export default function sanddunes(): ReactElement {
         </h2>
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
           The next day we decided to have some fun and play on the dunes. The
-          Oasis Store is right outside of the park and lets you rent equipment
-          for one or multiple days. My apparatus of choice was a sled and Bryan
-          opted for a sandboard. We signed a waiver, got some wax, got a quick
-          demo on how to keep our board/sled extra slick, and we were off!
+          Oasis Store is right outside of the park and lets you rent equipment.
+          My apparatus of choice was a sled and Bryan opted for a sandboard. We
+          signed a waiver, got some wax, got a quick demo on how to keep our
+          board/sled extra slick, and we were off!
         </p>
         <div className="border-4 border-gray-900 shadow-2xl mb-8 grid grid-rows-2">
           <div className="border-t-4 border-b-2 border-l-2 border-r-2 border-gray-900">
@@ -244,12 +244,13 @@ export default function sanddunes(): ReactElement {
         </div>
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
           My run didn’t go quite as planned. I lined myself up with the sled
-          teetering over the edge, then pushed off and immediately rotated 180*,
-          causing me to plummet down the dune backwards. I laugh-screamed the
-          entire way and broke out into a fit of giggles at the bottom. I wish I
-          could say it only happened once, but I would absolutely be lying. This
-          happened EVERY. SINGLE. TIME! It was still incredibly fun and neither
-          of us broke anything, so I consider that a win.
+          teetering over the edge, then pushed off and immediately rotated
+          180&#176;, causing me to plummet down the dune backwards. I
+          laugh-screamed the entire way and broke out into a fit of giggles at
+          the bottom. I wish I could say it only happened once, but I would
+          absolutely be lying. This happened EVERY. SINGLE. TIME! It was still
+          incredibly fun and neither of us broke anything, so I consider that a
+          win.
         </p>
         <div className="border-4 border-gray-900 shadow-2xl mb-8">
           <Image

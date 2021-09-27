@@ -89,7 +89,7 @@ export default function alpacalypse(): ReactElement {
             lived on their property for over 30 years and after retiring, Kathy
             was convinced by a fellow alpaca owner and breeder that they should
             add alpacas to their property. When we were there, they had 39
-            alpacas and many of the females were pregnant and due in the summer
+            alpacas and many of the females were pregnant and due in the summer.
           </p>
           <div className="border-4 border-gray-900 shadow-2xl my-4">
             <Image

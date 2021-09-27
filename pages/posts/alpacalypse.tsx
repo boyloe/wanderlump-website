@@ -105,8 +105,8 @@ export default function alpacalypse(): ReactElement {
             settled in and another couple had arrived and parked, Kathy let us
             know that two other travelers had tried to reserve a spot for the
             night and she had to decline them due to lack of space. Our spot was
-            overlooking the male alpaca enclosure and the mountains and Lumpy
-            and Catalina weren’t quite sure what to make of those weird looking
+            overlooking the male alpaca enclosure and the mountains. Lumpy and
+            Catalina weren’t quite sure what to make of those weird looking
             creatures and the new smells and sounds.
           </p>
           <div className="border-4 border-gray-900 md:shadow-2xl my-4">
@@ -204,17 +204,8 @@ export default function alpacalypse(): ReactElement {
             grass stuck in their top knot, making them look even more
             ridiculous.
           </p>
-          <div className="grid grid-cols-2 border-4 border-gray-900 md:shadow-2xl my-4">
-            <div className="border-r-2 border-b-2 border-gray-900">
-              <Image
-                src="/images/posts/alpacalypse/0323-underbite.JPG"
-                alt="Alpaca with a very large underbite"
-                height={4032}
-                width={3024}
-                layout="responsive"
-              />
-            </div>
-            <div className="border-l-2 border-b-2 border-gray-900">
+          <div className="grid grid-cols-2 md:shadow-2xl my-4 border-4 border-gray-900">
+            <div className=" border-r-2 border-gray-900">
               <Image
                 src="/images/posts/alpacalypse/0384-white-with-black-eyes.JPG"
                 alt="White alpaca with black eyes"
@@ -223,7 +214,7 @@ export default function alpacalypse(): ReactElement {
                 layout="responsive"
               />
             </div>
-            <div className=" border-r-2 border-t-2 border-gray-900">
+            <div className=" border-l-2 border-gray-900">
               <Image
                 src="/images/posts/alpacalypse/0344-shaggy-underbite.JPG"
                 alt="Shaggy Alpaca with an underbite"
@@ -232,12 +223,12 @@ export default function alpacalypse(): ReactElement {
                 layout="responsive"
               />
             </div>
-            <div className="border-l-2 border-t-2 border-gray-900">
+            <div className=" border-t-4 border-gray-900 col-span-3">
               <Image
                 src="/images/posts/alpacalypse/0367-grass-face.JPG"
                 alt="Bryan taking a selfie with alpacas"
-                height={4032}
-                width={3024}
+                height={3024}
+                width={4032}
                 layout="responsive"
               />
             </div>

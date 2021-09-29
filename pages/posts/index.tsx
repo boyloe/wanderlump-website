@@ -104,6 +104,15 @@ export default function posts(): ReactElement {
           altText="Alpace looking towards camera"
           preview="Q-Tips, cat toys, and the best mug ever..."
         />
+        <HorizontalCard
+          title="Durango, CO"
+          date="May 17, 2021"
+          location="Durango, CO"
+          href="/posts/durango"
+          thumbImage="/images/posts/durango/forest-river-salem-22rbs-in-woods.jpeg"
+          altText="Forest River Salem 22rbs in Durango, CO"
+          preview="Forests, firewood, and Fed Ex..."
+        />
       </div>
     </section>
   );

@@ -114,10 +114,10 @@ export default function posts(): ReactElement {
           preview="Forests, firewood, and Fed Ex..."
         />
         <HorizontalCard
-          title="Moab, UT"
+          title="Canyonlands National Park"
           date="May 18, 2021"
-          location="Moab, UT - Canyonlands National Park"
-          href="/posts/canyonland"
+          location="Moab, UT"
+          href="/posts/canyonlands"
           thumbImage="/images/posts/canyonlands/sunset.JPG"
           altText="Canyon Lands National Park"
           preview="Red sand in every nook and cranny..."

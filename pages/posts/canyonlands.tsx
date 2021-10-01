@@ -1,6 +1,7 @@
 import React, { ReactElement } from "react";
 import Head from "next/head";
 import Image from "next/image";
+import PrevNext from "../../components/PrevNext";
 
 export default function canyonland(): ReactElement {
   return (
@@ -140,8 +141,8 @@ export default function canyonland(): ReactElement {
           </div>
           <p className="my-4 font-lato text-xl tracking-wide text-justify">
             The sky was just starting to lighten as we made our way towards
-            Canyonlands and there were no other vehicles in site. As we drove, I
-            told Bryan what I had learned about this ginormous national park.
+            Canyonlands and there were no other vehicles in sight. As we drove,
+            I told Bryan what I had learned about this ginormous national park.
             Canyonlands is composed of four districts divided by the Green and
             Colorado rivers – Island in the Sky, The Maze, The Needles, and
             Horseshoe Canyon. None of the districts have roads connecting them
@@ -299,8 +300,114 @@ export default function canyonland(): ReactElement {
               layout="responsive"
             />
           </div>
+          <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
+            Hold on to your buttes!
+          </h2>
+          <p className="my-4 font-lato text-xl tracking-wide text-justify">
+            One thing I didn’t know about Utah – it is windy AF! Later in the
+            week, when we went back to Canyonlands, was no exception. When we
+            got to the Aztec Butte trailhead and the sand was whipping our
+            faces, we knew the wind was going to make it a challenging hike.
+          </p>
+          <div className="border-4 border-gray-900 shadow-2xl my-2">
+            <Image
+              src="/images/posts/canyonlands/aztec-butte.JPG"
+              alt="Aztec Butte"
+              height={600}
+              width={800}
+              layout="responsive"
+            />
+          </div>
+          <div className="justify-center border-4 border-gray-900 shadow-2xl my-2">
+            <Image
+              src="/images/posts/canyonlands/bryan-and-shelly-aztec-butte.JPG"
+              alt="Bryan and Shelly at Aztec Butte"
+              height={799}
+              width={600}
+              layout="responsive"
+            />
+          </div>
+          <p className="my-4 font-lato text-xl tracking-wide text-justify">
+            What exactly is a butte? It is an isolated rock tower with steep
+            sides and a flat surface, where the top is narrower than it is high.
+            We had to do quite a bit of scrambling up the side, but we made it
+            to the top and had 360-degree views. I would recommend going on a
+            less windy day, so the views aren’t obstructed with sand.
+          </p>
+          <div className="border-4 border-gray-900 shadow-2xl my-2">
+            <Image
+              src="/images/posts/canyonlands/view-from-aztec-butte.JPG"
+              alt="View from the top of Aztec Butte"
+              height={600}
+              width={800}
+              layout="responsive"
+            />
+          </div>
+          <div className="justify-center border-4 border-gray-900 shadow-2xl my-2">
+            <Image
+              src="/images/posts/canyonlands/view-from-aztec-butte-2.JPG"
+              alt="View from the top of Aztec Butte"
+              height={600}
+              width={800}
+              layout="responsive"
+            />
+          </div>
+          <p className="my-4 font-lato text-xl tracking-wide text-justify">
+            The second part of the trail took us up a smaller butte to a site
+            where Ancestral Puebloans had made stone granaries to store their
+            food. We couldn’t believe how well preserved they were.
+          </p>
+          <div className="justify-center border-4 border-gray-900 shadow-2xl my-2">
+            <Image
+              src="/images/posts/canyonlands/pueblo-granary.JPG"
+              alt="Puebloan Granary"
+              height={600}
+              width={800}
+              layout="responsive"
+            />
+          </div>
+          <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
+            Upheaval Dome
+          </h2>
+          <p className="my-4 font-lato text-xl tracking-wide text-justify">
+            Upheaval Dome is a mile-wide crater that seems very out of place in
+            Canyonlands. There are two theories about how it formed - one theory
+            is a meteorite impact fractured the rock and the second theory
+            suggests a salt dome cracked and tilted the rock over time. However
+            it formed, it is quite the site.
+          </p>
+          <div className="md:border-4 border-gray-900 shadow-2xl mb-8 grid grid-cols-1 md:grid-cols-2">
+            <div className="border-4 md:border-l-0 md:border-r-0 md:border-t-0 md:border-b-2 border-gray-900 md:col-span-2">
+              <Image
+                src="/images/posts/canyonlands/upheaval-dome-panoramic.JPG"
+                alt="Panoramic view of Upheaval Dome"
+                height={515}
+                width={1000}
+                layout="responsive"
+              />
+            </div>
+            <div className="border-4 md:border-r-2 md:border-t-2 md:border-l-0 md:border-b-0 border-gray-900">
+              <Image
+                src="/images/posts/canyonlands/upheaval-dome.JPG"
+                alt="Upheaval Dome"
+                height={600}
+                width={800}
+                layout="responsive"
+              />
+            </div>
+            <div className="border-4 md:border-l-2 md:border-t-2 md:border-r-0 md:border-b-0 border-gray-900">
+              <Image
+                src="/images/posts/canyonlands/bryan-and-shelly-upheaval-dome.JPG"
+                alt="Bryan and Shelly at Upheaval Dome"
+                height={600}
+                width={800}
+                layout="responsive"
+              />
+            </div>
+          </div>
         </div>
       </article>
+      <PrevNext previousPostHref="/posts/durango" nextPostHref="" />
     </>
   );
 }

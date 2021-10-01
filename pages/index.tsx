@@ -57,7 +57,7 @@ export default function Index(): ReactElement {
               date="May 18, 2021"
               location="Moab, UT"
               href="/posts/canyonlands"
-              thumbImage="/images/posts/canyonland/sunset.JPG"
+              thumbImage="/images/posts/canyonlands/sunset.JPG"
               altText="Canyon Lands National Park at sunset"
               preview="Red sand in every nook and cranny..."
             />

@@ -113,6 +113,15 @@ export default function posts(): ReactElement {
           altText="Forest River Salem 22rbs in Durango, CO"
           preview="Forests, firewood, and Fed Ex..."
         />
+        <HorizontalCard
+          title="Canyonlands National Park"
+          date="May 18, 2021"
+          location="Moab, UT"
+          href="/posts/canyonlands"
+          thumbImage="/images/posts/canyonlands/sunset.JPG"
+          altText="Canyon Lands National Park"
+          preview="Red sand in every nook and cranny..."
+        />
       </div>
     </section>
   );

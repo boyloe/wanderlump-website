@@ -19,7 +19,7 @@ export default function durango(): ReactElement {
         />
         <meta
           property="og:image"
-          content="https://wanderlump.com/posts/durango/forest-river-salem-22rbs-in-woods.jpeg"
+          content="https://www.wanderlump.com/images/posts/durango/forest-river-salem-22rbs-in-woods.jpeg"
         />
 
         <meta property="og:image:type" content="image/jpeg" />

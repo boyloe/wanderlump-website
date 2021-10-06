@@ -20,7 +20,7 @@ export default function canyonland(): ReactElement {
         />
         <meta
           property="og:image"
-          content="https://wanderlump.com/posts/canyonland/sunset.JPG"
+          content="https://www.wanderlump.com/images/posts/canyonlands/sunset.JPG"
         />
 
         <meta property="og:image:type" content="image/jpeg" />

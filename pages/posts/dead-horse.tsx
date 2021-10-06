@@ -20,7 +20,7 @@ export default function deadhorse(): ReactElement {
         />
         <meta
           property="og:image"
-          content="https://wanderlump.com/posts/dead-horse/dead-horse-point.JPG"
+          content="https://www.wanderlump.com/images/posts/dead-horse/dead-horse-point.JPG"
         />
 
         <meta property="og:image:type" content="image/jpeg" />

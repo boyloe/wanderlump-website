@@ -407,7 +407,10 @@ export default function canyonland(): ReactElement {
           </div>
         </div>
       </article>
-      <PrevNext previousPostHref="/posts/durango" nextPostHref="" />
+      <PrevNext
+        previousPostHref="/posts/durango"
+        nextPostHref="/posts/dead-horse"
+      />
     </>
   );
 }

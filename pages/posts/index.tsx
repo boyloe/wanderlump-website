@@ -122,6 +122,15 @@ export default function posts(): ReactElement {
           altText="Canyon Lands National Park"
           preview="Red sand in every nook and cranny..."
         />
+        <HorizontalCard
+          title="Dead Horse Point State Park"
+          date="May 18, 2021"
+          location="Moab, UT"
+          href="/posts/dead-horse"
+          thumbImage="/images/posts/dead-horse/dead-horse-point.JPG"
+          altText="Dead Horse Point"
+          preview="Definitely not PETA approved..."
+        />
       </div>
     </section>
   );

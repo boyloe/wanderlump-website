@@ -79,7 +79,7 @@ export default function about(): ReactElement {
                 width={400}
               />
             </div>
-            <p className="px-4 py-12 md:py-0 md:px-6 md:w-1/2 text-lg md:text-2xl text-justify font-lato">
+            <p className="px-4 py-12 md:py-0 md:px-6 md:w-1/2 text-lg md:text-2xl text-justify font-lato mb-8">
               <span className="font-semibold">Lumpy Space Princess</span> is a
               six year old Siamese Munchkin and she is named after the lovable,
               overly dramatic purple blob on{" "}

@@ -10,7 +10,7 @@ export default function Hero(): ReactElement {
       />
       <div className="md:w-auto flex flex-col items-center justify-center md:p-4 md:absolute left-6 top-4">
         <h1 className="text-dark-brown text-5xl md:text-8xl">wan·der·lump</h1>
-        <h2 className="text-dark-brown font-medium text-justify md:text-2xl text-md font-josefin-sans mx-2">
+        <h2 className="text-dark-brown font-medium text-center md:text-2xl text-2xl font-josefin-sans mx-2">
           Lumpy&apos;s irresistible desire to wander the world
         </h2>
       </div>

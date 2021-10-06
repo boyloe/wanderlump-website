@@ -33,16 +33,7 @@ export default function Index(): ReactElement {
       <div className="flex flex-col items-center py-12 xl:py-24 lg:mt-48">
         <div className="mx-4 md:mx-0 lg:w-1/2">
           <h3 className="text-xl md:text-3xl mb-4">Recent Posts:</h3>
-          <div className="grid gap-2">
-            <HorizontalCard
-              title="Alpacalypse Ranch"
-              date="May 13, 2021"
-              location="Pagosa Springs, CO"
-              href="/posts/alpacalypse"
-              thumbImage="/images/posts/alpacalypse/0386-derpy-alpaca.jpg"
-              altText="Alpace looking towards camera"
-              preview="Q-Tips, cat toys, and the best mug ever..."
-            />
+          <div className="grid gap-10">
             <HorizontalCard
               title="Durango, CO"
               date="May 17, 2021"
@@ -60,6 +51,15 @@ export default function Index(): ReactElement {
               thumbImage="/images/posts/canyonlands/sunset.JPG"
               altText="Canyon Lands National Park at sunset"
               preview="Red sand in every nook and cranny..."
+            />
+            <HorizontalCard
+              title="Dead Horse Point State Park"
+              date="May 18, 2021"
+              location="Moab, UT"
+              href="/posts/dead-horse"
+              thumbImage="/images/posts/dead-horse/dead-horse-point.JPG"
+              altText="Dead Horse Point"
+              preview="Definitely not PETA approved..."
             />
           </div>
         </div>

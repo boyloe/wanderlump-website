@@ -125,7 +125,16 @@ export default function deadhorse(): ReactElement {
             branches.
           </p>
           <div className="grid grid-cols-1 gap-2 md:gap-0 md:grid-cols-2">
-            <div className="border-4 md:border-r-2 border-gray-900">
+            <div className="border-4 md:border-r-2 md:border-l-4 md:border-b-4 md:border-t-2 border-gray-900 md:col-span-1 md:row-span-2">
+              <Image
+                src="/images/posts/dead-horse/shelly-with-tree-dead-horse-point.JPG"
+                alt="Lumpy Space Princess sleeping in the backseat"
+                height={916}
+                width={600}
+                layout="responsive"
+              />
+            </div>
+            <div className="border-4 md:border-r-2 md:border-l-2 md-border-r-4 md:border-b-2 border-gray-900">
               <Image
                 src="/images/posts/dead-horse/dead-horse-point.JPG"
                 alt="Canyon wall with multicolored striations"
@@ -134,21 +143,12 @@ export default function deadhorse(): ReactElement {
                 layout="responsive"
               />
             </div>
-            <div className="border-4 border-gray-900">
+            <div className="border-4 border-gray-900 md:border-l-2 md:border-r-4 md-border-t-2 md:border-b-4">
               <Image
                 src="/images/posts/dead-horse/bryan-with-tree-dead-horse-point.JPG"
                 alt="Lumpy Space Princess sleeping in the backseat"
                 height={600}
                 width={800}
-                layout="responsive"
-              />
-            </div>
-            <div className="border-4 border-gray-900">
-              <Image
-                src="/images/posts/dead-horse/shelly-with-tree-dead-horse-point.JPG"
-                alt="Lumpy Space Princess sleeping in the backseat"
-                height={900}
-                width={600}
                 layout="responsive"
               />
             </div>

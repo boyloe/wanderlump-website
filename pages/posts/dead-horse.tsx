@@ -1,6 +1,7 @@
 import React, { ReactElement } from "react";
 import Image from "next/image";
 import Head from "next/head";
+import PrevNext from "../../components/PrevNext";
 
 export default function deadhorse(): ReactElement {
   return (
@@ -59,14 +60,12 @@ export default function deadhorse(): ReactElement {
             quite dark. Similar to Island in the Sky, Dead Horse Point rests
             upon sandstone cliffs. The point is a peninsula connected to a large
             mesa via a narrow strip of land referred to as the neck. It is
-            believed that cowboys used the point as a natural
-          </p>
-          <p className="my-4 font-lato text-xl tracking-wide text-justify">
-            corral for wild mustangs in the 19th century. The neck is only
-            30-yards wide, so they fenced off access to the mesa with branches.
-            The cowboys selected the horses they wanted to use and left the
-            remaining horses stranded on the point without any food or water,
-            where they eventually died.
+            believed that cowboys used the point as a natural corral for wild
+            mustangs in the 19th century. The neck is only 30-yards wide, so
+            they fenced off access to the mesa with branches. The cowboys
+            selected the horses they wanted to use and left the remaining horses
+            stranded on the point without any food or water, where they
+            eventually died.
           </p>
           <div className="border-4 border-gray-900 shadow-2xl">
             <Image
@@ -125,7 +124,7 @@ export default function deadhorse(): ReactElement {
             branches.
           </p>
           <div className="grid grid-cols-1 gap-2 md:gap-0 md:grid-cols-2">
-            <div className="border-4 md:border-r-2 md:border-l-4 md:border-b-4 md:border-t-2 border-gray-900 md:col-span-1 md:row-span-2">
+            <div className="border-4 md:border-r-2 md:border-l-4 md:border-b-4 md:border-t-4 border-gray-900 md:col-span-1 md:row-span-2">
               <Image
                 src="/images/posts/dead-horse/shelly-with-tree-dead-horse-point.JPG"
                 alt="Lumpy Space Princess sleeping in the backseat"
@@ -134,11 +133,11 @@ export default function deadhorse(): ReactElement {
                 layout="responsive"
               />
             </div>
-            <div className="border-4 md:border-r-2 md:border-l-2 md-border-r-4 md:border-b-2 border-gray-900">
+            <div className="border-4 md:border-r-4 md:border-l-2 md-border-r-4 md:border-b-2 border-gray-900">
               <Image
-                src="/images/posts/dead-horse/dead-horse-point.JPG"
+                src="/images/posts/dead-horse/cactus.JPG"
                 alt="Canyon wall with multicolored striations"
-                height={600}
+                height={608}
                 width={800}
                 layout="responsive"
               />
@@ -160,7 +159,7 @@ export default function deadhorse(): ReactElement {
             Arches is bumpy and blackened, rather than red/brown and smooth.
             This is biological soil crust. Cyanobacteria, which you might know
             as blue-green algae, lives in the soil, migrates through the soil,
-            and leave behind sticky fibers, causing the soil to clump together
+            and leaves behind sticky fibers, causing the soil to clump together
             and create a thick crust.
           </p>
           <div className="border-4 border-gray-900 shadow-2xl">
@@ -184,7 +183,7 @@ export default function deadhorse(): ReactElement {
             the crusts are thousands of years old and the plants and animals
             rely on these crusts to survive.
           </p>
-          <div className="border-4 border-gray-900 shadow-2xl">
+          <div className="border-4 border-gray-900 shadow-2xl my-8">
             <Image
               src="/images/posts/dead-horse/biological_soil_crust.JPG"
               alt="Biological soil crust"
@@ -195,6 +194,7 @@ export default function deadhorse(): ReactElement {
           </div>
         </div>
       </article>
+      <PrevNext previousPostHref="/posts/canyonlands" nextPostHref="" />
     </>
   );
 }

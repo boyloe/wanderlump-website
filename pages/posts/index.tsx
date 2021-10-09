@@ -132,13 +132,13 @@ export default function posts(): ReactElement {
           preview="Definitely not PETA approved..."
         />
         <HorizontalCard
-          title="Dead Horse Point State Park"
-          date="May 18, 2021"
+          title="Arches National Park"
+          date="May 22, 2021"
           location="Moab, UT"
-          href="/posts/dead-horse"
-          thumbImage="/images/posts/dead-horse/dead-horse-point.JPG"
-          altText="Dead Horse Point"
-          preview="Definitely not PETA approved..."
+          href="/posts/arches"
+          thumbImage="/images/posts/arches/"
+          altText="Delicate Arch in Arches National Park"
+          preview="I thought that Arches would be a little archier..."
         />
       </div>
     </section>

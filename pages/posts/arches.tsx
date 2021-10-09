@@ -31,8 +31,21 @@ export default function arches(): ReactElement {
           <h1 className="text-3xl mb-4 font-lato font-black tracking-wide text-center">
             Moab, UT - Arches National Park
           </h1>
-          <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide"></h2>
-          <p className="my-4 font-lato text-xl tracking-wide text-justify"></p>
+          <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
+            We only have one rule – keep off the arches!
+          </h2>
+          <p className="my-4 font-lato text-xl tracking-wide text-justify">
+            What better way to spend our last day in Moab than hiking through
+            Devils Garden? This hike is incredibly popular, but there are
+            varying degrees of difficulty you can choose to do on this hike. You
+            can do a quick two-mile hike, see three arches, and call it a day,
+            you can go five-miles and see six arches, or you can do the
+            primitive trail, which is eight-miles and allows you to see eight
+            arches. We decided to do the primitive trail, because did you even
+            go to Arches if you don’t see ALL the arches? We also wanted to do
+            this one, because this trail is off the beaten path and requires
+            scrambling up and over rocks.
+          </p>
           <div className="md:border-4 border-gray-900 shadow-2xl mb-8 grid grid-cols-1 md:grid-cols-3">
             <div className="border-4 md:border-l-0 md:border-r-0 md:border-t-0 md:border-b-2 border-gray-900 md:col-span-3">
               <Image

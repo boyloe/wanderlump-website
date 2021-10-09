@@ -194,7 +194,10 @@ export default function deadhorse(): ReactElement {
           </div>
         </div>
       </article>
-      <PrevNext previousPostHref="/posts/canyonlands" nextPostHref="" />
+      <PrevNext
+        previousPostHref="/posts/canyonlands"
+        nextPostHref="/posts/arches"
+      />
     </>
   );
 }

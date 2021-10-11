@@ -207,7 +207,7 @@ export default function arches(): ReactElement {
           <div className="grid grid-cols-1 md:grid-cols-2 md:gap-0 gap-4 my-8">
             <div className="border-4 md:border-t-4 md:border-r-4 md:border-b-2 md:border-l-4 border-gray-900 shadow-2xl md:col-span-2">
               <Image
-                src="/images/posts/arches/arches-devils-garden-bryan-shelly-window-arch-wide.JPG"
+                src="/images/posts/arches/arches-devils-garden-bryan-shelly-partition-arch-wide.JPG"
                 alt="Private Arch in Arches National Park"
                 height={600}
                 width={800}
@@ -216,7 +216,7 @@ export default function arches(): ReactElement {
             </div>
             <div className="border-4 md:border-t-2 md:border-r-2 md:border-b-4 md:border-l-4 border-gray-900 shadow-2xl">
               <Image
-                src="/images/posts/arches/arches-devils-garden-bryan-shelly-window-arch.JPG"
+                src="/images/posts/arches/arches-devils-garden-bryan-shelly-partition-arch.JPG"
                 alt="Rock fins on the Devils Garden Trail in Arches National Park"
                 height={600}
                 width={800}
@@ -271,7 +271,7 @@ export default function arches(): ReactElement {
           <div className="grid grid-cols-1 md:grid-cols-2 md:gap-0 gap-4 my-8">
             <div className="border-4 md:border-t-4 md:border-r-4 md:border-b-2 md:border-l-4 border-gray-900 shadow-2xl md:col-span-2">
               <Image
-                src="/images/posts/arches/arches-devils-garden-bryan-shelly-window-arch-wide.JPG"
+                src="/images/posts/arches/arches-devils-garden-bryan-shelly-partition-arch-wide.JPG"
                 alt="Private Arch in Arches National Park"
                 height={600}
                 width={800}
@@ -280,7 +280,7 @@ export default function arches(): ReactElement {
             </div>
             <div className="border-4 md:border-t-2 md:border-r-2 md:border-b-4 md:border-l-4 border-gray-900 shadow-2xl">
               <Image
-                src="/images/posts/arches/arches-devils-garden-bryan-shelly-window-arch.JPG"
+                src="/images/posts/arches/arches-devils-garden-bryan-shelly-partition-arch.JPG"
                 alt="Rock fins on the Devils Garden Trail in Arches National Park"
                 height={600}
                 width={800}

@@ -101,7 +101,7 @@ export default function posts(): ReactElement {
           location="Pagosa Springs, CO"
           href="/posts/alpacalypse"
           thumbImage="/images/posts/alpacalypse/0386-derpy-alpaca.jpg"
-          altText="Alpace looking towards camera"
+          altText="Alpaca looking towards camera"
           preview="Q-Tips, cat toys, and the best mug ever..."
         />
         <HorizontalCard

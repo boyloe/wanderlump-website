@@ -57,7 +57,7 @@ export default function Index(): ReactElement {
               date="May 22, 2021"
               location="Moab, UT"
               href="/posts/arches"
-              thumbImage="/images/posts/arches/"
+              thumbImage="/images/posts/arches/arches-delicate-arch1.JPG"
               altText="Delicate Arch in Arches National Park"
               preview="I thought that Arches would be a little archier..."
             />

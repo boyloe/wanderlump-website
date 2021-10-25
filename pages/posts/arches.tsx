@@ -224,7 +224,7 @@ export default function arches(): ReactElement {
             finally came across our first arch - Private Arch. It was anything
             but private when we arrived, so we quickly took some pictures and
             continued on our way. At the furthest point of the trail, we caught
-            a view of Dark Angel.Dark Angel is a tall, dark spire that looms
+            a view of Dark Angel. Dark Angel is a tall, dark spire that looms
             over Devils Garden.
           </p>
           <div className="grid grid-cols-1 gap-4 my-8">
@@ -336,56 +336,12 @@ export default function arches(): ReactElement {
             under the arch since 1991, when a 60-foot section of the arch broke
             off. There are some larger remnants still evident below the arch.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 md:gap-0 gap-4 my-8">
-            <div className="border-4 md:border-t-4 md:border-r-4 md:border-b-2 md:border-l-4 border-gray-900 shadow-2xl md:col-span-2">
-              <Image
-                src="/images/posts/arches/arches-devils-garden-bryan-shelly-partition-arch-wide.JPG"
-                alt="Private Arch in Arches National Park"
-                height={600}
-                width={800}
-                layout="responsive"
-              />
-            </div>
-            <div className="border-4 md:border-t-2 md:border-r-2 md:border-b-4 md:border-l-4 border-gray-900 shadow-2xl">
-              <Image
-                src="/images/posts/arches/arches-devils-garden-bryan-shelly-partition-arch.JPG"
-                alt="Rock fins on the Devils Garden Trail in Arches National Park"
-                height={600}
-                width={800}
-                layout="responsive"
-              />
-            </div>
-            <div className="border-4 md:border-t-2 md:border-r-4 md:border-b-4 md:border-l-2 border-gray-900 shadow-2xl">
-              <Image
-                src="/images/posts/arches/arches-devils-garden-navajo-arch.JPG"
-                alt="Rock fins on the Devils Garden Trail in Arches National Park"
-                height={600}
-                width={800}
-                layout="responsive"
-              />
-            </div>
-          </div>
-          <p className="my-4 font-lato text-xl tracking-wide text-justify">
-            On the way back to the trailhead, we branched off one last time to
-            see Tunnel Arch and Pine Tree Arch. We did it! We made it to all
-            eight arches. As we slowly made our way back to the car, legs
-            aching, we discussed what a remarkable hike it was.
-          </p>
           <div className="border-4 border-gray-900 shadow-2xl my-8">
             <Image
-              src="/images/posts/arches/arches-devils-garden-tunnel-arch.JPG"
-              alt="Tunnel Arch in Arches National Park"
-              height={800}
-              width={600}
-              layout="responsive"
-            />
-          </div>
-          <div className="border-4 border-gray-900 shadow-2xl my-8">
-            <Image
-              src="/images/posts/arches/arches-devils-garden-pine-tree-arch.JPG"
-              alt="Pine Tree Arch in Arches National Park"
-              height={800}
-              width={600}
+              src="/images/posts/arches/arches-devils-garden-long-leaf-arch.JPG"
+              alt="Private Arch in Arches National Park"
+              height={600}
+              width={800}
               layout="responsive"
             />
           </div>
@@ -399,8 +355,8 @@ export default function arches(): ReactElement {
             <Image
               src="/images/posts/arches/arches-devils-garden-tunnel-arch.JPG"
               alt="Tunnel Arch in Arches National Park"
-              height={800}
-              width={600}
+              height={600}
+              width={800}
               layout="responsive"
             />
           </div>

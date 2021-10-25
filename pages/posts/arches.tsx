@@ -31,8 +31,76 @@ export default function arches(): ReactElement {
           <h1 className="text-3xl mb-4 font-lato font-black tracking-wide text-center">
             Moab, UT - Arches National Park
           </h1>
+          <div className="border-4 border-gray-900 my-4">
+            <Image
+              src="/images/posts/arches/arches-delicate-arch1.JPG"
+              alt="Delicate Arch"
+              width={1000}
+              height={1319}
+              layout="responsive"
+            />
+          </div>
           <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
-            Devil&apos;s Garden
+            I thought Arches would be a bit archier...
+          </h2>
+          <p className="my-4 font-lato text-xl tracking-wide text-justify">
+            The road in Arches is a two-lane road and visitors slowly meander
+            along, passing rock formations, overlooks, and trailheads in a
+            single file line. What I did not expect in Arches National Park was
+            for us to drive for 30 minutes without seeing a single arch! All of
+            the arches were not exactly easy to find without the technology that
+            exists today. A group of arch-hunters helped to survey the park and
+            they were able to find and document over 2,000 arches.
+          </p>
+          <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
+            We only have one rule - keep off the arches!
+          </h2>
+          <p className="my-4 font-lato text-xl tracking-wide text-justify">
+            We decided to hike the Delicate Arch Trail at sunset. This is
+            another very popular hike, because Delicate Arch is the largest
+            freestanding arch in the park. You won’t realize the magnitude of
+            this arch until you are standing under it. It was another incredibly
+            windy day (way to keep it consistent Utah!), especially at the top
+            of the trail. There were large crowds of people waiting to get a
+            picture with it, others resting from the steep incline of the hike,
+            and some just gazing at it, trying to take it all in while the sun
+            was setting and the colors of the surrounding landscape changed.
+          </p>
+          <p className="my-4 font-lato text-xl tracking-wide text-justify"></p>
+          <div className="border-4 border-gray-900 my-4">
+            <Image
+              src="/images/posts/arches/arches-delicate-arch2.JPG"
+              alt="Delicate Arch"
+              width={600}
+              height={800}
+              layout="responsive"
+            />
+          </div>
+          <div className="border-4 border-gray-900 my-4">
+            <Image
+              src="/images/posts/arches/arches-delicate-arch3.JPG"
+              alt="Delicate Arch"
+              width={800}
+              height={600}
+              layout="responsive"
+            />
+          </div>
+          <p className="my-8 font-lato text-xl tracking-wide text-justify">
+            On the way down, there is a short trail that leads you to
+            petroglyphs (rock carvings) of bighorn sheep and people riding
+            horses. It is amazing how well preserved the carvings are.
+          </p>
+          <div className="border-4 border-gray-900 my-4">
+            <Image
+              src="/images/posts/arches/arches-petroglyphs.JPG"
+              alt="Petroglyphs on the Delicate Arch trail"
+              width={800}
+              height={600}
+              layout="responsive"
+            />
+          </div>
+          <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
+            Devils Garden
           </h2>
           <p className="my-4 font-lato text-xl tracking-wide text-justify">
             What better way to spend our last day in Moab than hiking through
@@ -305,8 +373,8 @@ export default function arches(): ReactElement {
           </p>
           <div className="border-4 border-gray-900 shadow-2xl my-8">
             <Image
-              src="/images/posts/arches/arches-devils-garden-bryan-rock-point.JPG"
-              alt="Rock fins on the Devils Garden Trail in Arches National Park"
+              src="/images/posts/arches/arches-devils-garden-tunnel-arch.JPG"
+              alt="Tunnel Arch in Arches National Park"
               height={800}
               width={600}
               layout="responsive"
@@ -314,12 +382,84 @@ export default function arches(): ReactElement {
           </div>
           <div className="border-4 border-gray-900 shadow-2xl my-8">
             <Image
-              src="/images/posts/arches/arches-devils-garden-shelly-arms-wide.JPG"
-              alt="Rock fins on the Devils Garden Trail in Arches National Park"
-              height={600}
-              width={800}
+              src="/images/posts/arches/arches-devils-garden-pine-tree-arch.JPG"
+              alt="Pine Tree Arch in Arches National Park"
+              height={800}
+              width={600}
               layout="responsive"
             />
+          </div>
+          <p className="my-4 font-lato text-xl tracking-wide text-justify">
+            On the way back to the trailhead, we branched off one last time to
+            see Tunnel Arch and Pine Tree Arch. We did it! We made it to all
+            eight arches. As we slowly made our way back to the car, legs
+            aching, we discussed what a remarkable hike it was.
+          </p>
+          <div className="border-4 border-gray-900 shadow-2xl my-8">
+            <Image
+              src="/images/posts/arches/arches-devils-garden-tunnel-arch.JPG"
+              alt="Tunnel Arch in Arches National Park"
+              height={800}
+              width={600}
+              layout="responsive"
+            />
+          </div>
+          <div className="border-4 border-gray-900 shadow-2xl my-8">
+            <Image
+              src="/images/posts/arches/arches-devils-garden-pine-tree-arch.JPG"
+              alt="Pine Tree Arch in Arches National Park"
+              height={800}
+              width={600}
+              layout="responsive"
+            />
+          </div>
+          <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
+            Moab – Lumpy approved.
+          </h2>
+          <p className="my-4 font-lato text-xl tracking-wide text-justify">
+            Despite the wind causing poor little Lumpy to go into hiding, she
+            still managed to enjoy herself in Moab. She found several new spots
+            in the trailer – one where her brisket could hang freely, one where
+            she could sunbathe, and she decided my body was a pretty comfy spot
+            to sleep on. And don’t forget more screen time!
+          </p>
+          <div className="grid grid-cols-3 my-8">
+            <div className="border-l-4 border-t-4 border-r-4 border-b-2 border-gray-900 shadow-2xl col-span-3">
+              <Image
+                src="/images/posts/arches/arches-lumpy-space-princess-sleeping.JPG"
+                alt="Lumpy Space Princess"
+                height={600}
+                width={800}
+                layout="responsive"
+              />
+            </div>
+            <div className="border-l-4 border-t-2 border-r-2 border-b-4 border-gray-900 shadow-2xl">
+              <Image
+                src="/images/posts/arches/arches-lumpy-space-princess-1.JPG"
+                alt="Pine Tree Arch in Arches National Park"
+                height={806}
+                width={600}
+                layout="responsive"
+              />
+            </div>
+            <div className="border-l-2 border-t-2 border-r-2 border-b-4 border-gray-900 shadow-2xl">
+              <Image
+                src="/images/posts/arches/arches-lumpy-loaf.JPG"
+                alt="Lumpy Space Princess bread loafing"
+                height={800}
+                width={600}
+                layout="responsive"
+              />
+            </div>
+            <div className="border-l-2 border-t-2 border-r-4 border-b-4 border-gray-900 shadow-2xl">
+              <Image
+                src="/images/posts/arches/arches-lumpy-space-princess-screen-time.JPG"
+                alt="Lumpy Space Princess looking through the screen door"
+                height={806}
+                width={600}
+                layout="responsive"
+              />
+            </div>
           </div>
         </div>
       </article>

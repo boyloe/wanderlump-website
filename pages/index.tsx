@@ -35,15 +35,6 @@ export default function Index(): ReactElement {
           <h3 className="text-xl md:text-3xl mb-4">Recent Posts:</h3>
           <div className="grid gap-10">
             <HorizontalCard
-              title="Durango, CO"
-              date="May 17, 2021"
-              location="Durango, CO"
-              href="/posts/durango"
-              thumbImage="/images/posts/durango/forest-river-salem-22rbs-in-woods.jpeg"
-              altText="Forest River Salem 22rbs in Durango, CO"
-              preview="Forests, firewood, and Fed Ex..."
-            />
-            <HorizontalCard
               title="Canyonlands National Park"
               date="May 18, 2021"
               location="Moab, UT"
@@ -60,6 +51,15 @@ export default function Index(): ReactElement {
               thumbImage="/images/posts/dead-horse/dead-horse-point.JPG"
               altText="Dead Horse Point"
               preview="Definitely not PETA approved..."
+            />
+            <HorizontalCard
+              title="Arches National Park"
+              date="May 22, 2021"
+              location="Moab, UT"
+              href="/posts/arches"
+              thumbImage="/images/posts/arches/arches-delicate-arch1.JPG"
+              altText="Delicate Arch in Arches National Park"
+              preview="I thought that Arches would be a little archier..."
             />
           </div>
         </div>

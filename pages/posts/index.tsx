@@ -101,7 +101,7 @@ export default function posts(): ReactElement {
           location="Pagosa Springs, CO"
           href="/posts/alpacalypse"
           thumbImage="/images/posts/alpacalypse/0386-derpy-alpaca.jpg"
-          altText="Alpace looking towards camera"
+          altText="Alpaca looking towards camera"
           preview="Q-Tips, cat toys, and the best mug ever..."
         />
         <HorizontalCard
@@ -130,6 +130,15 @@ export default function posts(): ReactElement {
           thumbImage="/images/posts/dead-horse/dead-horse-point.JPG"
           altText="Dead Horse Point"
           preview="Definitely not PETA approved..."
+        />
+        <HorizontalCard
+          title="Arches National Park"
+          date="May 22, 2021"
+          location="Moab, UT"
+          href="/posts/arches"
+          thumbImage="/images/posts/arches/"
+          altText="Delicate Arch in Arches National Park"
+          preview="I thought that Arches would be a little archier..."
         />
       </div>
     </section>

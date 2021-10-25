@@ -86,9 +86,9 @@ export default function arches(): ReactElement {
             />
           </div>
           <p className="my-8 font-lato text-xl tracking-wide text-justify">
-            On the way down, there is a short trail that leads you to
-            petroglyphs (rock carvings) of bighorn sheep and people riding
-            horses. It is amazing how well preserved the carvings are.
+            On the way down, there is a short trail that leads to petroglyphs
+            (rock carvings) of bighorn sheep and people riding horses. It is
+            amazing how well preserved the carvings are.
           </p>
           <div className="border-4 border-gray-900 my-4">
             <Image
@@ -224,8 +224,8 @@ export default function arches(): ReactElement {
             finally came across our first arch - Private Arch. It was anything
             but private when we arrived, so we quickly took some pictures and
             continued on our way. At the furthest point of the trail, we caught
-            a view of Dark Angel. Dark Angel is a tall, dark spire that looms
-            over Devils Garden.
+            a view of Dark Angel, which is a tall, dark spire that looms over
+            Devils Garden.
           </p>
           <div className="grid grid-cols-1 gap-4 my-8">
             <div className="border-4 border-gray-900 shadow-2xl">
@@ -270,7 +270,7 @@ export default function arches(): ReactElement {
             Luckily, we came across two women who had spent 15 minutes finding
             the perfect spot for that Instagram worthy pic and they offered to
             do a mini photo shoot for us. Thanks ladies! Both of these arches
-            were also worth putting in those extra steps.
+            were worth putting in those extra steps.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 md:gap-0 gap-4 my-8">
             <div className="border-4 md:border-t-4 md:border-r-4 md:border-b-2 md:border-l-4 border-gray-900 shadow-2xl md:col-span-2">
@@ -303,7 +303,7 @@ export default function arches(): ReactElement {
           </div>
           <p className="my-4 font-lato text-xl tracking-wide text-justify">
             Back on the main trail, we navigated our way along another long row
-            of fins. It was a bit nerve racking at times when you had to pass
+            of fins. It was a bit nerve racking at times when we had to pass
             people on the fins and some people would get dangerously close to
             the edge to take pictures. It started raining as we descended
             another large fin, which we gladly welcomed as it cooled us off a

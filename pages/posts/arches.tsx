@@ -17,7 +17,7 @@ export default function arches(): ReactElement {
         <meta property="og:url" content="https://wanderlump.com/posts/arches" />
         <meta
           property="og:image"
-          content="https://www.wanderlump.com/images/posts/arches/arches-devils-garden-wide-view.JPG"
+          content="https://www.wanderlump.com/images/posts/arches/arches-delicate-arch2.JPG"
         />
 
         <meta property="og:image:type" content="image/jpeg" />

@@ -267,7 +267,7 @@ export default function sanddunes(): ReactElement {
           do while we were gone? Sleep, of course! And in the most awkward
           positions you can possibly imagine.
         </p>
-        <div className="border-t-2 border-b-2 border-l-2 border-r-2 border-gray-900">
+        <div className="border-l-4 border-t-4 border-r-4 border-b-4 border-gray-900">
           <Image
             src="/images/posts/sand-dunes/0294-lumpy-sleeping.JPG"
             alt="Lumpy asleep in the back of the truck"
@@ -276,7 +276,7 @@ export default function sanddunes(): ReactElement {
             layout="responsive"
           />
         </div>
-        <div className="border-t-2 border-b-2 border-l-2 border-r-2 border-gray-900 mb-24">
+        <div className="border-l-4 border-t-2 border-r-4 border-b-4 border-gray-900 mb-24">
           <Image
             src="/images/posts/sand-dunes/9493-special-catalina.JPG"
             alt="Catalina sleeping in her carrier"

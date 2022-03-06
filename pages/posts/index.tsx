@@ -140,6 +140,15 @@ export default function posts(): ReactElement {
           altText="Delicate Arch in Arches National Park"
           preview="I thought that Arches would be a little archier..."
         />
+        <HorizontalCard
+          title="Capitol Reef"
+          date="May 27, 2021"
+          location="Torrey, UT"
+          href="/posts/capitol-reef"
+          thumbImage="/images/posts/capitol-reef/capitol-reef-portrait.JPG"
+          altText="Capitol Dome"
+          preview="No capitol, no reef, no service..."
+        />
       </div>
     </section>
   );

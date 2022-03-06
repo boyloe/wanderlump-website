@@ -35,22 +35,13 @@ export default function Index(): ReactElement {
           <h3 className="text-xl md:text-3xl mb-4">Recent Posts:</h3>
           <div className="grid gap-10">
             <HorizontalCard
-              title="Canyonlands National Park"
-              date="May 18, 2021"
-              location="Moab, UT"
-              href="/posts/canyonlands"
-              thumbImage="/images/posts/canyonlands/sunset.JPG"
-              altText="Canyon Lands National Park at sunset"
-              preview="Red sand in every nook and cranny..."
-            />
-            <HorizontalCard
-              title="Dead Horse Point State Park"
-              date="May 18, 2021"
-              location="Moab, UT"
-              href="/posts/dead-horse"
-              thumbImage="/images/posts/dead-horse/dead-horse-point.JPG"
-              altText="Dead Horse Point"
-              preview="Definitely not PETA approved..."
+              title="Capitol Reef"
+              date="May 27, 2021"
+              location="Torrey, UT"
+              href="/posts/capitol-reef"
+              thumbImage="/images/posts/capitol-reef/capitol-reef-portrait.JPG"
+              altText="Capitol Dome"
+              preview="No capitol, no reef, no service..."
             />
             <HorizontalCard
               title="Arches National Park"
@@ -60,6 +51,15 @@ export default function Index(): ReactElement {
               thumbImage="/images/posts/arches/arches-delicate-arch1.JPG"
               altText="Delicate Arch in Arches National Park"
               preview="I thought that Arches would be a little archier..."
+            />
+            <HorizontalCard
+              title="Dead Horse Point State Park"
+              date="May 18, 2021"
+              location="Moab, UT"
+              href="/posts/dead-horse"
+              thumbImage="/images/posts/dead-horse/dead-horse-point.JPG"
+              altText="Dead Horse Point"
+              preview="Definitely not PETA approved..."
             />
           </div>
         </div>

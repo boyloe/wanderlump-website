@@ -23,11 +23,17 @@ export default function HorizontalCard({
 }: IHorizontalCardProps): ReactElement {
   return (
     <Link href={href}>
-      <div className="flex items-center p-4 bg-white border-2 border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 font-lato cursor-pointer hover:bg-gray-100">
-        <div className="hidden sm:flex border-gray-300 border-2 rounded-lg">
-          <Image alt={altText} src={thumbImage} height={200} width={160} />
+      <div className="flex items-center p-4 bg-white border-2 border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 font-lato cursor-pointer hover:bg-gray-100 h-64">
+        <div className="sm:flex w-1/3">
+          <Image
+            alt={altText}
+            src={thumbImage}
+            height={200}
+            width={160}
+            className="rounded-lg"
+          />
         </div>
-        <div id="body" className="flex flex-col ml-5">
+        <div id="body" className="flex flex-col ml-5 w-2/3">
           <h4 id="name" className="text-xl font-semibold mb-2">
             {title}
           </h4>

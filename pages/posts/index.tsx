@@ -141,13 +141,22 @@ export default function posts(): ReactElement {
           preview="I thought that Arches would be a little archier..."
         />
         <HorizontalCard
-          title="Capitol Reef"
+          title="Capitol Reef National Park"
           date="May 27, 2021"
           location="Torrey, UT"
           href="/posts/capitol-reef"
           thumbImage="/images/posts/capitol-reef/capitol-reef-portrait.JPG"
           altText="Capitol Dome"
           preview="No capitol, no reef, no service..."
+        />
+        <HorizontalCard
+          title="Bryce Canyon National Park"
+          date="June 1, 2021"
+          location="Bryce Canyon City, UT"
+          href="/posts/bryce-canyon"
+          thumbImage="/images/posts/bryce-canyon/bryce-canyon-panoramic-view-1196.JPG"
+          altText="Bryce Canyon National Park"
+          preview="Peekaboo, I see hoodoo..."
         />
       </div>
     </section>

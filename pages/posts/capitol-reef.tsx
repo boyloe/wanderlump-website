@@ -451,7 +451,10 @@ export default function CapitolReef(): ReactElement {
           </p>
         </article>
       </div>
-      <PrevNext previousPostHref="/posts/arches" nextPostHref="" />
+      <PrevNext
+        previousPostHref="/posts/arches"
+        nextPostHref="/posts/bryce-canyon"
+      />
     </>
   );
 }

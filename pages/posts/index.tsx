@@ -154,7 +154,7 @@ export default function posts(): ReactElement {
           date="June 1, 2021"
           location="Bryce Canyon City, UT"
           href="/posts/bryce-canyon"
-          thumbImage="/images/posts/bryce-canyon/bryce-canyon-panoramic-view-1196.JPG"
+          thumbImage="/images/posts/bryce-canyon/bryce-canyon-hoodoo-wall-1261.JPG"
           altText="Bryce Canyon National Park"
           preview="Peekaboo, I see hoodoo..."
         />

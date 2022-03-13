@@ -147,7 +147,7 @@ export default function BryceCanyon(): ReactElement {
             get thin enough that a hole forms, creating a window and when the
             surface above the window breaks off, a hoodoo is left behind.
           </p>
-          <div className="grid gap-4 md:gap-2 md:grid-cols-1">
+          <div className="grid gap-4 md:gap-2 md:grid-cols-2">
             <div className="border-4 border-gray-900">
               <Image
                 src="/images/posts/bryce-canyon/bryce-canyon-mesa-1138.JPG"
@@ -290,11 +290,8 @@ export default function BryceCanyon(): ReactElement {
             we needed to hurry up or we weren&apos;t going to make it to all the
             overlooks before the sun set. This led to a comical descent down the
             road, stopping at each point, running out, taking a quick photo, and
-            running back to the car. With Metallica&apos;s Master of Puppets
-            blaring through the speakers, we felt like we were recreating the
-            scene from the movie Old School. Don&apos;t worry, we didn&apos;t
-            kidnap or haze any tourists and we did make it to every point and
-            even saw several elk walking through a field.
+            running back to the car. It was close, but we did end up making it
+            to every point before dark.
           </p>
           <div className="grid md:grid-cols-2 gap-2">
             <div className="border-4 border-gray-900">
@@ -342,18 +339,17 @@ export default function BryceCanyon(): ReactElement {
             loop around. This trail has almost as much elevation gain as
             Fairyland, 1,450 feet, even though it is 3 miles shorter, so we knew
             we were in for another leg day. The trail descends quickly into the
-            canyon and we knew that what goes down, must come up, and we would
-            be ending this five mile hike with a very steep incline. Even though
-            it was hard, this was an unbelievable hike and definitely our
-            favorite hike at Bryce. We got to walk through giant windows, run
-            down switchbacks, say hi to some horses enjoying the trail, explore
-            vastly different landscapes around each turn, and see even more
-            hoodoos.
+            canyon, so we knew we would be ending this five mile loop with a
+            very steep incline. Even though it was hard, this was an
+            unbelievable hike and definitely our favorite at Bryce. We got to
+            walk through giant windows, run down switchbacks, say hi to some
+            horses enjoying the trail, explore vastly different landscapes
+            around each turn, and see even more hoodoos.
           </p>
           <div className="grid md:grid-cols-2 gap-2">
-            <div className="border-4 border-gray-900">
+            <div className="border-4 border-gray-900 col-span-2">
               <Image
-                src="/images/posts/bryce-canyon/bryce-canyon-hoodoo-pano-1356.jpeg"
+                src="/images/posts/bryce-canyon/bryce-canyon-hoodoo-wall-1384.JPG"
                 layout="responsive"
                 height={600}
                 width={800}
@@ -369,20 +365,13 @@ export default function BryceCanyon(): ReactElement {
             </div>
             <div className="border-4 border-gray-900">
               <Image
-                src="/images/posts/bryce-canyon/bryce-canyon-cliff-view-1376.JPG"
+                src="/images/posts/bryce-canyon/bryce-canyon-hoodoo-pano-1356.jpeg"
                 layout="responsive"
                 height={600}
                 width={800}
               />
             </div>
-            <div className="border-4 border-gray-900">
-              <Image
-                src="/images/posts/bryce-canyon/bryce-canyon-hoodoo-wall-1384.JPG"
-                layout="responsive"
-                height={600}
-                width={800}
-              />
-            </div>
+
             <div className="border-4 border-gray-900">
               <Image
                 src="/images/posts/bryce-canyon/bryce-canyon-hoodoo-jet-1393.JPG"
@@ -438,15 +427,7 @@ export default function BryceCanyon(): ReactElement {
             more than three with all the hikes we did and happily accepted our
             sticker from the visitor center for all our hard work.
           </p>
-          <div className="grid grid-cols-1 gap-2">
-            <div className="border-4 border-gray-900">
-              <Image
-                src="/images/posts/bryce-canyon/bryce-canyon-hike-the-hoodoos-1118.JPG"
-                layout="responsive"
-                height={600}
-                width={800}
-              />
-            </div>
+          <div className="grid grid-cols-2 gap-2">
             <div className="border-4 border-gray-900">
               <Image
                 src="/images/posts/bryce-canyon/bryce-canyon-bryan-hoodoo-info-1150.JPG"
@@ -455,14 +436,7 @@ export default function BryceCanyon(): ReactElement {
                 width={800}
               />
             </div>
-            <div className="border-4 border-gray-900">
-              <Image
-                src="/images/posts/bryce-canyon/bryce-canyon-hoodoo-1152.JPG"
-                layout="responsive"
-                height={600}
-                width={800}
-              />
-            </div>
+
             <div className="border-4 border-gray-900">
               <Image
                 src="/images/posts/bryce-canyon/bryce-canyon-hoodoo-info-1238.JPG"
@@ -479,14 +453,7 @@ export default function BryceCanyon(): ReactElement {
                 width={800}
               />
             </div>
-            <div className="border-4 border-gray-900">
-              <Image
-                src="/images/posts/bryce-canyon/bryce-canyon-tower-bridge-1267.JPG"
-                layout="responsive"
-                height={600}
-                width={800}
-              />
-            </div>
+
             <div className="border-4 border-gray-900">
               <Image
                 src="/images/posts/bryce-canyon/bryce-canyon-bryan-hoodoo-info-1310.JPG"
@@ -509,14 +476,6 @@ export default function BryceCanyon(): ReactElement {
                 layout="responsive"
                 height={600}
                 width={800}
-              />
-            </div>
-            <div className="border-4 border-gray-900">
-              <Image
-                src="/images/posts/bryce-canyon/bryce-canyon-bryan-pointing-window-1402.JPG"
-                layout="responsive"
-                height={800}
-                width={600}
               />
             </div>
           </div>

@@ -18,7 +18,7 @@ export default function BryceCanyon(): ReactElement {
         />
         <meta
           property="og:image"
-          content="https://www.wanderlump.com/images/posts/bryce-canyon/bryce-canyon-panoramic-view.JPG"
+          content="https://www.wanderlump.com/images/posts/bryce-canyon/bryce-canyon-panoramic-view-1196.JPG"
         />
 
         <meta property="og:image:type" content="image/jpeg" />
@@ -36,8 +36,8 @@ export default function BryceCanyon(): ReactElement {
             <Image
               src="/images/posts/bryce-canyon/bryce-canyon-panoramic-view-1196.JPG"
               alt="Bryce Canyon National Park"
-              height={800}
-              width={600}
+              height={600}
+              width={800}
               layout="responsive"
             />
           </div>

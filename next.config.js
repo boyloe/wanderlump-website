@@ -4,4 +4,7 @@ module.exports = {
   withImages() {
     "serverless";
   },
+  images: {
+    domains: ["ir-na.amazon-adsystem.com", "m.media-amazon.com"],
+  },
 };

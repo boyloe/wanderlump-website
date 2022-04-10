@@ -19,7 +19,7 @@ function ProductCard({
   return (
     <Fragment>
       <Link href={linkHref}>
-        <a className="flex flex-col space-y-4 ">
+        <a className="flex flex-col space-y-4 items-center">
           <div className="">
             <Image
               src={imageSrc}

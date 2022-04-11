@@ -1,4 +1,4 @@
-import React, { Fragment, FC } from "react";
+import React, { Fragment } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -29,7 +29,7 @@ function ProductCard({
               alt={altText}
             />
           </div>
-          <div className="font-josefin-sans text-lg text-center">{title}</div>
+          <div className="font-josefin-sans text-2xl text-center">{title}</div>
         </a>
       </Link>
     </Fragment>

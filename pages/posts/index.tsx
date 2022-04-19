@@ -178,6 +178,15 @@ export default function posts(): ReactElement {
             altText="Bryce Canyon National Park"
             preview="Peekaboo, I see hoodoo..."
           />
+          <HorizontalCard
+            title="Zion National Park"
+            date="June 7, 2021"
+            location="Springdale, UT"
+            href="/posts/zion-national-park"
+            thumbImage="/images/posts/zion/zion-national-park-1488.JPG"
+            altText="Zion National Park"
+            preview="The promised land my ass..."
+          />
         </div>
       </section>
     </>

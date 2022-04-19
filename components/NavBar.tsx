@@ -15,7 +15,7 @@ export default function NavBar(): ReactElement {
         className="fixed inset-x-0 top-0 flex flex-row justify-between z-10 text-black bg-white"
       >
         <div className="p-4">
-          <div className="font-medium tracking-widest text-xl font-josefin-sans">
+          <div className="font-medium tracking-widest text-2xl font-josefin-sans">
             <a
               href="/"
               className="transition duration-500 hover:text-indigo-500"

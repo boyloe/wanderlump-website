@@ -534,7 +534,10 @@ export default function BryceCanyon(): ReactElement {
           </div>
         </article>
       </div>
-      <PrevNext previousPostHref="/posts/capitol-reef" nextPostHref="" />
+      <PrevNext
+        previousPostHref="/posts/capitol-reef"
+        nextPostHref="/posts/zion-national-park"
+      />
     </>
   );
 }

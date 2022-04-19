@@ -2,6 +2,7 @@ import React, { ReactElement } from "react";
 import Image from "next/image";
 import Head from "next/head";
 import PrevNext from "../../components/PrevNext";
+import Link from "next/link";
 
 export default function ZionNationalPark(): ReactElement {
   return (
@@ -29,20 +30,19 @@ export default function ZionNationalPark(): ReactElement {
       <article>
         <div className="mx-auto max-w-3xl p-4 md:p-0">
           <h1 className="text-3xl mb-4 font-lato font-black tracking-wide text-center">
-            Zion National Park <br />
-            Springdale, UT
+            Zion National Park
           </h1>
           <div className="border-4 border-gray-900 my-4">
             <Image
               src="/images/posts/zion/zion-national-park-1488.JPG"
               alt="Zion National Park"
-              width={600}
-              height={800}
+              width={800}
+              height={600}
               layout="responsive"
             />
           </div>
           <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
-            The honeymoon period is over
+            The honeymoon period is officially over
           </h2>
           <p className="my-4 font-lato text-xl tracking-wide text-justify">
             After all our incredible hiking at Bryce, we were excited to
@@ -186,17 +186,17 @@ export default function ZionNationalPark(): ReactElement {
             closer to St. George did not have any rental generators, but the one
             an hour north of us did. Yay! Our luck was turning. We dropped off
             ours at Ace Hardware and they were hopeful they could get it looked
-            at today and would call with an update. We started the drive back
-            north (St. George was 45 minutes south of us) and realized we were
-            going to miss the rental department staff by 5 minutes. We called
-            hoping they could make an exception and they firmly reiterated that
-            they would be locking up rental equipment at 5 pm. There was no
-            point driving all the way there, so we decided to head into Zion. We
-            knew it would still be way too hot to go back into the trailer, so
-            we kept the truck air blasting, looked at our lonely trailer as we
-            drove past it, seeing that everyone else around us had also
-            succumbed to the unbearable heat and left. Most importantly, the
-            cats were happy and cool once again.
+            at that same day and would call with an update. We started the drive
+            back north (St. George was 45 minutes south of us) and realized we
+            were going to miss the rental department staff by 5 minutes. We
+            called hoping they could make an exception and they firmly
+            reiterated that they would be locking up rental equipment at 5 pm.
+            There was no point driving all the way there, so we decided to head
+            into Zion. We knew it would still be way too hot to go back into the
+            trailer, so we kept the truck air blasting, looked at our lonely
+            trailer as we drove past it, seeing that everyone else around us had
+            also succumbed to the unbearable heat and left. Most importantly,
+            the cats were happy and cool once again.
           </p>
           <div className="border-4 border-gray-900 my-4">
             <Image
@@ -259,21 +259,22 @@ export default function ZionNationalPark(): ReactElement {
             trailer. We wanted to hike the Narrows, which is one of the trails
             you need to ride a shuttle to get to and the first shuttle leaves
             the visitor center at 7 am. At 6 am we pulled into a parking lot
-            that looked like Disneyworld during Spring Break. We made our way up
-            to the line and it was at least a two hour wait. Feeling like Zion
-            was destined to break us, we sadly made our way back to the truck,
-            stopped at the local coffee shop for some giant coffees, and made
-            the trip north to Home Depot. That was the least eventful incident
-            for us in several days, other than the employee not believing Bryan
-            that the smaller generator would power our AC and him forcing us to
-            take the goliath model. We left victorious with our 6,000-watt
-            generator (ours is 3,100 watts) that was going to be worth every
-            penny of the $100 per day rental fee. When we got home, Bryan fired
-            it up and it was the most beautiful sound we had ever heard.
-            Unfortunately, it was so hot outside, that even our mammoth-sized
-            generator that could power an entire construction site,
-            couldn&apos;t get the temperature in our trailer below 80 degrees.
-            However, we were beyond grateful for 80s and considered this a win.
+            that looked like Disney World during Spring Break. We made our way
+            up to the line and it was at least a two hour wait. Feeling like
+            Zion was destined to break us, we sadly made our way back to the
+            truck, stopped at the local coffee shop for some giant coffees, and
+            made the trip north to Home Depot. That was the least eventful
+            incident for us in several days, other than the employee not
+            believing Bryan that the smaller generator would power our AC and
+            him forcing us to take the goliath model. We left victorious with
+            our 6,000-watt generator (ours is 3,100 watts) that was going to be
+            worth every penny of the $100 per day rental fee. When we got home,
+            Bryan fired it up and it was the most beautiful sound we had ever
+            heard. Unfortunately, it was so hot outside, that even our
+            mammoth-sized generator that could power an entire construction
+            site, couldn&apos;t get the temperature in our trailer below 80
+            degrees. However, we were beyond grateful for 80s and considered
+            this a win.
           </p>
           <p className="my-8 font-lato text-xl tracking-wide text-justify">
             Now that we weren&apos;t melting to the vinyl couch cushions, our
@@ -323,16 +324,19 @@ export default function ZionNationalPark(): ReactElement {
           </p>
           <p className="my-8 font-lato text-xl tracking-wide text-justify">
             We found a slot canyon (narrow gorges) hike that was accessible
-            without shuttles and set off. Luckily AllTrails got us there,
-            because it was a hidden trailhead. After climbing down a very steep
-            cliff and walking a few hundred feet, we entered into another world.
-            We weaved our way through the narrow rocks, amazed at their distinct
-            layering. Eventually the trail opened up and we walked along a
-            dried-up stream. It was an enchanting hike and we would have
-            wandered around for hours, but it was starting to get dark and we
-            didn&apos;t need to push our luck with Zion and become a mountain
-            lion snack. That night we slept soundly with the hum of the air
-            conditioner lulling us to sleep.
+            without shuttles and set off. Luckily{" "}
+            <Link href="https://www.alltrails.com/trail/us/utah/lower-clear-creek-the-hobbit-hole--2">
+              <a className="text-blue-400">AllTrails</a>
+            </Link>{" "}
+            got us there, because it was a hidden trailhead. After climbing down
+            a very steep cliff and walking a few hundred feet, we entered into
+            another world. We weaved our way through the narrow rocks, amazed at
+            their distinct layering. Eventually the trail opened up and we
+            walked along a dried-up stream. It was an enchanting hike and we
+            would have wandered around for hours, but it was starting to get
+            dark and we didn&apos;t need to push our luck with Zion and become a
+            mountain lion snack. That night we slept soundly with the hum of the
+            air conditioner lulling us to sleep.
           </p>
           <div className="border-4 border-gray-900 my-4">
             <Image
@@ -357,18 +361,22 @@ export default function ZionNationalPark(): ReactElement {
             was going to be even more crowded. We rolled into the parking lot by
             5 am and sleepily waited in line until 7 am. We got on the second
             shuttle and excitedly made our way back to the hike we had been
-            waiting for – Angels Landing! The trail isn&apos;t very long, only
-            4.4 miles, but it has 1,604 elevation gain and part of the trail
-            goes up such a narrow steep section that they installed poles and
-            chains to help climb up without falling. Signs actually warn you of
-            how many people have died hiking this trail.
+            waiting for –{" "}
+            <Link href="https://www.alltrails.com/trail/us/utah/angels-landing-trail">
+              <a className="text-blue-400">Angels Landing!</a>
+            </Link>{" "}
+            The trail isn&apos;t very long, only 4.4 miles, but it has 1,604
+            elevation gain and part of the trail goes up such a narrow steep
+            section that they installed poles and chains to help climb up
+            without falling. Signs actually warn you of how many people have
+            died hiking this trail.
           </p>
           <div className="border-4 border-gray-900 my-4">
             <Image
               src="/images/posts/zion/zion-national-park-angels-landing-1551.JPG"
               alt="Angel's Landing in Zion National Park"
-              width={600}
-              height={800}
+              width={800}
+              height={600}
               layout="responsive"
             />
           </div>
@@ -453,12 +461,15 @@ export default function ZionNationalPark(): ReactElement {
           </p>
           <p className="my-8 font-lato text-xl tracking-wide text-justify">
             By the time we got back to the bottom and hopped on the shuttle it
-            was only 9 am, so we were excited to head to the famous slot canyon
-            trail, The Narrows. However, in true Zion fashion, someone had
-            injured themself on that trail (torn ACL is what we heard), so that
-            hike was closed for the rest of the day. We had come all this way
-            and weren&apos;t going to be able to do the trail we were looking
-            forward to the most.
+            was only 9 am, so we were excited to head to{" "}
+            <Link href="https://www.alltrails.com/trail/us/utah/the-zion-narrows-riverside-walk">
+              <a className="text-blue-400">The Narrows</a>
+            </Link>
+            , a famous slot canyon trail. However, in true Zion fashion, someone
+            had injured themself on that trail (torn ACL is what we heard), so
+            that hike was closed for the rest of the day. We had come all this
+            way and weren&apos;t going to be able to do the trail we were
+            looking forward to the most.
           </p>
           <p className="my-8 font-lato text-xl tracking-wide text-justify">
             We looked at each other, shrugged, and decided that we were

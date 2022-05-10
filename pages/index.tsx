@@ -39,8 +39,8 @@ export default function Index(): ReactElement {
               date="June 12, 2021"
               location="Mack, CO"
               href="/posts/black-canyon"
-              thumbImage="/images/posts/black-canyon/black-canyon-of-the-gunnison-painted-wall-1672.JPG"
-              altText="Painted wall at Black Canyon of the Gunnison National Park"
+              thumbImage="/images/posts/black-canyon/black-canyon-of-the-gunnison-cedar-point-1648.JPG"
+              altText="Cedar point at Black Canyon of the Gunnison National Park"
               preview="Sunsets and Cicadas..."
             />
             <HorizontalCard

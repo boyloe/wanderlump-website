@@ -187,6 +187,15 @@ export default function posts(): ReactElement {
             altText="Zion National Park"
             preview="The promised land my ass..."
           />
+          <HorizontalCard
+            title="Black Canyon of the Gunnison National Park"
+            date="June 12, 2021"
+            location="Mack, CO"
+            href="/posts/black-canyon"
+            thumbImage="/images/posts/black-canyon/black-canyon-of-the-gunnison-painted-wall-1672.JPG"
+            altText="Painted wall at Black Canyon of the Gunnison National Park"
+            preview="Sunsets and Cicadas..."
+          />
         </div>
       </section>
     </>

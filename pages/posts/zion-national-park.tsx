@@ -482,7 +482,10 @@ export default function ZionNationalPark(): ReactElement {
           </p>
         </div>
       </article>
-      <PrevNext previousPostHref="/posts/bryce-canyon" nextPostHref="/" />
+      <PrevNext
+        previousPostHref="/posts/bryce-canyon"
+        nextPostHref="/posts/black-canyon"
+      />
     </>
   );
 }

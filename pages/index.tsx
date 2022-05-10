@@ -40,7 +40,7 @@ export default function Index(): ReactElement {
               location="Mack, CO"
               href="/posts/black-canyon"
               thumbImage="/images/posts/black-canyon/black-canyon-of-the-gunnison-cedar-point-1648.JPG"
-              altText="Painted wall at Black Canyon of the Gunnison National Park"
+              altText="Cedar point at Black Canyon of the Gunnison National Park"
               preview="Sunsets and Cicadas..."
             />
             <HorizontalCard

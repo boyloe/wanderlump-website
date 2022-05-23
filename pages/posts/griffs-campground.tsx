@@ -20,10 +20,11 @@ export default function griffsCampground(): ReactElement {
           to unload everything from the truck into the trailer. We were also
           exhausted from the previous few days of packing and driving to Iowa,
           so we settled on a full hook up site just 30 minutes north in Altoona,
-          Iowa. I don’t think we could have found a better site for our first
-          stay and to get unpacked! Our spot was right on a pond, the sites were
-          all concrete, perfectly level pads with lush green grass all around.
-          We were lucky to even get a spot, because most of the park was full.
+          Iowa. I don&apos;t think we could have found a better site for our
+          first stay and to get unpacked! Our spot was right on a pond, the
+          sites were all concrete, perfectly level pads with lush green grass
+          all around. We were lucky to even get a spot, because most of the park
+          was full.
         </p>
         <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
           Not bad for our first time...

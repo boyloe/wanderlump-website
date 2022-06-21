@@ -173,7 +173,7 @@ export default function ZionNationalPark(): ReactElement {
           </p>
           <div className="border-4 border-gray-900 my-4">
             <Image
-              src="/images/posts/zion/wanderlump-lumpy-space-princess-1496.JPG"
+              src="/images/posts/zion/wanderlump-lumpy-space-princess-1496.jpg"
               alt="Lumpy Space Princess laying on Shelly's laptop"
               width={800}
               height={500}

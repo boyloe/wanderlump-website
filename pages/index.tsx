@@ -35,7 +35,7 @@ export default function Index(): ReactElement {
           <h3 className="text-xl md:text-3xl mb-4">Recent Posts:</h3>
           <div className="grid gap-10">
             <HorizontalCard
-              title="Black Canyon of the Gunnison National Park"
+              title="Western Colorado"
               date="June 12, 2021"
               location="Mack, CO"
               href="/posts/black-canyon"

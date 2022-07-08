@@ -2,6 +2,7 @@ import "../styles/globals.css";
 import React, { Fragment, useEffect } from "react";
 import { AppProps } from "next/app";
 import { useRouter } from "next/router";
+import Head from "next/head";
 import NavBar from "../components/NavBar";
 import * as ga from "../lib/ga/index";
 
@@ -22,8 +23,15 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
       router.events.off("routeChangeComplete", handleRouteChange);
     };
   }, [router.events]);
+
+  const canonicalUrl = (
+    `https://wanderlump.com` + (router.asPath === "/" ? "" : router.asPath)
+  ).split("?")[0];
   return (
     <Fragment>
+      <Head>
+        <link rel="canonical" href={canonicalUrl} />
+      </Head>
       <NavBar />
       <Component {...pageProps} />
     </Fragment>

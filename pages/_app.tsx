@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   }, [router.events]);
 
   const canonicalUrl = (
-    `https://wanderlump.com` + (router.asPath === "/" ? "" : router.asPath)
+    `https://www.wanderlump.com` + (router.asPath === "/" ? "" : router.asPath)
   ).split("?")[0];
   return (
     <Fragment>

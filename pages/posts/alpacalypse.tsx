@@ -283,7 +283,10 @@ export default function alpacalypse(): ReactElement {
           </div>
         </div>
       </article>
-      <PrevNext previousPostHref="/posts/sand-dunes" nextPostHref="" />
+      <PrevNext
+        previousPostHref="/posts/sand-dunes"
+        nextPostHref="/posts/durango"
+      />
     </>
   );
 }

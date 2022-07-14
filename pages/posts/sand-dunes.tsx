@@ -95,7 +95,7 @@ export default function sanddunes(): ReactElement {
         </div>
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
           Being there in early May afforded us a spectacular sight. The falls
-          hadn’t completed thawed yet, so half of the falls were frozen and the
+          hadn’t completely thawed yet, so half of the falls were frozen and the
           most stunning shade of blue and half of the falls were crashing down
           from above.
         </p>

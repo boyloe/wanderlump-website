@@ -419,7 +419,10 @@ export default function arches(): ReactElement {
           </div>
         </div>
       </article>
-      <PrevNext previousPostHref="/posts/dead-horse" nextPostHref="" />
+      <PrevNext
+        previousPostHref="/posts/dead-horse"
+        nextPostHref="capitol-reef"
+      />
     </>
   );
 }

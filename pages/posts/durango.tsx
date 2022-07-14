@@ -1,6 +1,7 @@
 import React, { ReactElement } from "react";
 import Image from "next/image";
 import Head from "next/head";
+import PrevNext from "../../components/PrevNext";
 
 export default function durango(): ReactElement {
   return (
@@ -170,6 +171,10 @@ export default function durango(): ReactElement {
             </div>
           </div>
         </div>
+        <PrevNext
+          previousPostHref="/posts/alpacalypse"
+          nextPostHref="/posts/canyonlands"
+        />
       </article>
     </>
   );

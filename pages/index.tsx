@@ -28,6 +28,10 @@ export default function Index(): ReactElement {
           property="og:image:alt"
           content="Lumpy staring off into the sunset"
         />
+        <meta
+          name="description"
+          content="wanderlump - Lumpy's irresistible desire to wander the world"
+        ></meta>
       </Head>
       <Hero />
       <div className="flex flex-col items-center py-12 xl:py-24 lg:mt-48">

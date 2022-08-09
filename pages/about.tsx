@@ -1,9 +1,26 @@
 import React, { Fragment, ReactElement } from "react";
 import Image from "next/image";
+import Head from "next/head";
 
 export default function about(): ReactElement {
   return (
     <Fragment>
+      <Head>
+        <title>About</title>
+        <meta property="og:title" content="About" />
+        <meta property="og:description" content="About Wanderlump" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.wanderlump.com/about" />
+        <meta
+          property="og:image"
+          content="https://www.wanderlump.com/images/deep_thought_lumpy.jpeg"
+        />
+
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="300" />
+        <meta property="og:image:alt" content="Wanderlump" />
+      </Head>
       <div className="mt-6">
         <div>
           <h1 className="text-3xl text-center my-8 font-bold">

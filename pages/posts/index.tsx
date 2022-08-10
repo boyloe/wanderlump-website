@@ -28,8 +28,12 @@ export default function posts(): ReactElement {
         />
         .
       </Head>
-      <h1>Blog Posts</h1>
       <section className="container px-6 py-4 mx-auto">
+        <div className="flex justify-center w-full">
+          <h1 className="text-dark-brown text-3xl md:text-5xl justify-center pb-4">
+            Blog Posts
+          </h1>
+        </div>
         <div className="grid gap-6 mb-8 md:grid-cols-1 lg:grid-cols-2">
           <HorizontalCard
             title="Our New Home"

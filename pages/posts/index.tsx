@@ -6,7 +6,7 @@ export default function posts(): ReactElement {
   return (
     <>
       <Head>
-        <title>Posts</title>
+        <title>Index page for all posts</title>
         <meta property="og:title" content="Posts" />
         <meta property="og:description" content="wanderlump posts" />
         <meta property="og:type" content="website" />
@@ -22,8 +22,18 @@ export default function posts(): ReactElement {
           property="og:image:alt"
           content="Lumpy staring off into the sunset"
         />
+        <meta
+          name="description"
+          content="This page contains links to all published posts."
+        />
+        .
       </Head>
       <section className="container px-6 py-4 mx-auto">
+        <div className="flex justify-center w-full">
+          <h1 className="text-dark-brown text-3xl md:text-5xl justify-center pb-4">
+            Blog Posts
+          </h1>
+        </div>
         <div className="grid gap-6 mb-8 md:grid-cols-1 lg:grid-cols-2">
           <HorizontalCard
             title="Our New Home"

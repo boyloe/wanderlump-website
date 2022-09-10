@@ -8,10 +8,11 @@ interface CommentsProps {
 }
 
 const Comments = ({ url, identifier, title }: CommentsProps): ReactElement => {
-  const disqusShortname = "Demo-GfG";
+  const disqusShortname = "wanderlump";
+  const baseUrl = process.env.SITE_URL || "http://localhost:3000/";
 
   const disqusConfig = {
-    url: url,
+    url: `${baseUrl}${url}`,
     identifier: identifier,
     title: title,
   };

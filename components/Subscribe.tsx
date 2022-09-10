@@ -29,7 +29,7 @@ export default function Subscribe(): ReactElement {
   };
   return (
     <form onSubmit={subscribe} className="">
-      <section className="w-full ">
+      <section className="w-full">
         <div className="container px-4 mx-auto">
           {message ? (
             <div className="text-3xl  text-center my-8">{message}</div>

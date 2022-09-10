@@ -34,7 +34,8 @@ export default function Index(): ReactElement {
         ></meta>
       </Head>
       <Hero />
-      <div className="flex flex-col items-center py-12 xl:py-24 lg:mt-48">
+      <Subscribe />
+      <div className="flex flex-col items-center py-12 xl:py-18 lg:mt-24">
         <div className="mx-4 md:mx-0 lg:w-1/2">
           <h3 className="text-xl md:text-3xl mb-4">Recent Posts:</h3>
           <div className="grid gap-10">
@@ -68,7 +69,6 @@ export default function Index(): ReactElement {
           </div>
         </div>
       </div>
-      <Subscribe />
     </Fragment>
   );
 }

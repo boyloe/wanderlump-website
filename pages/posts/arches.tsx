@@ -2,6 +2,7 @@ import React, { ReactElement } from "react";
 import Image from "next/image";
 import Head from "next/head";
 import PrevNext from "../../components/PrevNext";
+import Comments from "../../components/Comments";
 
 export default function arches(): ReactElement {
   return (
@@ -26,8 +27,8 @@ export default function arches(): ReactElement {
         <meta property="og:image:alt" content="Arches National Park" />
       </Head>
 
-      <article>
-        <div className="mx-auto max-w-3xl p-4 md:p-0">
+      <div className="mx-auto max-w-3xl p-4 md:p-0">
+        <article>
           <h1 className="text-3xl mb-4 font-lato font-black tracking-wide text-center">
             Moab, UT - Arches National Park
           </h1>
@@ -380,7 +381,7 @@ export default function arches(): ReactElement {
             to sleep on. And don’t forget more screen time!
           </p>
           <div className="grid grid-cols-3 my-8">
-            <div className="border-l-4 border-t-4 border-r-4 border-b-2 border-gray-900 shadow-2xl col-span-3">
+            <div className="border-l-4 border-t-4 border-r-4 border-b-2 border-gray-900  col-span-3">
               <Image
                 src="/images/posts/arches/arches-lumpy-space-princess-sleeping.JPG"
                 alt="Lumpy Space Princess"
@@ -389,7 +390,7 @@ export default function arches(): ReactElement {
                 layout="responsive"
               />
             </div>
-            <div className="border-l-4 border-t-2 border-r-2 border-b-4 border-gray-900 shadow-2xl">
+            <div className="border-l-4 border-t-2 border-r-2 border-b-4 border-gray-900 ">
               <Image
                 src="/images/posts/arches/arches-lumpy-space-princess-1.JPG"
                 alt="Pine Tree Arch in Arches National Park"
@@ -398,7 +399,7 @@ export default function arches(): ReactElement {
                 layout="responsive"
               />
             </div>
-            <div className="border-l-2 border-t-2 border-r-2 border-b-4 border-gray-900 shadow-2xl">
+            <div className="border-l-2 border-t-2 border-r-2 border-b-4 border-gray-900">
               <Image
                 src="/images/posts/arches/arches-lumpy-loaf.JPG"
                 alt="Lumpy Space Princess bread loafing"
@@ -407,7 +408,7 @@ export default function arches(): ReactElement {
                 layout="responsive"
               />
             </div>
-            <div className="border-l-2 border-t-2 border-r-4 border-b-4 border-gray-900 shadow-2xl">
+            <div className="border-l-2 border-t-2 border-r-4 border-b-4 border-gray-900">
               <Image
                 src="/images/posts/arches/arches-lumpy-space-princess-screen-time.JPG"
                 alt="Lumpy Space Princess looking through the screen door"
@@ -417,12 +418,17 @@ export default function arches(): ReactElement {
               />
             </div>
           </div>
-        </div>
-      </article>
-      <PrevNext
-        previousPostHref="/posts/dead-horse"
-        nextPostHref="capitol-reef"
-      />
+        </article>
+        <PrevNext
+          previousPostHref="/posts/dead-horse"
+          nextPostHref="capitol-reef"
+        />
+        <Comments
+          url="posts/arches"
+          identifier="arches-comments"
+          title="Arches"
+        />
+      </div>
     </>
   );
 }

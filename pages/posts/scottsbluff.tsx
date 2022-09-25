@@ -50,7 +50,6 @@ export default function scottsbluff(): ReactElement {
           </div>
         </div>
         <div className="mx-auto max-w-3xl p-4 md:p-0">
-          <title>Scotts Bluff National Monument</title>
           <article>
             <h2 className="mt-2 mb-4 text-2xl font-lato font-black text-center tracking-wide">
               You Have Died of Dysentery

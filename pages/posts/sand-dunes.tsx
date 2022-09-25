@@ -42,7 +42,6 @@ export default function sanddunes(): ReactElement {
             layout="responsive"
           />
         </div>
-        <title>Great Sand Dunes National Park</title>
         <article>
           <p className="my-4 font-lato text-xl tracking-wide text-justify">
             Great Sand Dunes National Park is just four hours south of Denver.

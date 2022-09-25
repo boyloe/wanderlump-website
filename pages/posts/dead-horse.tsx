@@ -2,6 +2,7 @@ import React, { ReactElement } from "react";
 import Image from "next/image";
 import Head from "next/head";
 import PrevNext from "../../components/PrevNext";
+import Comments from "../../components/Comments";
 
 export default function deadhorse(): ReactElement {
   return (
@@ -29,12 +30,12 @@ export default function deadhorse(): ReactElement {
         <meta property="og:image:alt" content="Dead Horse Point State Park" />
       </Head>
 
-      <article>
-        <div className="mx-auto max-w-3xl p-4 md:p-0">
+      <div className="mx-auto max-w-3xl p-4 md:p-0">
+        <article>
           <h1 className="text-3xl mb-4 font-lato font-black tracking-wide text-center">
             Moab, UT - Dead Horse State Park
           </h1>
-          <div className="border-4 border-gray-900 shadow-2xl">
+          <div className="border-4 border-gray-900">
             <Image
               src="/images/posts/dead-horse/dead-horse-point.JPG"
               alt="Canyon wall with multicolored striations"
@@ -67,7 +68,7 @@ export default function deadhorse(): ReactElement {
             stranded on the point without any food or water, where they
             eventually died.
           </p>
-          <div className="border-4 border-gray-900 shadow-2xl">
+          <div className="border-4 border-gray-900">
             <Image
               src="/images/posts/dead-horse/dead-horse-point-map.JPG"
               alt="Map of Dead Horse Point State Park"
@@ -162,7 +163,7 @@ export default function deadhorse(): ReactElement {
             and leaves behind sticky fibers, causing the soil to clump together
             and create a thick crust.
           </p>
-          <div className="border-4 border-gray-900 shadow-2xl">
+          <div className="border-4 border-gray-900">
             <Image
               src="/images/posts/dead-horse/lumpy-space-princess-hiding.JPG"
               alt="Lumpy Space Princess hiding in the pillows"
@@ -183,7 +184,7 @@ export default function deadhorse(): ReactElement {
             the crusts are thousands of years old and the plants and animals
             rely on these crusts to survive.
           </p>
-          <div className="border-4 border-gray-900 shadow-2xl my-8">
+          <div className="border-4 border-gray-900 my-8">
             <Image
               src="/images/posts/dead-horse/biological_soil_crust.JPG"
               alt="Biological soil crust"
@@ -192,12 +193,17 @@ export default function deadhorse(): ReactElement {
               layout="responsive"
             />
           </div>
-        </div>
-      </article>
-      <PrevNext
-        previousPostHref="/posts/canyonlands"
-        nextPostHref="/posts/arches"
-      />
+        </article>
+        <PrevNext
+          previousPostHref="/posts/canyonlands"
+          nextPostHref="/posts/arches"
+        />
+        <Comments
+          url="posts/dead-horse"
+          identifier="dead-horse-comments"
+          title="Dead Horse State Park"
+        />
+      </div>
     </>
   );
 }

@@ -2,6 +2,7 @@ import React, { ReactElement } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import PrevNext from "../../components/PrevNext";
+import Comments from "../../components/Comments";
 
 export default function canyonland(): ReactElement {
   return (
@@ -32,8 +33,8 @@ export default function canyonland(): ReactElement {
         />
       </Head>
 
-      <article>
-        <div className="mx-auto max-w-3xl p-4 md:p-0">
+      <div className="mx-auto max-w-3xl p-4 md:p-0">
+        <article>
           <h1 className="text-3xl mb-4 font-lato font-black tracking-wide text-center">
             Moab, UT - Canyonlands National Park
           </h1>
@@ -405,12 +406,17 @@ export default function canyonland(): ReactElement {
               />
             </div>
           </div>
-        </div>
-      </article>
-      <PrevNext
-        previousPostHref="/posts/durango"
-        nextPostHref="/posts/dead-horse"
-      />
+        </article>
+        <PrevNext
+          previousPostHref="/posts/durango"
+          nextPostHref="/posts/dead-horse"
+        />
+        <Comments
+          url="posts/canyonlands"
+          identifier="canyonlands-comments"
+          title="Canyonlands National Park"
+        />
+      </div>
     </>
   );
 }

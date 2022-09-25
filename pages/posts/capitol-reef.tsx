@@ -3,6 +3,7 @@ import Image from "next/image";
 import Head from "next/head";
 import PrevNext from "../../components/PrevNext";
 import Link from "next/link";
+import Comments from "../../components/Comments";
 
 export default function CapitolReef(): ReactElement {
   return (
@@ -35,7 +36,7 @@ export default function CapitolReef(): ReactElement {
           <h1 className="text-3xl mb-4 font-lato font-black tracking-wide text-center">
             Capitol Reef National Park
           </h1>
-          <div className="border-4 border-gray-900 shadow-2xl">
+          <div className="border-4 border-gray-900">
             <Image
               src="/images/posts/capitol-reef/capitol-reef-portrait.JPG"
               alt="Capitol Dome"
@@ -450,11 +451,16 @@ export default function CapitolReef(): ReactElement {
             sorry we almost forgot about you! We will be back!
           </p>
         </article>
+        <PrevNext
+          previousPostHref="/posts/arches"
+          nextPostHref="/posts/bryce-canyon"
+        />
+        <Comments
+          url="posts/capitol-reef"
+          identifier="capitol-reef-comments"
+          title="Capitol Reef National Park"
+        />
       </div>
-      <PrevNext
-        previousPostHref="/posts/arches"
-        nextPostHref="/posts/bryce-canyon"
-      />
     </>
   );
 }

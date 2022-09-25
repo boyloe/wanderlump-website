@@ -2,6 +2,7 @@ import React, { ReactElement } from "react";
 import Image from "next/image";
 import Head from "next/head";
 import PrevNext from "../../components/PrevNext";
+import Comments from "../../components/Comments";
 
 export default function durango(): ReactElement {
   return (
@@ -32,8 +33,8 @@ export default function durango(): ReactElement {
         />
       </Head>
 
-      <article>
-        <div className="mx-auto max-w-3xl p-4 md:p-0">
+      <div className="mx-auto max-w-3xl p-4 md:p-0">
+        <article>
           <h1 className="text-3xl mb-4 font-lato font-black tracking-wide text-center">
             Durango, CO
           </h1>
@@ -170,12 +171,17 @@ export default function durango(): ReactElement {
               />
             </div>
           </div>
-        </div>
-        <PrevNext
-          previousPostHref="/posts/alpacalypse"
-          nextPostHref="/posts/canyonlands"
-        />
-      </article>
+          <PrevNext
+            previousPostHref="/posts/alpacalypse"
+            nextPostHref="/posts/canyonlands"
+          />
+          <Comments
+            url="posts/durango"
+            identifier="durango-comments"
+            title="Durango, CO"
+          />
+        </article>
+      </div>
     </>
   );
 }

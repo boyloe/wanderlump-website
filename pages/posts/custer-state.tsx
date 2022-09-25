@@ -1,6 +1,7 @@
 import React, { ReactElement } from "react";
 import Image from "next/image";
 import PrevNext from "../../components/PrevNext";
+import Comments from "../../components/Comments";
 
 export default function custerState(): ReactElement {
   return (
@@ -13,7 +14,7 @@ export default function custerState(): ReactElement {
         <img
           src="/images/posts/custer-state/sylvan-lake-wide.JPG"
           alt="Sylvan Lake"
-          className="border-4 border-gray-900 shadow-2xl"
+          className="border-4 border-gray-900"
         />
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
           Black Hills, SD is a must see! We spent the week in Custer State Park
@@ -35,7 +36,7 @@ export default function custerState(): ReactElement {
         <img
           src="/images/posts/custer-state/smores.JPG"
           alt=""
-          className="border-4 border-gray-900 shadow-2xl"
+          className="border-4 border-gray-900"
         />
         <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
           Wildlife Loop Road in Custer State Park
@@ -54,7 +55,7 @@ export default function custerState(): ReactElement {
         <img
           src="/images/posts/custer-state/mom-baby.JPG"
           alt=""
-          className="border-4 border-gray-900 shadow-2xl"
+          className="border-4 border-gray-900"
         />
         <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
           Sylvan Lake in Custer State Park
@@ -72,17 +73,17 @@ export default function custerState(): ReactElement {
           <img
             src="/images/posts/custer-state/sylvan-lake-rock.JPG"
             alt="Giant gray rock in Sylvan Lake"
-            className="border-l-4 border-t-4 border-r-4 border-b-2 border-gray-900 shadow-2xl col-span-2"
+            className="border-l-4 border-t-4 border-r-4 border-b-2 border-gray-900 col-span-2"
           />
           <img
             src="/images/posts/custer-state/snowman.JPG"
             alt="Melting snowman at Sylvan Lake"
-            className="border-l-4 border-t-2 border-r-2 border-b-4 border-gray-900 shadow-2xl"
+            className="border-l-4 border-t-2 border-r-2 border-b-4 border-gray-900"
           />
           <img
             src="/images/posts/custer-state/dock.jpg"
             alt="Wooden dock frozen in the ice at Sylvan Lake"
-            className="border-l-2 border-t-2 border-r-4 border-b-4 border-gray-900 shadow-2xl"
+            className="border-l-2 border-t-2 border-r-4 border-b-4 border-gray-900"
           />
         </div>
         <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
@@ -106,17 +107,17 @@ export default function custerState(): ReactElement {
           <img
             src="/images/posts/custer-state/bryan-shelly-black-elk.JPG"
             alt="Bryan and Shelly on top of Black Elk Peak"
-            className="border-l-4 border-t-4 border-r-4 border-b-2 border-gray-900 shadow-2xl col-span-2"
+            className="border-l-4 border-t-4 border-r-4 border-b-2 border-gray-900 col-span-2"
           />
           <img
             src="/images/posts/custer-state/black-elk-snow-rock.JPG"
             alt="Snowy rock on Black Elk Peak"
-            className="border-l-4 border-t-2 border-r-2 border-b-4 border-gray-900 shadow-2xl"
+            className="border-l-4 border-t-2 border-r-2 border-b-4 border-gray-900"
           />
           <img
             src="/images/posts/custer-state/black-elk-wide.JPG"
             alt="Black Elk Peak panoramic"
-            className="border-l-2 border-t-2 border-r-4 border-b-4 border-gray-900 shadow-2xl"
+            className="border-l-2 border-t-2 border-r-4 border-b-4 border-gray-900"
           />
         </div>
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
@@ -130,7 +131,7 @@ export default function custerState(): ReactElement {
         <img
           src="/images/posts/custer-state/pine-beetle.JPG"
           alt="Warning about the dangers of Pine Beetles"
-          className="border-4 border-gray-900 shadow-2xl"
+          className="border-4 border-gray-900"
         />
         <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
           Mount Rushmore National Memorial
@@ -138,7 +139,7 @@ export default function custerState(): ReactElement {
         <img
           src="/images/posts/custer-state/rushmore-walkway.JPG"
           alt="Approach to Mt. Rushmore"
-          className="my-4 border-4 border-gray-900 shadow-2xl"
+          className="my-4 border-4 border-gray-900"
         />
         <p className="my-4 font-lato text-xl tracking-wide text-justify">
           We visited Mount Rushmore right as the sun was setting, so we could
@@ -149,7 +150,7 @@ export default function custerState(): ReactElement {
         <img
           src="/images/posts/custer-state/rushmore-facetime.PNG"
           alt="Papa Joe and Mama Waz figure out FaceTime"
-          className="border-4 border-gray-900 shadow-2xl mt-8 mb-12"
+          className="border-4 border-gray-900 mt-8 mb-12"
         />
         <h2 className="mt-10 mb-4 text-2xl font-lato font-black text-center tracking-wide">
           That&apos;s all fun and games, but are we actually working?
@@ -164,7 +165,7 @@ export default function custerState(): ReactElement {
           help increase the signal all over the park...
         </p>
         <div className="grid grid-cols-2">
-          <div className="border-l-4 border-t-4 border-r-2 border-b-4 border-gray-900 shadow-2xl mt-8 mb-12">
+          <div className="border-l-4 border-t-4 border-r-2 border-b-4 border-gray-900 mt-8 mb-12">
             <Image
               src="/images/posts/custer-state/bryan-working.jpg"
               alt="Bryan hard at work in the woods"
@@ -173,7 +174,7 @@ export default function custerState(): ReactElement {
               width={400}
             />
           </div>
-          <div className="border-l-2 border-t-4 border-r-4 border-b-4 border-gray-900 shadow-2xl mt-8 mb-12">
+          <div className="border-l-2 border-t-4 border-r-4 border-b-4 border-gray-900 mt-8 mb-12">
             <Image
               src="/images/posts/custer-state/satellite-goat.png"
               alt="Big horn sheep with a tracking device around its' neck"
@@ -191,6 +192,11 @@ export default function custerState(): ReactElement {
       <PrevNext
         previousPostHref="/posts/sioux-falls"
         nextPostHref="/posts/wall-sd"
+      />
+      <Comments
+        url="posts/custer-state"
+        identifier="custer-state-comments"
+        title="Custer State Park"
       />
     </div>
   );

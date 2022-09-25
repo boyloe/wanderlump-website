@@ -2,6 +2,7 @@ import React, { ReactElement } from "react";
 import Image from "next/image";
 import Head from "next/head";
 import PrevNext from "../../components/PrevNext";
+import Comments from "../../components/Comments";
 import Link from "next/link";
 
 export default function ZionNationalPark(): ReactElement {
@@ -27,8 +28,8 @@ export default function ZionNationalPark(): ReactElement {
         <meta property="og:image:alt" content="Zion National Park" />
       </Head>
 
-      <article>
-        <div className="mx-auto max-w-3xl p-4 md:p-0">
+      <div className="mx-auto max-w-3xl p-4 md:p-0">
+        <article>
           <h1 className="text-3xl mb-4 font-lato font-black tracking-wide text-center">
             Zion National Park
           </h1>
@@ -480,12 +481,17 @@ export default function ZionNationalPark(): ReactElement {
           <p className="my-8 font-lato text-xl tracking-wide text-justify">
             Zion, we will be back and next time we will be ready for you!
           </p>
-        </div>
-      </article>
-      <PrevNext
-        previousPostHref="/posts/bryce-canyon"
-        nextPostHref="/posts/black-canyon"
-      />
+        </article>
+        <PrevNext
+          previousPostHref="/posts/bryce-canyon"
+          nextPostHref="/posts/black-canyon"
+        />
+        <Comments
+          url="posts/zion-national-park"
+          identifier="zion-national-park-comments"
+          title="Zion National Park"
+        />
+      </div>
     </>
   );
 }

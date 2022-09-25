@@ -3,6 +3,7 @@ import Image from "next/image";
 import Head from "next/head";
 import PrevNext from "../../components/PrevNext";
 import Link from "next/link";
+import Comments from "../../components/Comments";
 
 export default function ZionNationalPark(): ReactElement {
   return (
@@ -33,8 +34,8 @@ export default function ZionNationalPark(): ReactElement {
         />
       </Head>
 
-      <article>
-        <div className="mx-auto max-w-3xl p-4 md:p-0">
+      <div className="mx-auto max-w-3xl p-4 md:p-0">
+        <article>
           <h1 className="text-4xl mb-8 font-lato font-black tracking-wide text-center">
             Western Colorado
           </h1>
@@ -250,12 +251,17 @@ export default function ZionNationalPark(): ReactElement {
             last look at the Gunnison River below and made our way back to a
             much quieter truck, where Lumpy and Catalina were fast asleep.
           </p>
-        </div>
-      </article>
-      <PrevNext
-        previousPostHref="/posts/zion-national-park"
-        nextPostHref="/posts/black-canyon"
-      />
+        </article>
+        <PrevNext
+          previousPostHref="/posts/zion-national-park"
+          nextPostHref="/posts/black-canyon"
+        />
+        <Comments
+          url="posts/black-canyon"
+          identifier="black-canyon-comments"
+          title="Black Canyon of the Gunnison"
+        />
+      </div>
     </>
   );
 }

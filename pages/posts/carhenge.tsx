@@ -1,6 +1,7 @@
 import React, { ReactElement } from "react";
 import Image from "next/image";
 import PrevNext from "../../components/PrevNext";
+import Comments from "../../components/Comments";
 
 export default function carhenge(): ReactElement {
   return (
@@ -10,7 +11,7 @@ export default function carhenge(): ReactElement {
         <h1 className="text-3xl mb-4 font-lato font-black tracking-wide text-center">
           Carhenge
         </h1>
-        <div className="border-4 border-gray-900 shadow-2xl">
+        <div className="border-4 border-gray-900">
           <Image
             src="/images/posts/carhenge/carhenge-wide.JPG"
             alt="carhenge"
@@ -25,7 +26,7 @@ export default function carhenge(): ReactElement {
           came across Carhenge. It is exactly what it sounds like – a replica of
           Stonehenge, but made with vintage American cars spray painted grey.
         </p>
-        <div className="border-4 border-gray-900 shadow-2xl">
+        <div className="border-4 border-gray-900">
           <Image
             src="/images/posts/carhenge/buried-car.JPG"
             alt="carhenge"
@@ -47,7 +48,7 @@ export default function carhenge(): ReactElement {
           obviously has a sense of humor, because when asked why he built
           Carhenge, his reply was “Why not?”
         </p>
-        <div className="border-4 border-gray-900 shadow-2xl">
+        <div className="border-4 border-gray-900">
           <Image
             src="/images/posts/carhenge/carhenge-close.JPG"
             alt="carhenge"
@@ -96,7 +97,7 @@ export default function carhenge(): ReactElement {
             />
           </div>
         </div>
-        <p className="mt-4 mb-24 font-lato text-xl tracking-wide text-justify">
+        <p className="mt-4 font-lato text-xl tracking-wide text-justify">
           We went on a particularly windy day, so a leisurely walk around the
           property wasn’t really an option. However, the weather didn’t make
           this any less impressive of a sight to see. Would we drive back to
@@ -106,6 +107,11 @@ export default function carhenge(): ReactElement {
       <PrevNext
         previousPostHref="/posts/wall-sd"
         nextPostHref="/posts/papamoon"
+      />
+      <Comments
+        url="posts/carhenge"
+        identifier="carhenge-comments"
+        title="Carhenge"
       />
     </div>
   );

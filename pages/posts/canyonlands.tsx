@@ -59,7 +59,7 @@ export default function canyonland(): ReactElement {
             speckled with green bushes. We were definitely not in Kansas
             anymore. Lumpy and Catalina couldn’t contain their excitement.
           </p>
-          <div className="md:border-4 border-gray-900 shadow-2xl mb-8 grid grid-cols-1 md:grid-cols-3">
+          <div className="md:border-4 border-gray-900  mb-8 grid grid-cols-1 md:grid-cols-3">
             <div className="border-4 md:border-l-0 md:border-r-0 md:border-t-0 md:border-b-2 border-gray-900 md:col-span-3">
               <Image
                 src="/images/posts/canyonlands/striation.JPG"
@@ -96,7 +96,7 @@ export default function canyonland(): ReactElement {
             Sal mountains in the distance. After getting situated, we wandered
             to the far edge of the mesa and watched the sun set.{" "}
           </p>
-          <div className="grid grid-cols-1 gap-2 md:gap-0 md:border-4 border-gray-900 md:shadow-2xl my-4">
+          <div className="grid grid-cols-1 gap-2 md:gap-0 md:border-4 border-gray-900  my-4">
             <div className="  border-4 md:border-b-2 md:border-l-0 md:border-t-0 md:border-r-0 border-gray-900">
               <Image
                 src="/images/posts/canyonlands/sunset.JPG"
@@ -131,7 +131,7 @@ export default function canyonland(): ReactElement {
             quickly boiled some water, mixed in some instant coffee, and we were
             off.
           </p>
-          <div className="border-4 border-gray-900 shadow-2xl">
+          <div className="border-4 border-gray-900 ">
             <Image
               src="/images/posts/canyonlands/coffee-mug.JPG"
               alt="Adventure is Calling Tervis Tumbler coffee mug"
@@ -167,7 +167,7 @@ export default function canyonland(): ReactElement {
             like a beached manatee sprawled across the rocks, so I will not be
             sharing any of those with you!
           </p>
-          <div className="grid grid-cols-1 gap-2 md:grid-cols-2 md:gap-0 md:border-4 border-gray-900 md:shadow-2xl my-4">
+          <div className="grid grid-cols-1 gap-2 md:grid-cols-2 md:gap-0 md:border-4 border-gray-900  my-4">
             <div className=" border-4 md:border-l-0 md:border-r-0 md:border-b-2 md:border-t-0 border-gray-900 md:col-span-2">
               <Image
                 src="/images/posts/canyonlands/mesa-arch-1.JPG"
@@ -212,7 +212,7 @@ export default function canyonland(): ReactElement {
             carve and sculpt. It was incredible to watch how the colors changed
             as the sun came up. Not a bad way to start the day!
           </p>
-          <div className="grid grid-cols-1 gap-2 md:gap-0 md:border-4 border-gray-900 md:shadow-2xl my-4">
+          <div className="grid grid-cols-1 gap-2 md:gap-0 md:border-4 border-gray-900  my-4">
             <div className=" border-4 md:border-l-0 md:border-r-0 md:border-b-2 md:border-t-0 border-gray-900 md:col-span-2">
               <Image
                 src="/images/posts/canyonlands/mesa-arch-canyon-view.JPG"
@@ -248,7 +248,7 @@ export default function canyonland(): ReactElement {
             view of the light sandstone White Rim along the canyon edge. Many
             Lion King references were made.
           </p>
-          <div className="border-4 border-gray-900 shadow-2xl">
+          <div className="border-4 border-gray-900 ">
             <Image
               src="/images/posts/canyonlands/green-river-overlook.JPG"
               alt="Overlook of the Green River"
@@ -266,7 +266,7 @@ export default function canyonland(): ReactElement {
             ourselves. We scrambled up to the top and enjoyed 360-degree views
             of Island in the Sky.
           </p>
-          <div className="border-4 border-gray-900 shadow-2xl">
+          <div className="border-4 border-gray-900 ">
             <Image
               src="/images/posts/canyonlands/whale-rock.JPG"
               alt="Whale Rock"
@@ -283,7 +283,7 @@ export default function canyonland(): ReactElement {
             permit, four-wheel drive vehicle, and multiple days. Maybe next
             time!
           </p>
-          <div className="border-4 border-gray-900 shadow-2xl my-2">
+          <div className="border-4 border-gray-900  my-2">
             <Image
               src="/images/posts/canyonlands/grand-view-point-overlook-1.JPG"
               alt="Grand View Point Overlook"
@@ -292,7 +292,7 @@ export default function canyonland(): ReactElement {
               layout="responsive"
             />
           </div>
-          <div className="border-4 border-gray-900 shadow-2xl">
+          <div className="border-4 border-gray-900 ">
             <Image
               src="/images/posts/canyonlands/grand-view-point-overlook-2.JPG"
               alt="Grand View Point Overlook"
@@ -310,7 +310,7 @@ export default function canyonland(): ReactElement {
             got to the Aztec Butte trailhead and the sand was whipping our
             faces, we knew the wind was going to make it a challenging hike.
           </p>
-          <div className="border-4 border-gray-900 shadow-2xl my-2">
+          <div className="border-4 border-gray-900  my-2">
             <Image
               src="/images/posts/canyonlands/aztec-butte.JPG"
               alt="Aztec Butte"
@@ -319,7 +319,7 @@ export default function canyonland(): ReactElement {
               layout="responsive"
             />
           </div>
-          <div className="justify-center border-4 border-gray-900 shadow-2xl my-2">
+          <div className="justify-center border-4 border-gray-900  my-2">
             <Image
               src="/images/posts/canyonlands/bryan-and-shelly-aztec-butte.JPG"
               alt="Bryan and Shelly at Aztec Butte"
@@ -335,7 +335,7 @@ export default function canyonland(): ReactElement {
             to the top and had 360-degree views. I would recommend going on a
             less windy day, so the views aren’t obstructed with sand.
           </p>
-          <div className="border-4 border-gray-900 shadow-2xl my-2">
+          <div className="border-4 border-gray-900  my-2">
             <Image
               src="/images/posts/canyonlands/view-from-aztec-butte.JPG"
               alt="View from the top of Aztec Butte"
@@ -344,7 +344,7 @@ export default function canyonland(): ReactElement {
               layout="responsive"
             />
           </div>
-          <div className="justify-center border-4 border-gray-900 shadow-2xl my-2">
+          <div className="justify-center border-4 border-gray-900  my-2">
             <Image
               src="/images/posts/canyonlands/view-from-aztec-butte-2.JPG"
               alt="View from the top of Aztec Butte"
@@ -358,7 +358,7 @@ export default function canyonland(): ReactElement {
             where Ancestral Puebloans had made stone granaries to store their
             food. We couldn’t believe how well preserved they were.
           </p>
-          <div className="justify-center border-4 border-gray-900 shadow-2xl my-2">
+          <div className="justify-center border-4 border-gray-900  my-2">
             <Image
               src="/images/posts/canyonlands/pueblo-granary.JPG"
               alt="Puebloan Granary"
@@ -377,7 +377,7 @@ export default function canyonland(): ReactElement {
             suggests a salt dome cracked and tilted the rock over time. However
             it formed, it is quite the site.
           </p>
-          <div className="md:border-4 border-gray-900 shadow-2xl mb-8 grid grid-cols-1 md:grid-cols-2">
+          <div className="md:border-4 border-gray-900  mb-8 grid grid-cols-1 md:grid-cols-2">
             <div className="border-4 md:border-l-0 md:border-r-0 md:border-t-0 md:border-b-2 border-gray-900 md:col-span-2">
               <Image
                 src="/images/posts/canyonlands/upheaval-dome-panoramic.JPG"

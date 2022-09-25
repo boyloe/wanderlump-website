@@ -3,6 +3,7 @@ import Image from "next/image";
 import Head from "next/head";
 import PrevNext from "../../components/PrevNext";
 import Link from "next/link";
+import Comments from "../../components/Comments";
 
 export default function BryceCanyon(): ReactElement {
   return (
@@ -533,11 +534,16 @@ export default function BryceCanyon(): ReactElement {
             />
           </div>
         </article>
+        <PrevNext
+          previousPostHref="/posts/capitol-reef"
+          nextPostHref="/posts/zion-national-park"
+        />
+        <Comments
+          url="posts/bryce-canyon"
+          identifier="bryce-canyon-comments"
+          title="Bryce Canyon National Park"
+        />
       </div>
-      <PrevNext
-        previousPostHref="/posts/capitol-reef"
-        nextPostHref="/posts/zion-national-park"
-      />
     </>
   );
 }

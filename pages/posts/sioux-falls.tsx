@@ -1,6 +1,7 @@
 import React, { ReactElement } from "react";
-import PrevNext from "../../components/PrevNext";
 import Head from "next/head";
+import PrevNext from "../../components/PrevNext";
+import Comments from "../../components/Comments";
 
 export default function siouxFalls(): ReactElement {
   return (
@@ -35,7 +36,7 @@ export default function siouxFalls(): ReactElement {
           <img
             src="/images/posts/sioux-falls/lower-falls.JPG"
             alt="Bridge view of the lower Sioux Falls"
-            className="border-4 border-gray-900 shadow-2xl"
+            className="border-4 border-gray-900"
           />
           <p className="my-4 font-lato text-xl tracking-wide text-justify">
             Our next stop was to Black Hills, SD, but we had to make a quick
@@ -47,7 +48,7 @@ export default function siouxFalls(): ReactElement {
           <img
             src="/images/posts/sioux-falls/upper-falls.JPG"
             alt="Side view of the upper Sioux Falls"
-            className="border-4 border-gray-900 shadow-2xl"
+            className="border-4 border-gray-900"
           />
           <p className="my-4 font-lato text-xl tracking-wide text-justify">
             This park lies along the Big Sioux River. There are multiple viewing
@@ -61,12 +62,17 @@ export default function siouxFalls(): ReactElement {
           <img
             src="/images/posts/sioux-falls/bryan-shelly.JPG"
             alt="Bryan and Shelly next to Sioux Falls."
-            className="border-4 border-gray-900 shadow-2xl mb-24 md:mb-12"
+            className="border-4 border-gray-900 mb-24 md:mb-12"
           />
         </article>
         <PrevNext
           previousPostHref="/posts/round-lake"
           nextPostHref="/posts/custer-state"
+        />
+        <Comments
+          url="posts/sioux-falls"
+          identifier="sioux-falls-comments"
+          title="Sioux Falls, South Dakota"
         />
       </div>
     </>

@@ -18,7 +18,7 @@ const Comments = ({ url, identifier, title }: CommentsProps): ReactElement => {
   };
 
   return (
-    <div>
+    <div className="mt-14">
       <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
     </div>
   );

@@ -2,6 +2,7 @@ import React, { ReactElement } from "react";
 import Image from "next/image";
 import Head from "next/head";
 import PrevNext from "../../components/PrevNext";
+import Comments from "../../components/Comments";
 
 export default function alpacalypse(): ReactElement {
   return (
@@ -29,12 +30,12 @@ export default function alpacalypse(): ReactElement {
         <meta property="og:image:alt" content="Gang of alpacas saying hi" />
       </Head>
 
-      <article>
-        <div className="mx-auto max-w-3xl p-4 md:p-0">
+      <div className="mx-auto max-w-3xl p-4 md:p-0">
+        <article>
           <h1 className="text-3xl mb-4 font-lato font-black tracking-wide text-center">
             Alpacalypse Ranch
           </h1>
-          <div className="border-4 border-gray-900 shadow-2xl">
+          <div className="border-4 border-gray-900">
             <Image
               src="/images/posts/alpacalypse/0328-shorn-alpacas.JPG"
               alt="Group of shorn alpacas"
@@ -54,7 +55,7 @@ export default function alpacalypse(): ReactElement {
             almost 4,000 feet change in elevation. No underwear were harmed
             during this drive!
           </p>
-          <div className="md:border-4 border-gray-900 shadow-2xl mb-8 grid grid-cols-1 md:grid-cols-2">
+          <div className="md:border-4 border-gray-900 mb-8 grid grid-cols-1 md:grid-cols-2">
             <div className="border-4 md:border-l-0 md:border-r-0 md:border-t-0 md:border-b-2 border-gray-900 md:col-span-2">
               <Image
                 src="/images/posts/alpacalypse/0358-white-no-eyes.JPG"
@@ -91,7 +92,7 @@ export default function alpacalypse(): ReactElement {
             add alpacas to their property. When we were there, they had 39
             alpacas and many of the females were pregnant and due in the summer.
           </p>
-          <div className="border-4 border-gray-900 shadow-2xl my-4">
+          <div className="border-4 border-gray-900 my-4">
             <Image
               src="/images/posts/alpacalypse/0394-pregnant-alpaca-gang.JPG"
               alt="Group of pregnant alpacas"
@@ -109,7 +110,7 @@ export default function alpacalypse(): ReactElement {
             Catalina weren’t quite sure what to make of those weird looking
             creatures and the new smells and sounds.
           </p>
-          <div className="border-4 border-gray-900 md:shadow-2xl my-4">
+          <div className="border-4 border-gray-900 my-4">
             <Image
               src="/images/posts/alpacalypse/0406-lumpy-window.JPG"
               alt="Lumpy looking out the window at the alpacas"
@@ -128,7 +129,7 @@ export default function alpacalypse(): ReactElement {
             to sheep. They also have a few Suri alpacas, which look like
             Rastafarians with long, silky dreadlocks.
           </p>
-          <div className="grid grid-cols-1 gap-2 md:gap-0 md:grid-cols-2 md:border-4 border-gray-900 md:shadow-2xl my-4">
+          <div className="grid grid-cols-1 gap-2 md:gap-0 md:grid-cols-2 md:border-4 border-gray-900 my-4">
             <div className="  border-4 md:border-r-2 md:border-l-0 md:border-b-0 md:border-t-0 border-gray-900">
               <Image
                 src="/images/posts/alpacalypse/3472-shelly-waylen.JPG"
@@ -157,7 +158,7 @@ export default function alpacalypse(): ReactElement {
             spitting and screaming. Luckily, this shearing event only happens
             once a year.
           </p>
-          <div className="grid grid-cols-2 border-4 border-gray-900 md:shadow-2xl my-4">
+          <div className="grid grid-cols-2 border-4 border-gray-900 my-4">
             <div className="border-r-2 border-b-2 border-gray-900">
               <Image
                 src="/images/posts/alpacalypse/0334-qtip-alpaca.jpg"
@@ -204,7 +205,7 @@ export default function alpacalypse(): ReactElement {
             grass stuck in their top knot, making them look even more
             ridiculous.
           </p>
-          <div className="grid grid-cols-1 gap-2 md:gap-0 md:grid-cols-2 md:shadow-2xl my-4 md:border-4 border-gray-900">
+          <div className="grid grid-cols-1 gap-2 md:gap-0 md:grid-cols-2 my-4 md:border-4 border-gray-900">
             <div className="border-4 md:border-r-2 md:border-t-0 md:border-l-0 md:border-b-0 border-gray-900">
               <Image
                 src="/images/posts/alpacalypse/0384-white-with-black-eyes.JPG"
@@ -243,7 +244,7 @@ export default function alpacalypse(): ReactElement {
             and prominent teeth. I love him and have no less than 50 photos of
             him. Until we meet again Freddie!
           </p>
-          <div className="grid grid-cols-1 gap-2 md:gap-0 md:grid-cols-2 md:border-4 border-gray-900 md:shadow-2xl my-4">
+          <div className="grid grid-cols-1 gap-2 md:gap-0 md:grid-cols-2 md:border-4 border-gray-900 my-4">
             <div className="border-4 md:border-r-2 md:border-l-0 md:border-b-0 md:border-t-0 border-gray-900">
               <Image
                 src="/images/posts/alpacalypse/0350-freddie2.JPG"
@@ -272,7 +273,7 @@ export default function alpacalypse(): ReactElement {
             ranch - purchase an Alpacalypse coffee mug and cat toys made of
             alpaca wool! This stop is an absolute must!
           </p>
-          <div className="border-4 border-gray-900 shadow-2xl my-4">
+          <div className="border-4 border-gray-900 my-4">
             <Image
               src="/images/posts/alpacalypse/4094-coffee-mug.JPG"
               alt="Alpacalypse Ranch coffee mug"
@@ -281,12 +282,17 @@ export default function alpacalypse(): ReactElement {
               layout="responsive"
             />
           </div>
-        </div>
-      </article>
-      <PrevNext
-        previousPostHref="/posts/sand-dunes"
-        nextPostHref="/posts/durango"
-      />
+        </article>
+        <PrevNext
+          previousPostHref="/posts/sand-dunes"
+          nextPostHref="/posts/durango"
+        />
+        <Comments
+          url="posts/alpacalypse"
+          identifier="alpacalypse-comments"
+          title="Alpacalypse Ranch"
+        />
+      </div>
     </>
   );
 }
